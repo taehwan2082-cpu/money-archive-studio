@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+ep01_barings_kr/assets/clips_v4/
+ep01_barings_kr/assets/*.wav
+ep01_barings_kr/assets/*.m4a
+ep01_barings_kr/assets/bgm_archive/
+*_본편.mp4

@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 2560
+PlayResY: 1440
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopTag,Impact,38,&H0000D4FF,&H0000FFFF,&H00000000,&HB4000000,-1,0,0,0,100,100,7,0,1,4,2,5,100,100,0,1
+Style: MainTitle,Malgun Gothic,126,&H00FFFFFF,&H0000FFFF,&H00000000,&HC8000000,-1,0,0,0,100,100,16,0,1,9,5,5,100,100,0,1
+Style: SubTitle,Malgun Gothic,44,&H003830F0,&H0000FFFF,&H00000000,&HB4000000,-1,0,0,0,100,100,4,0,1,5,3,5,100,100,0,1
+Style: DescLine,Malgun Gothic,34,&H00E8E8E8,&H0000FFFF,&H00000000,&H96000000,-1,0,0,0,100,100,2,0,3,10,0,5,100,100,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,TopTag,,0,0,0,,{\pos(1280,555)}FINANCIAL THRILLER DOCUMENTARY
+Dialogue: 0,0:00:00.00,0:00:05.00,MainTitle,,0,0,0,,{\pos(1280,668)}머 니  아 카 이 브
+Dialogue: 0,0:00:00.00,0:00:05.00,SubTitle,,0,0,0,,{\pos(1280,786)}거대 기업의 몰락 · 희대의 금융 사건 · 자본의 그림자
+Dialogue: 0,0:00:00.00,0:00:05.00,DescLine,,0,0,0,,{\pos(1280,866)}  돈과 탐욕이 남긴 충격적인 실화 기록을 복원합니다  

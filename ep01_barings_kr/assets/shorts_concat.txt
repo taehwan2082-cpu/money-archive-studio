@@ -1,0 +1,7 @@
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_00.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_01.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_02.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_03.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_04.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_05.mp4'
+file 'C:/Users/이태환/OneDrive/Desktop/롱폼유투브/money-archive-studio/ep01_barings_kr/assets/clips_v4/shorts_v_06.mp4'

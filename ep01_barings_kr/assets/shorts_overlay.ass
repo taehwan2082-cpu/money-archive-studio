@@ -1,0 +1,38 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopHook1,Malgun Gothic,66,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,8,4,8,40,40,145,1
+Style: TopHook2,Malgun Gothic,72,&H0000E8FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,9,4,8,40,40,235,1
+Style: ShortsSub,Malgun Gothic,56,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,8,3,2,55,55,270,1
+Style: BrandBottom,Malgun Gothic,36,&H0000D4FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,4,0,2,40,40,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:01:03.68,TopHook1,,0,0,0,,233년 영국 왕실 은행을
+Dialogue: 2,0:00:00.00,0:01:03.68,TopHook2,,0,0,0,,1,700원에 파산시킨 신입?!
+Dialogue: 2,0:00:00.00,0:01:03.68,BrandBottom,,0,0,0,,머니 아카이브 | 풀버전 본편 확인
+Dialogue: 3,0:00:00.10,0:00:04.24,ShortsSub,,0,0,0,,{\c&H0000DFFF&}233년{\c&H00FFFFFF&} 역사의 영국 여왕 은행을 단돈 {\c&H0000DFFF&}1,700원{\c&H00FFFFFF&}에 파산시킨
+Dialogue: 3,0:00:04.24,0:00:05.09,ShortsSub,,0,0,0,,고졸 신입과,
+Dialogue: 3,0:00:05.09,0:00:11.18,ShortsSub,,0,0,0,,혼자 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}을 베팅해 단 {\c&H0000DFFF&}3일{\c&H00FFFFFF&} 만에 {\c&H0000DFFF&}9조 원{\c&H00FFFFFF&}을 날린 은행 직원이 있다면 믿으시겠습니까?
+Dialogue: 3,0:00:11.13,0:00:14.54,ShortsSub,,0,0,0,,{\c&H0000DFFF&}1992년{\c&H00FFFFFF&} 싱가포르에 파견된 20대 청년 닉
+Dialogue: 3,0:00:14.54,0:00:18.08,ShortsSub,,0,0,0,,리슨은 신입 직원의 {\c&H0000DFFF&}3천만 원{\c&H00FFFFFF&} 실수를 숨기려고
+Dialogue: 3,0:00:18.08,0:00:21.35,ShortsSub,,0,0,0,,'{\c&H0000DFFF&}88888{\c&H00FFFFFF&}'이라는 비밀 계좌를 만듭니다.
+Dialogue: 3,0:00:21.35,0:00:24.59,ShortsSub,,0,0,0,,본사가 인건비를 아낀다며 그에게 주문 권한과
+Dialogue: 3,0:00:24.59,0:00:27.83,ShortsSub,,0,0,0,,장부 검사 권한을 동시에 준 게 화근이었죠!
+Dialogue: 3,0:00:27.83,0:00:31.83,ShortsSub,,0,0,0,,이익은 본사에 보고하고 손실은 비밀 계좌에 숨기자,
+Dialogue: 3,0:00:31.83,0:00:35.41,ShortsSub,,0,0,0,,눈먼 임원들은 감사팀의 경고까지 묵살하며 회사
+Dialogue: 3,0:00:35.41,0:00:38.27,ShortsSub,,0,0,0,,현금의 {\c&H0000DFFF&}75%{\c&H00FFFFFF&}를 그에게 몰아줬습니다.
+Dialogue: 3,0:00:38.27,0:00:41.99,ShortsSub,,0,0,0,,결국 {\c&H0000DFFF&}고베 대지진{\c&H00FFFFFF&}으로 {\c&H0000DFFF&}3조 원{\c&H00FFFFFF&}의 구멍이 터지며 {\c&H0000DFFF&}233년{\c&H00FFFFFF&}
+Dialogue: 3,0:00:41.99,0:00:43.85,ShortsSub,,0,0,0,,은행은 {\c&H0000DFFF&}1파운드{\c&H00FFFFFF&}에 팔렸지만,
+Dialogue: 3,0:00:43.85,0:00:49.30,ShortsSub,,0,0,0,,정작 본인은 {\c&H0000DFFF&}4년{\c&H00FFFFFF&} 만에 출소해 영화 주인공이자 고액 강연자로 잘 살고 있습니다.
+Dialogue: 3,0:00:49.30,0:00:52.28,ShortsSub,,0,0,0,,더 놀라운 건 {\c&H0000DFFF&}13년{\c&H00FFFFFF&} 뒤 프랑스에서 똑같은
+Dialogue: 3,0:00:52.28,0:00:55.26,ShortsSub,,0,0,0,,수법으로 무려 {\c&H0000DFFF&}9조 원{\c&H00FFFFFF&}을 증발시킨 또 다른
+Dialogue: 3,0:00:55.26,0:00:57.47,ShortsSub,,0,0,0,,괴물 직원의 대반전 결말인데요!
+Dialogue: 3,0:00:57.47,0:01:00.02,ShortsSub,,0,0,0,,소름 돋는 금융 실화 풀스토리,
+Dialogue: 3,0:01:00.02,0:01:02.88,ShortsSub,,0,0,0,,지금 바로 본편에서 확인해 보세요!

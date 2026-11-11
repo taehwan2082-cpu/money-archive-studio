@@ -1,0 +1,408 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DocSubOneLine,Malgun Gothic,52,&H00FFFFFF,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,14,0,2,50,50,42,1
+Style: TopLeftPill,Malgun Gothic,32,&H00FFFFFF,&H0000FFFF,&H55000000,&H55000000,-1,0,0,0,100,100,1,0,3,10,0,7,42,42,32,1
+Style: TopRightBrand,Malgun Gothic,34,&H0000D4FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,2,9,45,45,32,1
+Style: LiveTelemetryHUD,Malgun Gothic,29,&H0000DFFF,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,9,0,9,45,45,86,1
+Style: SpecCard,Malgun Gothic,31,&H00E8E8E8,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,10,0,1,45,45,128,1
+Style: GiantRedSlam,Malgun Gothic,145,&H00221CF0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,4,0,1,12,6,5,40,40,40,1
+Style: GiantSubLabel,Malgun Gothic,46,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:15:40.01,TopRightBrand,,0,0,0,,머니 아카이브
+Dialogue: 2,0:00:00.00,0:02:30.40,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 233년 왕실 은행 파산 미스터리  
+Dialogue: 2,0:02:30.40,0:05:38.40,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 고졸 해결사와 치명적 겸직 함정  
+Dialogue: 2,0:05:38.40,0:08:46.40,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 비밀계좌 '88888'과 눈먼 임원들  
+Dialogue: 2,0:08:46.40,0:11:16.81,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 고베 대지진 · 3조 증발과 아이러니  
+Dialogue: 2,0:11:16.81,0:13:47.21,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} [2부] 제롬 케르비엘 · 70조 유령 도박  
+Dialogue: 2,0:13:47.21,0:15:40.01,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 3일 만에 9조 증발 · 법정 대반전  
+Dialogue: 2,0:00:00.00,0:00:06.00,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1995년 2월 23일 밤 · 싱가포르 창이 국제공항  
+Dialogue: 2,0:00:30.48,0:00:32.37,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 닉 리슨이 남긴 마지막 메모 : 'I'm sorry'  
+Dialogue: 2,0:00:32.47,0:00:38.47,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1995년 1월 17일 05:46 · 규모 7.3 고베 대지진 발생  
+Dialogue: 2,0:00:39.37,0:00:45.37,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1762년 설립 · 영국 왕실 주거래 '베어링스 은행'  
+Dialogue: 2,0:00:56.28,0:00:59.74,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 233년 대영제국 명문 은행 최종 매각가 : £1  
+Dialogue: 4,0:00:56.28,0:00:59.84,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}매각가 £1 (1,700원)
+Dialogue: 4,0:00:56.28,0:00:59.84,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}233년 대영제국 왕실 은행의 최후
+Dialogue: 4,0:00:59.84,0:01:05.68,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}매각가 £1 (1,700원)
+Dialogue: 4,0:00:59.84,0:01:05.68,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}233년 대영제국 왕실 은행의 최후
+Dialogue: 2,0:01:09.52,0:01:15.52,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1995 런던 3조 증발 -> 2008 파리 9조 증발  
+Dialogue: 2,0:02:18.90,0:02:24.90,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1991 인도네시아 자카르타 지점 1억 파운드 서류 해결  
+Dialogue: 2,0:02:32.17,0:02:38.17,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 싱가포르 국제금융거래소 (SIMEX) 선물·옵션 객장  
+Dialogue: 2,0:03:36.84,0:03:42.84,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 치명적 내부통제 결함 : 주문(선수) + 정산(심판) 1인 독점  
+Dialogue: 2,0:05:00.84,0:05:06.84,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 본사 보고에서 누락된 비밀 오류 계좌 '88888'  
+Dialogue: 2,0:06:48.32,0:06:54.32,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 런던 본사의 착각 : '황금 알을 낳는 스타 트레이더'  
+Dialogue: 2,0:06:55.05,0:07:01.05,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 1994년 여름 내부 감사 경고 보고서 묵살  
+Dialogue: 2,0:07:40.28,0:07:46.28,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 닛케이 지수 폭락 & 본사 운영자금 75% 무제한 송금  
+Dialogue: 4,0:09:11.95,0:09:20.88,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}매각가 £1 (1,700원)
+Dialogue: 4,0:09:11.95,0:09:20.88,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}233년 대영제국 왕실 은행의 최후
+Dialogue: 2,0:09:38.11,0:09:44.11,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 징역 4년 복역 후 베스트셀러 작가·강연자로 변신  
+Dialogue: 2,0:10:21.66,0:10:27.66,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 2008 프랑스 파리 · 140년 역사 '소시에테 제네랄' 은행  
+Dialogue: 2,0:10:56.56,0:11:02.56,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 가짜 헤지 계약 947건 · 단독 무단 베팅 70조 원  
+Dialogue: 2,0:13:05.83,0:13:11.83,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 단 3일간의 반대매매 확정 손실 : 약 7조~9조 원 (기네스 기록)  
+Dialogue: 4,0:13:05.83,0:13:18.02,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}-9,000,000,000,000원
+Dialogue: 4,0:13:05.83,0:13:18.02,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}단 3일 만에 증발한 인류 역사상 개인 최대 금융 손실
+Dialogue: 4,0:13:24.84,0:13:40.30,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}-9,000,000,000,000원
+Dialogue: 4,0:13:24.84,0:13:40.30,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}단 3일 만에 증발한 인류 역사상 개인 최대 금융 손실
+Dialogue: 2,0:14:14.36,0:14:20.36,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 거래소 경고 74회 묵살 폭로 & 프랑스 대법원 배상 파기  
+Dialogue: 4,0:14:43.56,0:14:55.15,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}매각가 £1 (1,700원)
+Dialogue: 4,0:14:43.56,0:14:55.15,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}233년 대영제국 왕실 은행의 최후
+Dialogue: 2,0:05:38.40,0:05:43.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1억 원 █░░░░░░░░░  
+Dialogue: 2,0:05:43.10,0:05:47.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-8억 원 █░░░░░░░░░  
+Dialogue: 2,0:05:47.80,0:05:52.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-22억 원 █░░░░░░░░░  
+Dialogue: 2,0:05:52.50,0:05:57.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-45억 원 █░░░░░░░░░  
+Dialogue: 2,0:05:57.20,0:06:01.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-77억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:01.90,0:06:06.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-119억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:06.60,0:06:11.30,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-173억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:11.30,0:06:16.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-238억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:16.00,0:06:20.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-316억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:20.70,0:06:25.40,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-407억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:25.40,0:06:30.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-511억 원 █░░░░░░░░░  
+Dialogue: 2,0:06:30.10,0:06:34.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-630억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:34.80,0:06:39.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-764억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:39.50,0:06:44.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-912억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:44.20,0:06:48.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1,077억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:48.90,0:06:53.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1,257억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:53.60,0:06:58.30,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1,454억 원 ██░░░░░░░░  
+Dialogue: 2,0:06:58.30,0:07:03.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1,668억 원 ███░░░░░░░  
+Dialogue: 2,0:07:03.00,0:07:07.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1,899억 원 ███░░░░░░░  
+Dialogue: 2,0:07:07.70,0:07:12.40,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2,148억 원 ███░░░░░░░  
+Dialogue: 2,0:07:12.40,0:07:17.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2,415억 원 ███░░░░░░░  
+Dialogue: 2,0:07:17.10,0:07:21.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2,700억 원 ███░░░░░░░  
+Dialogue: 2,0:07:21.80,0:07:26.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-3,004억 원 ███░░░░░░░  
+Dialogue: 2,0:07:26.50,0:07:31.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-3,327억 원 ████░░░░░░  
+Dialogue: 2,0:07:31.20,0:07:35.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-3,669억 원 ████░░░░░░  
+Dialogue: 2,0:07:35.90,0:07:40.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-4,032억 원 ████░░░░░░  
+Dialogue: 2,0:07:40.60,0:07:45.30,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-4,414억 원 ████░░░░░░  
+Dialogue: 2,0:07:45.30,0:07:50.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-4,816억 원 ████░░░░░░  
+Dialogue: 2,0:07:50.00,0:07:54.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-5,240억 원 ████░░░░░░  
+Dialogue: 2,0:07:54.70,0:07:59.40,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-5,684억 원 █████░░░░░  
+Dialogue: 2,0:07:59.40,0:08:04.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-6,149억 원 █████░░░░░  
+Dialogue: 2,0:08:04.10,0:08:08.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-6,636억 원 █████░░░░░  
+Dialogue: 2,0:08:08.80,0:08:13.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-7,145억 원 █████░░░░░  
+Dialogue: 2,0:08:13.50,0:08:18.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-7,675억 원 █████░░░░░  
+Dialogue: 2,0:08:18.20,0:08:22.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-8,228억 원 █████░░░░░  
+Dialogue: 2,0:08:22.90,0:08:27.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-8,804억 원 ██████░░░░  
+Dialogue: 2,0:08:27.60,0:08:32.30,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-9,402억 원 ██████░░░░  
+Dialogue: 2,0:08:32.30,0:08:37.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.00조 원 ██████░░░░  
+Dialogue: 2,0:08:37.00,0:08:41.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.07조 원 ██████░░░░  
+Dialogue: 2,0:08:41.70,0:08:46.40,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.13조 원 ██████░░░░  
+Dialogue: 2,0:08:46.40,0:08:51.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.20조 원 ██████░░░░  
+Dialogue: 2,0:08:51.10,0:08:55.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.27조 원 ███████░░░  
+Dialogue: 2,0:08:55.80,0:09:00.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.35조 원 ███████░░░  
+Dialogue: 2,0:09:00.50,0:09:05.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.43조 원 ███████░░░  
+Dialogue: 2,0:09:05.20,0:09:09.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.50조 원 ███████░░░  
+Dialogue: 2,0:09:09.90,0:09:14.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.59조 원 ███████░░░  
+Dialogue: 2,0:09:14.60,0:09:19.30,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.67조 원 ███████░░░  
+Dialogue: 2,0:09:19.30,0:09:24.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.76조 원 ████████░░  
+Dialogue: 2,0:09:24.00,0:09:28.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.85조 원 ████████░░  
+Dialogue: 2,0:09:28.70,0:09:33.40,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-1.94조 원 ████████░░  
+Dialogue: 2,0:09:33.40,0:09:38.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.03조 원 ████████░░  
+Dialogue: 2,0:09:38.10,0:09:42.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.13조 원 ████████░░  
+Dialogue: 2,0:09:42.80,0:09:47.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.23조 원 ████████░░  
+Dialogue: 2,0:09:47.50,0:09:52.21,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.33조 원 █████████░  
+Dialogue: 2,0:09:52.21,0:09:56.91,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.43조 원 █████████░  
+Dialogue: 2,0:09:56.91,0:10:01.61,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.54조 원 █████████░  
+Dialogue: 2,0:10:01.61,0:10:06.31,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.65조 원 █████████░  
+Dialogue: 2,0:10:06.31,0:10:11.01,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.77조 원 █████████░  
+Dialogue: 2,0:10:11.01,0:10:15.71,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-2.88조 원 █████████░  
+Dialogue: 2,0:10:15.71,0:10:20.41,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}비밀계좌 88888 누적 손실 : {\c&H002820F0&}-3.00조 원 ██████████  
+Dialogue: 2,0:11:35.61,0:11:38.95,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}1.2조 원 {\c&H002820F0&}(유령거래 32건)  
+Dialogue: 2,0:11:38.95,0:11:42.29,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}1.5조 원 {\c&H002820F0&}(유령거래 53건)  
+Dialogue: 2,0:11:42.29,0:11:45.63,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}1.9조 원 {\c&H002820F0&}(유령거래 74건)  
+Dialogue: 2,0:11:45.63,0:11:48.97,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}2.4조 원 {\c&H002820F0&}(유령거래 95건)  
+Dialogue: 2,0:11:48.97,0:11:52.32,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}3.1조 원 {\c&H002820F0&}(유령거래 115건)  
+Dialogue: 2,0:11:52.32,0:11:55.66,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}3.7조 원 {\c&H002820F0&}(유령거래 136건)  
+Dialogue: 2,0:11:55.66,0:11:59.00,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}4.5조 원 {\c&H002820F0&}(유령거래 157건)  
+Dialogue: 2,0:11:59.00,0:12:02.34,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}5.4조 원 {\c&H002820F0&}(유령거래 178건)  
+Dialogue: 2,0:12:02.34,0:12:05.69,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}6.3조 원 {\c&H002820F0&}(유령거래 199건)  
+Dialogue: 2,0:12:05.69,0:12:09.03,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}7.2조 원 {\c&H002820F0&}(유령거래 219건)  
+Dialogue: 2,0:12:09.03,0:12:12.37,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}8.2조 원 {\c&H002820F0&}(유령거래 240건)  
+Dialogue: 2,0:12:12.37,0:12:15.71,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}9.3조 원 {\c&H002820F0&}(유령거래 261건)  
+Dialogue: 2,0:12:15.71,0:12:19.06,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}10.5조 원 {\c&H002820F0&}(유령거래 282건)  
+Dialogue: 2,0:12:19.06,0:12:22.40,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}11.7조 원 {\c&H002820F0&}(유령거래 302건)  
+Dialogue: 2,0:12:22.40,0:12:25.74,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}12.9조 원 {\c&H002820F0&}(유령거래 323건)  
+Dialogue: 2,0:12:25.74,0:12:29.08,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}14.2조 원 {\c&H002820F0&}(유령거래 344건)  
+Dialogue: 2,0:12:29.08,0:12:32.42,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}15.5조 원 {\c&H002820F0&}(유령거래 365건)  
+Dialogue: 2,0:12:32.42,0:12:35.77,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}16.9조 원 {\c&H002820F0&}(유령거래 386건)  
+Dialogue: 2,0:12:35.77,0:12:39.11,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}18.4조 원 {\c&H002820F0&}(유령거래 406건)  
+Dialogue: 2,0:12:39.11,0:12:42.45,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}19.9조 원 {\c&H002820F0&}(유령거래 427건)  
+Dialogue: 2,0:12:42.45,0:12:45.79,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}21.4조 원 {\c&H002820F0&}(유령거래 448건)  
+Dialogue: 2,0:12:45.79,0:12:49.14,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}23.0조 원 {\c&H002820F0&}(유령거래 469건)  
+Dialogue: 2,0:12:49.14,0:12:52.48,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}24.6조 원 {\c&H002820F0&}(유령거래 489건)  
+Dialogue: 2,0:12:52.48,0:12:55.82,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}26.2조 원 {\c&H002820F0&}(유령거래 510건)  
+Dialogue: 2,0:12:55.82,0:12:59.16,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}27.9조 원 {\c&H002820F0&}(유령거래 531건)  
+Dialogue: 2,0:12:59.16,0:13:02.50,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}29.7조 원 {\c&H002820F0&}(유령거래 552건)  
+Dialogue: 2,0:13:02.50,0:13:05.85,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}31.5조 원 {\c&H002820F0&}(유령거래 573건)  
+Dialogue: 2,0:13:05.85,0:13:09.19,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}33.3조 원 {\c&H002820F0&}(유령거래 593건)  
+Dialogue: 2,0:13:09.19,0:13:12.53,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}35.2조 원 {\c&H002820F0&}(유령거래 614건)  
+Dialogue: 2,0:13:12.53,0:13:15.87,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}37.1조 원 {\c&H002820F0&}(유령거래 635건)  
+Dialogue: 2,0:13:15.87,0:13:19.22,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}39.0조 원 {\c&H002820F0&}(유령거래 656건)  
+Dialogue: 2,0:13:19.22,0:13:22.56,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}41.0조 원 {\c&H002820F0&}(유령거래 676건)  
+Dialogue: 2,0:13:22.56,0:13:25.90,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}43.0조 원 {\c&H002820F0&}(유령거래 697건)  
+Dialogue: 2,0:13:25.90,0:13:29.24,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}45.1조 원 {\c&H002820F0&}(유령거래 718건)  
+Dialogue: 2,0:13:29.24,0:13:32.58,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}47.2조 원 {\c&H002820F0&}(유령거래 739건)  
+Dialogue: 2,0:13:32.58,0:13:35.93,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}49.3조 원 {\c&H002820F0&}(유령거래 760건)  
+Dialogue: 2,0:13:35.93,0:13:39.27,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}51.4조 원 {\c&H002820F0&}(유령거래 780건)  
+Dialogue: 2,0:13:39.27,0:13:42.61,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}53.6조 원 {\c&H002820F0&}(유령거래 801건)  
+Dialogue: 2,0:13:42.61,0:13:45.95,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}55.9조 원 {\c&H002820F0&}(유령거래 822건)  
+Dialogue: 2,0:13:45.95,0:13:49.30,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}58.1조 원 {\c&H002820F0&}(유령거래 843건)  
+Dialogue: 2,0:13:49.30,0:13:52.64,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}60.5조 원 {\c&H002820F0&}(유령거래 863건)  
+Dialogue: 2,0:13:52.64,0:13:55.98,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}62.8조 원 {\c&H002820F0&}(유령거래 884건)  
+Dialogue: 2,0:13:55.98,0:13:59.32,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}65.2조 원 {\c&H002820F0&}(유령거래 905건)  
+Dialogue: 2,0:13:59.32,0:14:02.66,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}67.6조 원 {\c&H002820F0&}(유령거래 926건)  
+Dialogue: 2,0:14:02.66,0:14:06.01,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}케르비엘 무단 베팅 : {\c&H0000DFFF&}70.0조 원 {\c&H002820F0&}(유령거래 947건)  
+Dialogue: 3,0:00:00.10,0:00:02.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1995년{\c&H00FFFFFF&} 2월 {\c&H0000DFFF&}23일{\c&H00FFFFFF&} 밤,  
+Dialogue: 3,0:00:02.58,0:00:06.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 폭우가 쏟아지는 싱가포르 창이 국제공항.  
+Dialogue: 3,0:00:06.16,0:00:09.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스물여덟 살의 젊은 영국인 남자가 창백하게 질린  
+Dialogue: 3,0:00:09.74,0:00:12.77,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 얼굴로 도주용 비행기에 몸을 실었습니다.  
+Dialogue: 3,0:00:12.77,0:00:15.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불과 하루 전까지만 해도 연봉 수억 원에  
+Dialogue: 3,0:00:15.64,0:00:18.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 초호화 펜트하우스를 누리며 '금융계의  
+Dialogue: 3,0:00:18.25,0:00:20.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 신동'이라 불리던 사나이였습니다.  
+Dialogue: 3,0:00:20.60,0:00:23.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 야반도주하듯 빠져나간 사무실 책상  
+Dialogue: 3,0:00:23.44,0:00:23.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 위에는,  
+Dialogue: 3,0:00:23.98,0:00:28.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 짧은 손글씨 메모 딱 한 장만이 덩그러니 남겨져 있었습니다.  
+Dialogue: 3,0:00:28.45,0:00:30.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 한 단어.  
+Dialogue: 3,0:00:30.48,0:00:32.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}죄송합니다{\c&H00FFFFFF&}.  
+Dialogue: 3,0:00:32.47,0:00:34.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그로부터 정확히 {\c&H0000DFFF&}72시간{\c&H00FFFFFF&} 뒤,  
+Dialogue: 3,0:00:34.87,0:00:39.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 영국 런던 금융가가 대지진이 난 것처럼 뒤집어졌습니다.  
+Dialogue: 3,0:00:39.37,0:00:41.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 나폴레옹 전쟁의 군자금을 대고,  
+Dialogue: 3,0:00:41.55,0:00:44.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국의 루이지애나 영토 매입 자금을 조달했으며,  
+Dialogue: 3,0:00:44.88,0:00:56.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 영국 엘리자베스 {\c&H0000DFFF&}2세{\c&H00FFFFFF&} 여왕의 개인 재산까지 관리하던 {\c&H0000DFFF&}233년{\c&H00FFFFFF&} 역사의 대영제국 최고 명문 은행, '{\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&}'이 하루아침에 파산 선고를 받은 것입니다.  
+Dialogue: 3,0:00:56.28,0:00:59.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 최종 매각 가격은 단돈 {\c&H0000DFFF&}1파운드{\c&H00FFFFFF&}.  
+Dialogue: 3,0:00:59.84,0:01:02.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈으로 고작 {\c&H0000DFFF&}1,700원{\c&H00FFFFFF&},  
+Dialogue: 3,0:01:02.15,0:01:05.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 편의점 커피 한 잔 값도 안 되는 돈이었습니다.  
+Dialogue: 3,0:01:05.68,0:01:09.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 더 소름 끼치는 사실은 따로 있습니다.  
+Dialogue: 3,0:01:09.52,0:01:15.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전 세계 은행들이 이 사건에 경악해 천문학적인 돈을 들여 내부 감시 시스템을 뜯어고쳤지만,  
+Dialogue: 3,0:01:15.57,0:01:21.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그로부터 불과 {\c&H0000DFFF&}13년{\c&H00FFFFFF&} 뒤 프랑스에서는 이 기록을 비웃기라도 하듯 단 {\c&H0000DFFF&}3일{\c&H00FFFFFF&} 만에 무려 9조  
+Dialogue: 3,0:01:21.51,0:01:27.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원을 공중분해 시켜 기네스북에 오른 또 한 명의 말단 직원이 탄생했다는 사실입니다.  
+Dialogue: 3,0:01:27.08,0:01:31.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도대체 어떻게 명문대 출신 천재 임원들이 수백 명씩 모여  
+Dialogue: 3,0:01:31.14,0:01:32.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 있는 거대 은행들이,  
+Dialogue: 3,0:01:32.57,0:01:38.59,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 고작 스물여덟 살, 서른한 살짜리 평직원 한 명에게 속수무책으로 무너져 내렸을까요?  
+Dialogue: 3,0:01:38.59,0:01:44.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단돈 {\c&H0000DFFF&}3천만 원{\c&H00FFFFFF&}의 실수를 덮으려다 회사를 통째로 삼켜버린 비밀 계좌 '{\c&H0000DFFF&}88888{\c&H00FFFFFF&}'의  
+Dialogue: 3,0:01:44.81,0:01:45.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비극부터,  
+Dialogue: 3,0:01:45.49,0:01:56.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행 컴퓨터 보안을 해킹하듯 농락하며 혼자 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}을 베팅한 사상 최대의 금융 스릴러까지, 그 충격적인 내막을 지금 바로 추적해 보겠습니다.  
+Dialogue: 3,0:01:56.18,0:01:58.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시계를 {\c&H0000DFFF&}1990년{\c&H00FFFFFF&}대 초 영국  
+Dialogue: 3,0:01:58.63,0:02:01.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 런던으로 되돌려 보겠습니다.  
+Dialogue: 3,0:02:01.08,0:02:05.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1762년{\c&H00FFFFFF&}에 세워져 두 번의 세계대전과 경제 대공황조차 끄떡없이  
+Dialogue: 3,0:02:05.61,0:02:09.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 버텨낸 {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&}은 옥스퍼드와 케임브리지 출신의 영국  
+Dialogue: 3,0:02:09.62,0:02:13.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 귀족 엘리트들만 모이는 철옹성 같은 곳이었습니다.  
+Dialogue: 3,0:02:13.11,0:02:16.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 반면 우리의 첫 번째 주인공 '{\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}'은  
+Dialogue: 3,0:02:16.28,0:02:18.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 귀족과는 거리가 먼 인물이었습니다.  
+Dialogue: 3,0:02:18.90,0:02:23.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 런던 외곽의 평범한 미장공 아들로 태어난 그는 고등학교 졸업 시험에서  
+Dialogue: 3,0:02:23.66,0:02:26.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수학 과목에 낙제할 정도로 평범한 학생이었고,  
+Dialogue: 3,0:02:26.79,0:02:32.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대학 진학 대신 열여덟 살에 은행 서류 정리 직원으로 사회생활을 시작했습니다.  
+Dialogue: 3,0:02:32.17,0:02:35.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그렇다면 콧대 높은 영국 귀족 은행 임원들은 도대체  
+Dialogue: 3,0:02:35.73,0:02:39.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 왜 수학도 못 하던 스물다섯 살 고졸 청년에게 싱가포르  
+Dialogue: 3,0:02:39.55,0:02:42.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 선물거래소 총책임자라는 막중한 자리를 맡겼을까요?  
+Dialogue: 3,0:02:42.98,0:02:46.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여기에는 {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&}의 눈을 멀게 만든  
+Dialogue: 3,0:02:46.08,0:02:48.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결정적인 사건이 하나 있었습니다.  
+Dialogue: 3,0:02:48.61,0:02:51.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 싱가포르로 가기 직전인 {\c&H0000DFFF&}1991년{\c&H00FFFFFF&},  
+Dialogue: 3,0:02:51.08,0:02:54.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인도네시아 자카르타 지점에서 무려 1억 파운드,  
+Dialogue: 3,0:02:54.47,0:03:02.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}1,700억 원{\c&H00FFFFFF&}어치의 종이 주식 증권과 장부가 뒤엉켜 행방불명되는 대형 서류 사고가 터졌습니다.  
+Dialogue: 3,0:03:02.27,0:03:05.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 엘리트 임원들이 아무도 해결하지 못해 쩔쩔매던 그때,  
+Dialogue: 3,0:03:05.72,0:03:10.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 본사에서 파견된 백오피스 실무자 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}이 밤을 새워 수만 장의 전표를 일일이  
+Dialogue: 3,0:03:10.84,0:03:16.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대조한 끝에 꼬여 있던 {\c&H0000DFFF&}1,700억 원{\c&H00FFFFFF&}의 구멍을 완벽하게 찾아내 해결해 버린 것입니다!  
+Dialogue: 3,0:03:16.56,0:03:21.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 사건 하나로 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}은 런던 본사 임원들 사이에서 '일 처리는  
+Dialogue: 3,0:03:21.19,0:03:24.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 완벽하게 믿고 맡길 수 있는 해결사'로 낙인찍혔고,  
+Dialogue: 3,0:03:24.79,0:03:30.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1992년{\c&H00FFFFFF&} 신설된 싱가포르 선물옵션 법인의 책임자로 화려하게 입성하게 됩니다.  
+Dialogue: 3,0:03:30.32,0:03:32.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 바로 이 과도한 신뢰가,  
+Dialogue: 3,0:03:32.82,0:03:36.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 금융 역사상 최악의 블랙 코미디를 만들어냈습니다.  
+Dialogue: 3,0:03:36.84,0:03:40.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원래 모든 금융회사는 돈을 걸고 주문을 내는 선수,  
+Dialogue: 3,0:03:40.66,0:03:45.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 '프론트 오피스'와 그 거래가 정상인지 장부를 검사하는  
+Dialogue: 3,0:03:45.02,0:03:48.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심판, 즉 '백 오피스'를 칼같이 분리합니다.  
+Dialogue: 3,0:03:48.38,0:03:52.09,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 선수에게 심판 호루라기까지 쥐여주면 자기 마음대로  
+Dialogue: 3,0:03:52.09,0:03:54.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 점수를 조작할 수 있기 때문입니다.  
+Dialogue: 3,0:03:54.70,0:03:59.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 런던 본사는 "싱가포르는 아직 작은 지점이니 관리자 한 명  
+Dialogue: 3,0:03:59.41,0:04:00.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월급을 아끼자"며,  
+Dialogue: 3,0:04:00.72,0:04:08.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 서류 정리 전문가였던 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}에게 현장 트레이더 대장 자리와 백오피스 장부 결재 권한을 동시에 줘버렸습니다!  
+Dialogue: 3,0:04:08.57,0:04:13.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 낮에는 화려한 줄무늬 재킷을 입고 거래소 바닥에서 수백억 원어치 주문을  
+Dialogue: 3,0:04:13.39,0:04:13.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 외치고,  
+Dialogue: 3,0:04:13.89,0:04:22.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 밤에는 사무실에 돌아와 자기 거래에 자기가 '이상 없음' 도장을 찍어 런던으로 보내는 무소불위의 괴물이 탄생한 순간이었습니다.  
+Dialogue: 3,0:04:22.55,0:04:26.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 파멸의 도화선은 {\c&H0000DFFF&}1992년{\c&H00FFFFFF&} 7월 {\c&H0000DFFF&}17일{\c&H00FFFFFF&},  
+Dialogue: 3,0:04:26.03,0:04:29.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아주 사소한 버튼 실수 하나였습니다.  
+Dialogue: 3,0:04:29.19,0:04:34.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}이 뽑은 싱가포르 현지 신입 여직원이 고객이 요청한 일본 후지은행 선물  
+Dialogue: 3,0:04:34.51,0:04:36.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 계약 {\c&H0000DFFF&}20건{\c&H00FFFFFF&}을 '매도',  
+Dialogue: 3,0:04:36.12,0:04:45.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 팔아야 하는데 실수로 '매수', 사는 것으로 잘못 주문해 그날 밤 약 2만 파운드, 우리 돈 {\c&H0000DFFF&}3천만 원{\c&H00FFFFFF&}의 손실이 발생한 것입니다.  
+Dialogue: 3,0:04:45.03,0:04:48.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사실 이때 본사에 사실대로 보고했다면 시말서  
+Dialogue: 3,0:04:48.62,0:04:51.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한 장 쓰고 끝났을 일이었습니다.  
+Dialogue: 3,0:04:51.31,0:04:54.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 자카르타의 영웅으로 불리던 스물다섯 살  
+Dialogue: 3,0:04:54.53,0:04:58.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 청년은 자신의 완벽한 경력에 스크래치가 나는 것도,  
+Dialogue: 3,0:04:58.13,0:05:00.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 부하 직원이 해고되는 것도 싫었습니다.  
+Dialogue: 3,0:05:00.84,0:05:04.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결국 그는 자신이 장부 관리자라는 점을 악용해 컴퓨터  
+Dialogue: 3,0:05:04.47,0:05:08.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시스템 깊숙한 곳에 런던 본사 보고서에서는 자동으로 빠지는  
+Dialogue: 3,0:05:08.48,0:05:11.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '유령 오류 수정 계좌' 하나를 몰래 만듭니다.  
+Dialogue: 3,0:05:11.73,0:05:15.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 중국계 싱가포르인들이 돈을 부르는 행운의 숫자로 여기는  
+Dialogue: 3,0:05:15.99,0:05:19.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '8'을 다섯 번 연속으로 입력한 계좌 번호,  
+Dialogue: 3,0:05:19.54,0:05:23.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 악명 높은 '{\c&H0000DFFF&}88888{\c&H00FFFFFF&}'번 계좌였습니다.  
+Dialogue: 3,0:05:23.10,0:05:26.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 리슨의 첫 계획은 순진했습니다.  
+Dialogue: 3,0:05:26.27,0:05:30.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}3천만 원{\c&H00FFFFFF&}의 손실을 저 {\c&H0000DFFF&}88888{\c&H00FFFFFF&} 계좌에 잠깐 숨겨두고,  
+Dialogue: 3,0:05:30.45,0:05:34.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 며칠 동안 자기가 직접 약간의 거래를 해서 본전을 찾은  
+Dialogue: 3,0:05:34.49,0:05:38.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 뒤 쥐도 새도 모르게 메워 넣겠다는 생각이었습니다.  
+Dialogue: 3,0:05:38.27,0:05:40.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 한 번 시작된 거짓말은  
+Dialogue: 3,0:05:40.67,0:05:42.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도박꾼의 심리를 깨웠습니다.  
+Dialogue: 3,0:05:42.92,0:05:48.09,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 손실을 메우려고 몰래 건 베팅이 반대로 가면서 {\c&H0000DFFF&}3천만 원{\c&H00FFFFFF&}의 구멍은 일주일 만에  
+Dialogue: 3,0:05:48.09,0:05:49.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1억 원{\c&H00FFFFFF&}으로 불어났고,  
+Dialogue: 3,0:05:49.53,0:05:57.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당황한 그는 잃은 돈을 한 방에 복구하겠다며 판돈을 두 배, 네 배로 키우는 이른바 '마틴게일 물타기'의 늪에 빠져들었습니다.  
+Dialogue: 3,0:05:57.95,0:06:01.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여기서 기막힌 회계 마술이 벌어집니다.  
+Dialogue: 3,0:06:01.53,0:06:04.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}은 수백 건의 투기 거래를 던져놓고,  
+Dialogue: 3,0:06:04.80,0:06:08.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 운 좋게 수익이 난 거래는 본사 공식 계좌에 기록하고,  
+Dialogue: 3,0:06:08.90,0:06:15.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 손실이 난 거래는 전부 {\c&H0000DFFF&}88888{\c&H00FFFFFF&} 비밀 계좌라는 쓰레기통에 쑤셔 넣어 숨겼습니다.  
+Dialogue: 3,0:06:15.03,0:06:18.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그러자 지구 반대편 런던 본사 임원들의 모니터에는  
+Dialogue: 3,0:06:18.98,0:06:21.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기적 같은 광경이 펼쳐졌습니다!  
+Dialogue: 3,0:06:21.46,0:06:25.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 위험 부담이 전혀 없는 안전한 차익 거래만 한다던 싱가포르의  
+Dialogue: 3,0:06:25.50,0:06:26.85,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스물여섯 살 청년이,  
+Dialogue: 3,0:06:26.85,0:06:32.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 한 번의 실패도 없이 매달 수십억 원씩 순이익을 찍어내고 있었던 것입니다!  
+Dialogue: 3,0:06:32.11,0:06:33.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1993년{\c&H00FFFFFF&} 말,  
+Dialogue: 3,0:06:33.24,0:06:38.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}88888{\c&H00FFFFFF&} 계좌 속에 숨겨진 실제 적자는 이미 {\c&H0000DFFF&}350억 원{\c&H00FFFFFF&}을 넘어섰지만,  
+Dialogue: 3,0:06:38.93,0:06:48.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 눈먼 런던 본사는 "{\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&} 혼자서 {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&} 전 세계 이익의 5분의 1을 벌어오고 있다"며 샴페인을 터뜨렸습니다.  
+Dialogue: 3,0:06:48.32,0:06:52.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 임원들은 그에게 수억 원의 특별 보너스를 안겨주며  
+Dialogue: 3,0:06:52.03,0:06:55.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} "우리 은행의 미래"라고 치켜세웠습니다.  
+Dialogue: 3,0:06:55.05,0:06:56.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 기가 막힌 사실은,  
+Dialogue: 3,0:06:56.63,0:07:01.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1994년{\c&H00FFFFFF&} 여름 본사 내부 감사팀이 싱가포르에 왔다가 "{\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&} 한  
+Dialogue: 3,0:07:01.48,0:07:09.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 명이 거래와 정산을 둘 다 쥐고 있어 대형 사고가 날 수 있다"는 경고 보고서를 실제로 올렸다는 점입니다!  
+Dialogue: 3,0:07:09.29,0:07:13.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 리슨 덕분에 두둑한 성과급을 챙기고 있던 런던 본사  
+Dialogue: 3,0:07:13.21,0:07:17.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 고위 임원들은 "황금 알을 낳는 에이스의 기를 죽이지 마라"며  
+Dialogue: 3,0:07:17.38,0:07:20.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 경고 보고서를 서랍 속에 뭉개버렸습니다.  
+Dialogue: 3,0:07:20.27,0:07:21.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1994년{\c&H00FFFFFF&} 말,  
+Dialogue: 3,0:07:21.62,0:07:25.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}88888{\c&H00FFFFFF&} 계좌 속 숨겨진 빚은 어느덧  
+Dialogue: 3,0:07:25.16,0:07:30.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 2억 파운드, 우리 돈 {\c&H0000DFFF&}3,500억 원{\c&H00FFFFFF&}까지 불어났습니다.  
+Dialogue: 3,0:07:30.39,0:07:33.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 매일 밤 초호화 아파트 변기를 붙잡고 구토하며  
+Dialogue: 3,0:07:33.64,0:07:35.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불면증에 시달리던 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}은,  
+Dialogue: 3,0:07:35.73,0:07:40.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 거대한 구덩이를 메우기 위해 최후의 시한폭탄에 손을 댑니다.  
+Dialogue: 3,0:07:40.28,0:07:44.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일본 증시인 '닛케이 225' 지수가 큰 변동 없이 제자리에  
+Dialogue: 3,0:07:44.33,0:07:47.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 머물기만 하면 매일 수십억 원의 옵션 프리미엄 현금이  
+Dialogue: 3,0:07:47.88,0:07:50.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 들어오는 '양매도 스트래들' 전략이었습니다.  
+Dialogue: 3,0:07:50.82,0:07:51.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단,  
+Dialogue: 3,0:07:51.12,0:07:54.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만약 천재지변이라도 일어나 증시가 한쪽으로  
+Dialogue: 3,0:07:54.52,0:07:59.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 폭락하면 손실이 무한대로 터지는 죽음의 외줄 타기였습니다.  
+Dialogue: 3,0:07:59.26,0:08:04.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 {\c&H0000DFFF&}1995년{\c&H00FFFFFF&} 1월 {\c&H0000DFFF&}17일{\c&H00FFFFFF&} 새벽 5시 46분.  
+Dialogue: 3,0:08:04.58,0:08:08.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일본 고베시 직하방에서 규모 7.3의 대지진,  
+Dialogue: 3,0:08:08.34,0:08:10.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}고베 대지진{\c&H00FFFFFF&}'이 폭발했습니다.  
+Dialogue: 3,0:08:10.89,0:08:14.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 고속도로가 무너져 내리고 도시가 불바다가 되자 일본  
+Dialogue: 3,0:08:14.47,0:08:16.77,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 증시는 공포 속에 수직 폭락했고,  
+Dialogue: 3,0:08:16.77,0:08:21.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 리슨의 계좌에서는 단 며칠 만에 수천억 원이 추가로 증발했습니다.  
+Dialogue: 3,0:08:21.37,0:08:24.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이성을 완전히 잃은 스물여덟 살 청년은 여기서  
+Dialogue: 3,0:08:24.79,0:08:28.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인류 금융사상 가장 황당한 시도를 감행합니다.  
+Dialogue: 3,0:08:28.20,0:08:31.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내가 {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&} 본사 돈을 전부 끌어와서 일본  
+Dialogue: 3,0:08:31.55,0:08:34.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 주가지수 선물을 미친 듯이 사들이면,  
+Dialogue: 3,0:08:34.03,0:08:38.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 추락하는 일본 주식시장 전체를 내 손으로 끌어올릴 수 있다!  
+Dialogue: 3,0:08:38.12,0:08:43.77,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그는 런던 본사에 "우량 고객의 대리 주문 증거금이 급히 필요하다"는 거짓 팩스를  
+Dialogue: 3,0:08:43.77,0:08:44.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 날렸고,  
+Dialogue: 3,0:08:44.27,0:08:54.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 놀랍게도 런던 임원들은 회사가 가진 전체 운영 자금의 {\c&H0000DFFF&}75%{\c&H00FFFFFF&}에 달하는 수천억 원의 현금을 묻지도 따지지도 않고 지구 반대편 청년에게 송금해 주었습니다!  
+Dialogue: 3,0:08:54.82,0:09:00.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결국 한 달 뒤 감사의 포위망이 좁혀오자 리슨은 "{\c&H0000DFFF&}죄송합니다{\c&H00FFFFFF&}" 메모 한 장을  
+Dialogue: 3,0:09:00.76,0:09:02.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 남기고 도주했고,  
+Dialogue: 3,0:09:02.04,0:09:11.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 잠긴 컴퓨터의 {\c&H0000DFFF&}88888{\c&H00FFFFFF&} 계좌가 열렸을 때 드러난 총손실액은 무려 8억 2,700만 파운드, 현재 가치 약 {\c&H0000DFFF&}3조 원{\c&H00FFFFFF&}이었습니다.  
+Dialogue: 3,0:09:11.95,0:09:15.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}233년{\c&H00FFFFFF&} 전통의 영국 여왕 은행은 단 {\c&H0000DFFF&}3일{\c&H00FFFFFF&}  
+Dialogue: 3,0:09:15.11,0:09:18.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만에 파산해 네덜란드 ING 그룹에 단돈  
+Dialogue: 3,0:09:18.13,0:09:20.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1파운드{\c&H00FFFFFF&}, {\c&H0000DFFF&}1,700원{\c&H00FFFFFF&}에 팔렸습니다.  
+Dialogue: 3,0:09:20.88,0:09:23.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 이 사건의 결말은 수많은  
+Dialogue: 3,0:09:23.46,0:09:26.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 직장인들을 허탈하게 만들었습니다.  
+Dialogue: 3,0:09:26.20,0:09:30.59,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수백 명의 동료들이 하루아침에 직장을 잃고 거리로 나앉는 동안,  
+Dialogue: 3,0:09:30.59,0:09:34.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 독일 공항에서 체포되어 싱가포르 감옥에 갇혔던 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}은 대장암  
+Dialogue: 3,0:09:34.98,0:09:38.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 진단으로 불과 {\c&H0000DFFF&}4년{\c&H00FFFFFF&} 만에 조기 석방되었습니다.  
+Dialogue: 3,0:09:38.11,0:09:43.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 감옥에서 쓴 자서전 《로그 트레이더》가 초대박 베스트셀러가 되어 할리우드 스타 이완  
+Dialogue: 3,0:09:43.99,0:09:46.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 맥그리거 주연의 영화로까지 만들어졌고,  
+Dialogue: 3,0:09:46.46,0:09:55.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 출소 후에는 전 세계 기업들로부터 회당 수천만 원의 강연료를 받으며 '내부 통제 전문가'로 평온하고 부유하게 살아가고 있기 때문입니다!  
+Dialogue: 3,0:09:55.28,0:09:55.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자,  
+Dialogue: 3,0:09:55.54,0:09:59.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&}의 비극 이후 전 세계 거대 은행들은 "이제  
+Dialogue: 3,0:09:59.51,0:10:06.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 컴퓨터 이중 삼중 감시망을 깔았으니 직원 한 명이 회사를 속이는 일은 영원히 불가능하다"고 장담했습니다.  
+Dialogue: 3,0:10:06.93,0:10:09.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 과연 그랬을까요?  
+Dialogue: 3,0:10:09.36,0:10:11.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 천만의 말씀입니다.  
+Dialogue: 3,0:10:11.75,0:10:14.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불과 {\c&H0000DFFF&}13년{\c&H00FFFFFF&} 뒤인 {\c&H0000DFFF&}2008년{\c&H00FFFFFF&} 1월,  
+Dialogue: 3,0:10:14.23,0:10:17.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 프랑스 파리에서 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}의 {\c&H0000DFFF&}3조 원{\c&H00FFFFFF&} 기록을 어린아이  
+Dialogue: 3,0:10:17.88,0:10:21.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 장난처럼 보이게 만든 사상 최악의 괴물이 등장합니다.  
+Dialogue: 3,0:10:21.66,0:10:25.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사건의 무대는 베어링스 못지않은 {\c&H0000DFFF&}140년{\c&H00FFFFFF&} 역사의 프랑스  
+Dialogue: 3,0:10:25.80,0:10:29.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 2위 초대형 은행, '{\c&H0000DFFF&}소시에테 제네랄{\c&H00FFFFFF&}'이었습니다.  
+Dialogue: 3,0:10:29.53,0:10:32.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 주인공은 서른한 살의 평범한 주니어  
+Dialogue: 3,0:10:32.69,0:10:35.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 트레이더, '{\c&H0000DFFF&}제롬 케르비엘{\c&H00FFFFFF&}'이었습니다.  
+Dialogue: 3,0:10:35.58,0:10:40.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 케르비엘 역시 프랑스 최고 명문 그랑제콜 출신 엘리트들 사이에서  
+Dialogue: 3,0:10:40.24,0:10:43.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 지방대 출신이라는 꼬리표를 달고 백오피스,  
+Dialogue: 3,0:10:43.29,0:10:47.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 후선 보안·정산 부서에서 먼저 일을 시작한 인물이었습니다.  
+Dialogue: 3,0:10:47.93,0:10:51.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 백오피스에서 {\c&H0000DFFF&}5년{\c&H00FFFFFF&} 동안 일하다 트레이딩 부서로  
+Dialogue: 3,0:10:51.08,0:10:53.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 옮긴 케르비엘에게는 명문대 출신 동료들에게  
+Dialogue: 3,0:10:53.97,0:10:56.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 없는 치명적인 무기가 하나 있었습니다.  
+Dialogue: 3,0:10:56.56,0:10:59.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 은행의 내부 감시 컴퓨터가 '언제 경보를  
+Dialogue: 3,0:10:59.96,0:11:00.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 울리고,  
+Dialogue: 3,0:11:00.50,0:11:06.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 언제 검사를 하는지' 보안 시스템의 사각지대를 손바닥 보듯 꿰뚫고 있었다는 점입니다!  
+Dialogue: 3,0:11:06.89,0:11:10.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2006년{\c&H00FFFFFF&}부터 케르비엘은 자신의 한도를 아득히  
+Dialogue: 3,0:11:10.29,0:11:13.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 뛰어넘는 거액의 무단 도박을 시작하면서,  
+Dialogue: 3,0:11:13.29,0:11:17.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&}보다 훨씬 정교한 디지털 속임수를 썼습니다.  
+Dialogue: 3,0:11:17.10,0:11:21.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 예를 들어 실제 시장에 {\c&H0000DFFF&}1조 원{\c&H00FFFFFF&}어치 주가지수 매수 주문을 던져놓고,  
+Dialogue: 3,0:11:21.66,0:11:25.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행 내부 컴퓨터 장부에는 그 위험을 상쇄하는 가짜 반대 거래,  
+Dialogue: 3,0:11:25.97,0:11:30.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 {\c&H0000DFFF&}1조 원{\c&H00FFFFFF&}어치 유령 매도 계약을 허위로 입력해 놓는 식이었습니다.  
+Dialogue: 3,0:11:30.52,0:11:34.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그러면 은행의 AI 리스크 감시 프로그램은 "아하,  
+Dialogue: 3,0:11:34.39,0:11:38.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 양쪽 금액이 똑같으니 위험도 제로구나!"라고 착각해  
+Dialogue: 3,0:11:38.26,0:11:40.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아무런 경보도 울리지 않았습니다.  
+Dialogue: 3,0:11:40.74,0:11:45.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 실제 정산 확인 이메일이 날아오기 직전인 {\c&H0000DFFF&}3일{\c&H00FFFFFF&}째 되는 날,  
+Dialogue: 3,0:11:45.43,0:11:49.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 가짜 계약을 슬쩍 취소하고 동료의 아이디까지 빌려 또 다른  
+Dialogue: 3,0:11:49.86,0:11:54.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가짜 계약을 덧씌우는 수법을 무려 {\c&H0000DFFF&}947번{\c&H00FFFFFF&}이나 반복했습니다!  
+Dialogue: 3,0:11:54.15,0:11:57.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그는 이 수법으로 {\c&H0000DFFF&}2007년{\c&H00FFFFFF&} 미국 서브프라임 모기지  
+Dialogue: 3,0:11:57.69,0:12:01.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사태로 시장이 흔들릴 때 몰래 하락에 베팅해 무려  
+Dialogue: 3,0:12:01.10,0:12:04.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2조 원{\c&H00FFFFFF&} 가까운 평가 이익을 내기도 했습니다.  
+Dialogue: 3,0:12:04.26,0:12:07.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자신이 시장을 지배하는 신이라도 된 줄 알았던  
+Dialogue: 3,0:12:07.33,0:12:08.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 서른한 살 청년은,  
+Dialogue: 3,0:12:08.56,0:12:13.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2008년{\c&H00FFFFFF&} 1월 초 도저히 믿기 힘든 규모의 판돈을 테이블 위에 올립니다.  
+Dialogue: 3,0:12:13.60,0:12:16.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 은행 몰래 유럽 주가지수 상승에 걸어버린  
+Dialogue: 3,0:12:16.90,0:12:19.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 총 베팅 금액은 무려 500억 유로!  
+Dialogue: 3,0:12:19.55,0:12:23.00,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈으로 약 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}이었습니다.  
+Dialogue: 3,0:12:23.00,0:12:26.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 {\c&H0000DFFF&}소시에테 제네랄{\c&H00FFFFFF&} 은행 전체의 시가총액보다도  
+Dialogue: 3,0:12:26.51,0:12:29.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 훨씬 더 큰 돈을 말단 대리급 직원 혼자서  
+Dialogue: 3,0:12:29.61,0:12:31.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 굴리고 있었던 것입니다!  
+Dialogue: 3,0:12:31.37,0:12:33.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 {\c&H0000DFFF&}2008년{\c&H00FFFFFF&} 1월 중순,  
+Dialogue: 3,0:12:33.43,0:12:38.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 글로벌 금융위기의 먹구름과 함께 유럽 증시가 급락하자 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}짜리  
+Dialogue: 3,0:12:38.18,0:12:44.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 유령 성채가 무너져 내렸고, 마침내 가짜 거래 상대방 확인 과정에서 꼬리가 밟혔습니다.  
+Dialogue: 3,0:12:44.36,0:12:46.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2008년{\c&H00FFFFFF&} 1월 {\c&H0000DFFF&}19일{\c&H00FFFFFF&} 주말,  
+Dialogue: 3,0:12:46.76,0:12:51.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 진상을 파악한 은행 경영진은 경악을 금치 못했습니다.  
+Dialogue: 3,0:12:51.12,0:12:53.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시장에 이 사실이 알려지면  
+Dialogue: 3,0:12:53.40,0:12:55.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행이 즉각 파산할 상황!  
+Dialogue: 3,0:12:55.68,0:12:59.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결국 은행은 월요일부터 수요일까지 단 사흘 동안  
+Dialogue: 3,0:12:59.11,0:13:02.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 케르비엘이 몰래 쌓아둔 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}어치 포지션을 눈물을  
+Dialogue: 3,0:13:02.93,0:13:05.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 머금고 시장에 전량 투매해 정리했습니다.  
+Dialogue: 3,0:13:05.83,0:13:10.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 단 {\c&H0000DFFF&}3일{\c&H00FFFFFF&} 동안 확정된 최종 손실 금액만 무려 49억 유로,  
+Dialogue: 3,0:13:10.15,0:13:14.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한화 약 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&}에서 환율 최고점 기준 {\c&H0000DFFF&}9조 원{\c&H00FFFFFF&}에 달하는 인류  
+Dialogue: 3,0:13:14.46,0:13:18.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 역사상 개인 최대 금융 손실 기네스 기록이었습니다!  
+Dialogue: 3,0:13:18.02,0:13:21.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 이 사건에는 {\c&H0000DFFF&}베어링스 은행{\c&H00FFFFFF&}보다 더 소름  
+Dialogue: 3,0:13:21.57,0:13:24.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 끼치는 법정 대반전이 기다리고 있었습니다.  
+Dialogue: 3,0:13:24.84,0:13:30.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 처음 재판에서 프랑스 법원은 케르비엘에게 징역형과 함께 "은행이 입은 손실  
+Dialogue: 3,0:13:30.12,0:13:31.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 49억 유로,  
+Dialogue: 3,0:13:31.02,0:13:40.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&}을 네가 평생 다 갚아라!"라는 사상 초유의 배상 판결을 내려 그를 '세계에서 가장 빚이 많은 사나이'로 만들었습니다.  
+Dialogue: 3,0:13:40.30,0:13:44.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 케르비엘은 법정에서 폭탄선언을 던졌습니다.  
+Dialogue: 3,0:13:44.68,0:13:48.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내 직속 상사들과 은행은 내가 규정 한도를 넘겨 수십조  
+Dialogue: 3,0:13:48.44,0:13:51.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원을 굴리고 있다는 사실을 진작에 알고 있었다!  
+Dialogue: 3,0:13:51.70,0:13:55.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내가 돈을 벌어올 때는 모른 척 눈감아주며 보너스  
+Dialogue: 3,0:13:55.18,0:13:56.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 잔치를 벌이다가,  
+Dialogue: 3,0:13:56.34,0:14:02.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 손실이 터지자 나 혼자 해커이자 미치광이 사기꾼으로 몰아 꼬리 자르기를 한 것이다!  
+Dialogue: 3,0:14:02.29,0:14:06.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실제로 수사가 진행되면서 거래소 측이 여러 차례 {\c&H0000DFFF&}소시에테 제네랄{\c&H00FFFFFF&}  
+Dialogue: 3,0:14:06.62,0:14:10.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행에 이상 거래 경고 메일을 보냈음에도 은행 내부에서 무려  
+Dialogue: 3,0:14:10.70,0:14:14.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}74번{\c&H00FFFFFF&}의 적신호를 대충 넘겼다는 사실이 드러났습니다.  
+Dialogue: 3,0:14:14.36,0:14:19.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결국 {\c&H0000DFFF&}2014년{\c&H00FFFFFF&} 프랑스 대법원은 "은행의 내부 통제 시스템 자체가 구멍 투성이였는데  
+Dialogue: 3,0:14:19.99,0:14:25.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 모든 책임을 직원 한 명에게 떠넘길 수 없다"며 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&} 배상 판결을 파기해  
+Dialogue: 3,0:14:25.14,0:14:29.07,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 버렸고, 배상금은 고작 100만 유로 수준으로 깎였습니다!  
+Dialogue: 3,0:14:29.07,0:14:34.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 한때 프랑스 노동법원은 은행이 그의 비리를 묵인해 놓고 뒤늦게 해고한  
+Dialogue: 3,0:14:34.18,0:14:39.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 것은 절차상 '부당해고'라며 오히려 은행이 케르비엘에게 위로금을 주라는 황당한  
+Dialogue: 3,0:14:39.42,0:14:43.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 판결까지 내렸다가 항소심에서 뒤집히는 촌극을 빚기도 했습니다.  
+Dialogue: 3,0:14:43.56,0:14:47.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}233년{\c&H00FFFFFF&} 왕실 은행을 {\c&H0000DFFF&}1,700원{\c&H00FFFFFF&}짜리 휴지 조각으로 만든 스물여덟  
+Dialogue: 3,0:14:47.96,0:14:48.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 살의 {\c&H0000DFFF&}닉 리슨{\c&H00FFFFFF&},  
+Dialogue: 3,0:14:48.93,0:14:55.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 혼자 {\c&H0000DFFF&}70조 원{\c&H00FFFFFF&}을 주무르다 {\c&H0000DFFF&}3일{\c&H00FFFFFF&} 만에 {\c&H0000DFFF&}9조 원{\c&H00FFFFFF&}을 증발시킨 서른한 살의 {\c&H0000DFFF&}제롬 케르비엘{\c&H00FFFFFF&}.  
+Dialogue: 3,0:14:55.15,0:14:58.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 두 사건 사이에는 {\c&H0000DFFF&}13년{\c&H00FFFFFF&}의 세월과 최첨단 컴퓨터  
+Dialogue: 3,0:14:58.63,0:15:01.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 보안 시스템이 가로막고 있었지만,  
+Dialogue: 3,0:15:01.04,0:15:04.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 파멸의 공식은 소름 돋을 만큼 똑같았습니다.  
+Dialogue: 3,0:15:04.24,0:15:07.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 '돈만 벌어오면 과정은 묻지 않는 경영진의  
+Dialogue: 3,0:15:07.56,0:15:08.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 탐욕'과,  
+Dialogue: 3,0:15:08.20,0:15:13.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '이번 한 판만 이기면 모든 걸 되돌릴 수 있다는 인간의 도박 심리'였습니다.  
+Dialogue: 3,0:15:13.69,0:15:17.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 과연 이 천문학적인 재앙의 진짜 주범은 선을 넘은  
+Dialogue: 3,0:15:17.15,0:15:18.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 말단 직원이었을까요,  
+Dialogue: 3,0:15:18.56,0:15:23.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아니면 황금 알에 눈이 멀어 괴물을 키워준 회사의 높으신 분들이었을까요?  
+Dialogue: 3,0:15:23.70,0:15:26.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여러분의 생각은 어떠신지 댓글로  
+Dialogue: 3,0:15:26.53,0:15:29.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자유롭게 남겨주시기 바랍니다.  
+Dialogue: 3,0:15:29.20,0:15:32.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세상의 돈과 기업 뒤에 숨겨진 충격적인 기록을  
+Dialogue: 3,0:15:32.46,0:15:34.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 파헤치는 '머니 아카이브',  
+Dialogue: 3,0:15:34.42,0:15:38.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다음 시간에는 더욱 소름 돋는 실화로 찾아오겠습니다.  
