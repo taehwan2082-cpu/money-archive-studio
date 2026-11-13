@@ -1,0 +1,311 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DocSubOneLine,Malgun Gothic,56,&H00FFFFFF,&H0000FFFF,&H64000000,&H64000000,-1,0,0,0,100,100,1,0,3,15,0,2,50,50,46,1
+Style: TopLeftPill,Malgun Gothic,33,&H00FFFFFF,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,10,0,7,42,42,32,1
+Style: TopRightBrand,Malgun Gothic,34,&H0000D4FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,2,9,45,45,32,1
+Style: LiveTelemetryHUD,Malgun Gothic,30,&H0000DFFF,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,9,0,9,45,45,86,1
+Style: SpecCard,Malgun Gothic,32,&H00F0F0F0,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,10,0,1,45,45,134,1
+Style: GiantRedSlam,Malgun Gothic,138,&H00221CF0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,12,6,5,40,40,40,1
+Style: GiantSubLabel,Malgun Gothic,46,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:10:28.05,TopRightBrand,,0,0,0,,머니 아카이브
+Dialogue: 2,0:00:00.00,0:01:40.49,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 1 /{\c&H00FFFFFF&} 아시아 개츠비와 나랏돈 6조의 비밀  
+Dialogue: 2,0:01:40.49,0:03:33.54,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 2 /{\c&H00FFFFFF&} 와튼스쿨 가짜 왕자 작전과 1MDB 탄생  
+Dialogue: 2,0:03:33.54,0:05:51.71,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 3 /{\c&H00FFFFFF&} 유령 계좌 '굿 스타'와 골드만삭스의 탐욕  
+Dialogue: 2,0:05:51.71,0:07:44.76,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 4 /{\c&H00FFFFFF&} 울프 오브 월스트리트 · 광기의 6조 쇼핑  
+Dialogue: 2,0:07:44.76,0:09:25.25,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 5 /{\c&H00FFFFFF&} 22만 건 폭로 · 버킨백 567개와 6조 벌금  
+Dialogue: 2,0:09:25.25,0:10:28.05,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 6 /{\c&H00FFFFFF&} 총리는 감옥행, 증발한 주범 조 로우  
+Dialogue: 2,0:00:00.00,0:00:06.20,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 나랏돈 3,300억 원으로 구입한 91m 초호화 요트 '에쿼니미티'  
+Dialogue: 2,0:00:15.33,0:00:21.53,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 횡령한 나랏돈으로 할리우드 영화 제작 및 라스베이거스 파티  
+Dialogue: 2,0:00:54.81,0:01:01.01,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 말레이시아 국부펀드 1MDB 횡령 규모 : $4.5B (약 6조 원)  
+Dialogue: 4,0:00:54.81,0:01:07.45,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}나랏돈 -6조 원 증발!
+Dialogue: 4,0:00:54.81,0:01:07.45,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}인류 역사상 최대 국부펀드 강탈 스캔들
+Dialogue: 2,0:01:07.45,0:01:13.65,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 미국 법무부 철퇴 : 골드만삭스 약 6조 원대 사상 최대 벌금 합의  
+Dialogue: 2,0:01:45.16,0:01:51.36,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 와튼스쿨 인맥 작전 : 빌린 요트로 중동 왕족·총리 가문 포섭  
+Dialogue: 2,0:02:50.75,0:02:56.95,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2009년 말레이시아 총리 직속 국부펀드 '1MDB' 설립  
+Dialogue: 2,0:03:50.63,0:03:56.83,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 스위스 유령 계좌 'Good Star'로 첫날 9,000억 원 불법 이체  
+Dialogue: 2,0:04:47.24,0:04:53.44,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 골드만삭스 8.5조 채권 발행 대행 · 수수료 약 7,800억 원 수취  
+Dialogue: 2,0:07:06.33,0:07:12.53,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 미란다 커 100억 다이아몬드 & 투명 크리스털 피아노 선물  
+Dialogue: 2,0:07:25.64,0:07:31.84,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2015년 내부 고발 이메일 22만 건 유출로 전모 폭로  
+Dialogue: 2,0:09:20.50,0:09:26.70,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 인터폴 적색수배 주범 조 로우 : 현재까지 미검거 행방불명  
+Dialogue: 2,0:03:20.98,0:03:25.54,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-9,125억 원 █░░░░░░░░░  
+Dialogue: 2,0:03:25.54,0:03:30.11,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-9,353억 원 █░░░░░░░░░  
+Dialogue: 2,0:03:30.11,0:03:34.68,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-9,649억 원 █░░░░░░░░░  
+Dialogue: 2,0:03:34.68,0:03:39.25,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.00조 원 █░░░░░░░░░  
+Dialogue: 2,0:03:39.25,0:03:43.81,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.04조 원 █░░░░░░░░░  
+Dialogue: 2,0:03:43.81,0:03:48.38,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.08조 원 █░░░░░░░░░  
+Dialogue: 2,0:03:48.38,0:03:52.95,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.13조 원 █░░░░░░░░░  
+Dialogue: 2,0:03:52.95,0:03:57.52,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.18조 원 █░░░░░░░░░  
+Dialogue: 2,0:03:57.52,0:04:02.09,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.24조 원 █░░░░░░░░░  
+Dialogue: 2,0:04:02.09,0:04:06.65,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.30조 원 █░░░░░░░░░  
+Dialogue: 2,0:04:06.65,0:04:11.22,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.36조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:11.22,0:04:15.79,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.42조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:15.79,0:04:20.36,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.49조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:20.36,0:04:24.92,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.55조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:24.92,0:04:29.49,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.63조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:29.49,0:04:34.06,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.70조 원 ██░░░░░░░░  
+Dialogue: 2,0:04:34.06,0:04:38.63,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.78조 원 ███░░░░░░░  
+Dialogue: 2,0:04:38.63,0:04:43.19,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.85조 원 ███░░░░░░░  
+Dialogue: 2,0:04:43.19,0:04:47.76,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-1.94조 원 ███░░░░░░░  
+Dialogue: 2,0:04:47.76,0:04:52.33,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.02조 원 ███░░░░░░░  
+Dialogue: 2,0:04:52.33,0:04:56.90,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.10조 원 ███░░░░░░░  
+Dialogue: 2,0:04:56.90,0:05:01.46,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.19조 원 ████░░░░░░  
+Dialogue: 2,0:05:01.46,0:05:06.03,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.28조 원 ████░░░░░░  
+Dialogue: 2,0:05:06.03,0:05:10.60,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.37조 원 ████░░░░░░  
+Dialogue: 2,0:05:10.60,0:05:15.17,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.46조 원 ████░░░░░░  
+Dialogue: 2,0:05:15.17,0:05:19.74,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.56조 원 ████░░░░░░  
+Dialogue: 2,0:05:19.74,0:05:24.30,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.65조 원 ████░░░░░░  
+Dialogue: 2,0:05:24.30,0:05:28.87,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.75조 원 █████░░░░░  
+Dialogue: 2,0:05:28.87,0:05:33.44,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.85조 원 █████░░░░░  
+Dialogue: 2,0:05:33.44,0:05:38.01,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-2.95조 원 █████░░░░░  
+Dialogue: 2,0:05:38.01,0:05:42.57,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.06조 원 █████░░░░░  
+Dialogue: 2,0:05:42.57,0:05:47.14,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.16조 원 █████░░░░░  
+Dialogue: 2,0:05:47.14,0:05:51.71,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.27조 원 ██████░░░░  
+Dialogue: 2,0:05:51.71,0:05:56.28,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.38조 원 ██████░░░░  
+Dialogue: 2,0:05:56.28,0:06:00.84,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.49조 원 ██████░░░░  
+Dialogue: 2,0:06:00.84,0:06:05.41,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.60조 원 ██████░░░░  
+Dialogue: 2,0:06:05.41,0:06:09.98,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.71조 원 ██████░░░░  
+Dialogue: 2,0:06:09.98,0:06:14.55,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.83조 원 ██████░░░░  
+Dialogue: 2,0:06:14.55,0:06:19.12,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-3.95조 원 ███████░░░  
+Dialogue: 2,0:06:19.12,0:06:23.68,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.06조 원 ███████░░░  
+Dialogue: 2,0:06:23.68,0:06:28.25,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.18조 원 ███████░░░  
+Dialogue: 2,0:06:28.25,0:06:32.82,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.30조 원 ███████░░░  
+Dialogue: 2,0:06:32.82,0:06:37.39,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.43조 원 ███████░░░  
+Dialogue: 2,0:06:37.39,0:06:41.95,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.55조 원 ████████░░  
+Dialogue: 2,0:06:41.95,0:06:46.52,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.67조 원 ████████░░  
+Dialogue: 2,0:06:46.52,0:06:51.09,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.80조 원 ████████░░  
+Dialogue: 2,0:06:51.09,0:06:55.66,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-4.93조 원 ████████░░  
+Dialogue: 2,0:06:55.66,0:07:00.22,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.06조 원 ████████░░  
+Dialogue: 2,0:07:00.22,0:07:04.79,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.19조 원 ████████░░  
+Dialogue: 2,0:07:04.79,0:07:09.36,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.32조 원 █████████░  
+Dialogue: 2,0:07:09.36,0:07:13.93,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.45조 원 █████████░  
+Dialogue: 2,0:07:13.93,0:07:18.49,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.59조 원 █████████░  
+Dialogue: 2,0:07:18.49,0:07:23.06,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.72조 원 █████████░  
+Dialogue: 2,0:07:23.06,0:07:27.63,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-5.86조 원 █████████░  
+Dialogue: 2,0:07:27.63,0:07:32.20,LiveTelemetryHUD,,0,0,0,,  💸 {\c&H00FFFFFF&}1MDB 국부펀드 유출액 : {\c&H002820F0&}-6.00조 원 ██████████  
+Dialogue: 3,0:00:00.10,0:00:03.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}3,000억 원{\c&H00FFFFFF&}짜리 초호화 요트 갑판 위에 할리우드  
+Dialogue: 3,0:00:03.48,0:00:06.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 톱스타 레오나르도 디카프리오와 세계적인 슈퍼모델  
+Dialogue: 3,0:00:06.62,0:00:09.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}미란다 커{\c&H00FFFFFF&}가 샴페인 잔을 들고 서 있습니다.  
+Dialogue: 3,0:00:09.47,0:00:12.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 파티를 주최한 인물은 스물일곱 살의 통통하고  
+Dialogue: 3,0:00:12.74,0:00:15.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 평범한 인상을 가진 아시아계 청년.  
+Dialogue: 3,0:00:15.33,0:00:18.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그는 하룻밤 카지노 팁으로 수억 원을 뿌리고,  
+Dialogue: 3,0:00:18.33,0:00:21.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}미란다 커{\c&H00FFFFFF&}에게는 {\c&H0000DFFF&}100억 원{\c&H00FFFFFF&}어치 핑크 다이아몬드와  
+Dialogue: 3,0:00:21.57,0:00:24.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세계에서 단 하나뿐인 투명 크리스털 그랜드 피아노를  
+Dialogue: 3,0:00:24.93,0:00:25.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 선물했으며,  
+Dialogue: 3,0:00:25.65,0:00:28.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 디카프리오가 주연한 영화 《더 울프 오브  
+Dialogue: 3,0:00:28.76,0:00:32.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월스트리트》 제작비 수백억 원까지 현금으로 대주었습니다.  
+Dialogue: 3,0:00:32.48,0:00:35.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 할리우드와 라스베이거스는 그를 '아시아의  
+Dialogue: 3,0:00:35.46,0:00:38.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 위대한 개츠비'라며 떠받들었습니다.  
+Dialogue: 3,0:00:38.03,0:00:40.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 얼마 뒤 밝혀진 그 돈의 진짜  
+Dialogue: 3,0:00:40.82,0:00:43.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 주인은 청년 자신이 아니었습니다.  
+Dialogue: 3,0:00:43.34,0:00:46.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 흥청망청 뿌려댄 수조 원의 현금은  
+Dialogue: 3,0:00:46.21,0:00:49.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 놀랍게도 동남아시아 국가 말레이시아 국민들의  
+Dialogue: 3,0:00:49.49,0:00:53.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 피땀 어린 세금과 미래 연금으로 만든 국부펀드,  
+Dialogue: 3,0:00:53.04,0:00:54.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 '나랏돈'이었습니다!  
+Dialogue: 3,0:00:54.81,0:00:58.06,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일개 민간인 청년 한 명이 한 나라의 국고를 마치  
+Dialogue: 3,0:00:58.06,0:01:01.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기 개인 ATM 기계처럼 털어 무려 45억 달러,  
+Dialogue: 3,0:01:01.43,0:01:04.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}을 빼돌린 인류 역사상 최대  
+Dialogue: 3,0:01:04.56,0:01:07.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 규모의 국부펀드 강탈 사건이 터진 것입니다.  
+Dialogue: 3,0:01:07.45,0:01:08.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 기가 막힌 사실은,  
+Dialogue: 3,0:01:08.95,0:01:12.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 황당한 국가 털이 사기극의 설계자가 다름 아닌  
+Dialogue: 3,0:01:12.33,0:01:15.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전 세계 금융의 황제 '{\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}'였다는 점이며,  
+Dialogue: 3,0:01:15.70,0:01:19.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 말레이시아 총리는 감옥에 갇히고 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}는  
+Dialogue: 3,0:01:19.08,0:01:21.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사상 최대인 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}대 벌금을 물었지만,  
+Dialogue: 3,0:01:21.83,0:01:24.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 정작 주범인 그 청년은 지금 이 순간에도 감옥  
+Dialogue: 3,0:01:24.96,0:01:29.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 밖 어딘가에서 유유히 사라진 채 잡히지 않고 있다는 사실입니다!  
+Dialogue: 3,0:01:29.33,0:01:32.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도대체 스물일곱 살 청년 '{\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}'는 무슨  
+Dialogue: 3,0:01:32.38,0:01:35.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 마술로 일국의 총리와 월가 최고 은행을 손바닥  
+Dialogue: 3,0:01:35.56,0:01:38.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 위에 올려놓고 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}을 증발시켰을까요?  
+Dialogue: 3,0:01:38.36,0:01:40.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 영화보다 더 영화 같은 '말레이시아  
+Dialogue: 3,0:01:40.75,0:01:43.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1MDB{\c&H00FFFFFF&} 스캔들'의 충격적인 내막을  
+Dialogue: 3,0:01:43.14,0:01:45.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 지금 바로 추적해 보겠습니다.  
+Dialogue: 3,0:01:45.16,0:01:47.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 거대한 사기극의 시작은 뜻밖에도  
+Dialogue: 3,0:01:47.70,0:01:50.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 아이비리그 명문 펜실베이니아  
+Dialogue: 3,0:01:50.10,0:01:52.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대학교 와튼스쿨 기숙사였습니다.  
+Dialogue: 3,0:01:52.37,0:01:55.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 말레이시아의 부유한 집안 출신 유학생이었던  
+Dialogue: 3,0:01:55.44,0:01:58.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}는 일찌감치 돈보다 더 무서운  
+Dialogue: 3,0:01:58.11,0:02:00.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무기가 무엇인지 깨달았습니다.  
+Dialogue: 3,0:02:00.25,0:02:02.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 '초특급 권력자들의  
+Dialogue: 3,0:02:02.35,0:02:04.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 허영심과 인맥'이었습니다.  
+Dialogue: 3,0:02:04.62,0:02:07.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 와튼스쿨에서 그는 중동 아부다비 국부펀드  
+Dialogue: 3,0:02:07.33,0:02:10.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실세 가문 자제들과 말레이시아 차기 총리  
+Dialogue: 3,0:02:10.03,0:02:12.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 유력 후보였던 {\c&H0000DFFF&}나집 라작{\c&H00FFFFFF&}의 의붓아들 리자  
+Dialogue: 3,0:02:12.74,0:02:15.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아지즈를 표적으로 삼아 접근했습니다.  
+Dialogue: 3,0:02:15.20,0:02:18.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}의 수법은 기가 막혔습니다.  
+Dialogue: 3,0:02:18.61,0:02:21.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아직 큰돈이 없던 시절에도 그는 거액의 빚을  
+Dialogue: 3,0:02:21.60,0:02:24.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내어 지중해의 초호화 요트와 전용기를 통째로  
+Dialogue: 3,0:02:24.58,0:02:25.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 빌린 뒤,  
+Dialogue: 3,0:02:25.20,0:02:28.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 중동 왕족들에게는 자신을 말레이시아 최고 권력층의  
+Dialogue: 3,0:02:28.56,0:02:29.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대리인으로 소개하고,  
+Dialogue: 3,0:02:29.93,0:02:36.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 말레이시아 정치인들에게는 자신을 중동 오일머니 수십조 원을 움직이는 해결사로 둔갑시켰습니다!  
+Dialogue: 3,0:02:36.27,0:02:39.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 양쪽 모두 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}의 화려한 파티 연출에 완벽하게  
+Dialogue: 3,0:02:39.58,0:02:40.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 속아 넘어갔고,  
+Dialogue: 3,0:02:40.57,0:02:44.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 특히 사치품과 명품 보석에 사족을 못 쓰던 말레이시아  
+Dialogue: 3,0:02:44.12,0:02:47.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 부총리 부인 '로스마 만소르'의 환심을 사면서  
+Dialogue: 3,0:02:47.19,0:02:50.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그는 말레이시아 권력의 심장부로 무혈입성하게 됩니다.  
+Dialogue: 3,0:02:50.75,0:02:52.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 {\c&H0000DFFF&}2009년{\c&H00FFFFFF&},  
+Dialogue: 3,0:02:52.08,0:02:55.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 마침내 {\c&H0000DFFF&}나집 라작{\c&H00FFFFFF&}이 말레이시아 제6대 총리  
+Dialogue: 3,0:02:55.14,0:02:59.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자리에 오르자 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}는 역사상 가장 대담한 덫을 설계합니다.  
+Dialogue: 3,0:02:59.66,0:03:00.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 총리 각하,  
+Dialogue: 3,0:03:00.54,0:03:03.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 중동 오일머니를 유치해 말레이시아  
+Dialogue: 3,0:03:03.20,0:03:07.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경제를 발전시킬 국가 직속 국부펀드를 하나 만듭시다!  
+Dialogue: 3,0:03:07.49,0:03:10.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 모든 투자 결정은 내각이나 의회 간섭  
+Dialogue: 3,0:03:10.15,0:03:12.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 없이 오직 총리 각하의 서명 하나로만  
+Dialogue: 3,0:03:12.80,0:03:14.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 움직이게 만드는 겁니다!  
+Dialogue: 3,0:03:14.53,0:03:17.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이렇게 탄생한 기관이 바로 '{\c&H0000DFFF&}1MDB{\c&H00FFFFFF&}',  
+Dialogue: 3,0:03:17.72,0:03:20.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원 말레이시아 개발 유한회사였습니다.  
+Dialogue: 3,0:03:20.69,0:03:23.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 겉으로는 국민을 위한 경제 개발 펀드였지만,  
+Dialogue: 3,0:03:23.68,0:03:26.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실상은 아무런 공식 직함도 없는 스물일곱  
+Dialogue: 3,0:03:26.43,0:03:29.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 살 민간인 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}가 뒤에서 모든 계좌 이체를  
+Dialogue: 3,0:03:29.54,0:03:31.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 조종하는 비밀 금고였습니다.  
+Dialogue: 3,0:03:31.36,0:03:34.22,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 첫 번째 국고 강탈 작전은 {\c&H0000DFFF&}2009년{\c&H00FFFFFF&}  
+Dialogue: 3,0:03:34.22,0:03:34.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 9월,  
+Dialogue: 3,0:03:34.65,0:03:39.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 어처구니없을 만큼 단순한 '이름 바꿔치기' 수법으로 벌어졌습니다.  
+Dialogue: 3,0:03:39.80,0:03:42.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1MDB{\c&H00FFFFFF&}는 중동 사우디아라비아 측 석유  
+Dialogue: 3,0:03:42.51,0:03:45.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 탐사 기업인 '페트로사우디'와 합작 회사를  
+Dialogue: 3,0:03:45.47,0:03:47.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세운다며 나랏돈 10억 달러,  
+Dialogue: 3,0:03:47.54,0:03:50.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 1조 {\c&H0000DFFF&}3천억 원{\c&H00FFFFFF&}을 송금하기로 결정합니다.  
+Dialogue: 3,0:03:50.63,0:03:52.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 실제 송금 당일,  
+Dialogue: 3,0:03:52.23,0:03:54.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}는 이 돈 중 무려 7억 달러,  
+Dialogue: 3,0:03:54.82,0:03:58.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}9천억 원{\c&H00FFFFFF&}을 합작 회사 계좌가 아닌 스위스  
+Dialogue: 3,0:03:58.27,0:04:03.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 취리히에 급조된 '{\c&H0000DFFF&}굿 스타{\c&H00FFFFFF&}'라는 유령 페이퍼컴퍼니 계좌로 빼돌려 버렸습니다!  
+Dialogue: 3,0:04:03.44,0:04:06.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행 직원들이 "왜 계약서와 다른 {\c&H0000DFFF&}굿 스타{\c&H00FFFFFF&}라는  
+Dialogue: 3,0:04:06.76,0:04:09.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 계좌로 {\c&H0000DFFF&}9천억 원{\c&H00FFFFFF&}을 보내느냐"고 묻자,  
+Dialogue: 3,0:04:09.56,0:04:11.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&} 일당은 "아,  
+Dialogue: 3,0:04:11.15,0:04:15.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 회사는 사우디 국영 파트너의 {\c&H0000DFFF&}100%{\c&H00FFFFFF&} 자회사입니다"라는  
+Dialogue: 3,0:04:15.41,0:04:18.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가짜 공문 한 장을 팩스로 넣어 통과시켰습니다.  
+Dialogue: 3,0:04:18.86,0:04:21.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 나중에 드러난 '{\c&H0000DFFF&}굿 스타{\c&H00FFFFFF&}' 계좌의  
+Dialogue: 3,0:04:21.65,0:04:24.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실제 {\c&H0000DFFF&}100%{\c&H00FFFFFF&} 단독 주인은 사우디 왕실이  
+Dialogue: 3,0:04:24.43,0:04:26.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아니라 바로 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&} 본인이었습니다!  
+Dialogue: 3,0:04:26.97,0:04:29.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 한 번의 송금 버튼 클릭으로 한 나라의  
+Dialogue: 3,0:04:29.83,0:04:32.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 국고 {\c&H0000DFFF&}9천억 원{\c&H00FFFFFF&}이 스물여덟 살 청년의 개인  
+Dialogue: 3,0:04:32.68,0:04:35.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 통장으로 빨려 들어간 순간이었습니다.  
+Dialogue: 3,0:04:35.17,0:04:37.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한 번 피 맛을 본 탐욕의  
+Dialogue: 3,0:04:37.25,0:04:39.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 괴물은 멈추지 않았습니다.  
+Dialogue: 3,0:04:39.32,0:04:41.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 큰 판돈을 한 방에 긁어모으기 위해  
+Dialogue: 3,0:04:41.96,0:04:44.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}가 끌어들인 파트너가 바로 세계  
+Dialogue: 3,0:04:44.60,0:04:47.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 최고의 투자은행 '{\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}'였습니다!  
+Dialogue: 3,0:04:47.24,0:04:48.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2012년{\c&H00FFFFFF&}과 {\c&H0000DFFF&}2013년{\c&H00FFFFFF&},  
+Dialogue: 3,0:04:48.97,0:04:52.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}의 동남아 책임자 팀 라이스너는 조  
+Dialogue: 3,0:04:52.16,0:04:55.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 로우와 손잡고 말레이시아 정부가 지급을 보증하는  
+Dialogue: 3,0:04:55.62,0:04:56.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1MDB{\c&H00FFFFFF&} 채권,  
+Dialogue: 3,0:04:56.69,0:04:59.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 국가 빚문서 무려 65억 달러어치,  
+Dialogue: 3,0:04:59.48,0:05:06.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 8조 {\c&H0000DFFF&}5천억 원{\c&H00FFFFFF&}을 세 차례에 걸쳐 찍어내 전 세계 투자자들에게 팔아치웠습니다.  
+Dialogue: 3,0:05:06.13,0:05:08.77,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}가 이 채권을 대신  
+Dialogue: 3,0:05:08.77,0:05:11.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 팔아주고 챙겨간 수수료만 무려 6억  
+Dialogue: 3,0:05:11.55,0:05:14.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 달러, 한화 약 {\c&H0000DFFF&}7,800억 원{\c&H00FFFFFF&}!  
+Dialogue: 3,0:05:14.19,0:05:17.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 통상적인 국채 발행 수수료의 열 배에서 스무  
+Dialogue: 3,0:05:17.48,0:05:20.22,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 배에 달하는 비상식적인 폭리였습니다.  
+Dialogue: 3,0:05:20.22,0:05:23.07,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당연히 내부에서도 "아무런 사업 실체도 없는  
+Dialogue: 3,0:05:23.07,0:05:25.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 펀드가 왜 수조 원을 급하게 빌리며,  
+Dialogue: 3,0:05:25.45,0:05:28.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 왜 우리 은행에 이렇게 말도 안 되는 수수료를  
+Dialogue: 3,0:05:28.42,0:05:30.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 퍼주느냐"는 의문이 제기되었습니다.  
+Dialogue: 3,0:05:30.67,0:05:33.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 {\c&H0000DFFF&}7,800억 원{\c&H00FFFFFF&}이라는 달콤한 수수료  
+Dialogue: 3,0:05:33.75,0:05:37.09,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 보너스 앞에 월가 최고 엘리트들의 양심과 준법  
+Dialogue: 3,0:05:37.09,0:05:39.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 감시 시스템은 일제히 눈을 감았습니다.  
+Dialogue: 3,0:05:39.90,0:05:42.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결과는 처참했습니다.  
+Dialogue: 3,0:05:42.46,0:05:45.59,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}가 찍어준 8조 {\c&H0000DFFF&}5천억 원{\c&H00FFFFFF&}의 채권  
+Dialogue: 3,0:05:45.59,0:05:48.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자금 중 절반이 넘는 약 45억 달러,  
+Dialogue: 3,0:05:48.44,0:05:52.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}이 바하마와 영국령 버진아일랜드,  
+Dialogue: 3,0:05:52.11,0:05:52.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스위스,  
+Dialogue: 3,0:05:52.66,0:05:55.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 싱가포르의 수십 개 유령 회사를 거미줄처럼  
+Dialogue: 3,0:05:55.79,0:06:00.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 거쳐 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}와 부패 관료들의 주머니로 공중분해 되었습니다!  
+Dialogue: 3,0:06:00.27,0:06:03.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그렇게 말레이시아 국민들의 미래를 담보로  
+Dialogue: 3,0:06:03.14,0:06:06.01,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 훔친 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}으로 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}는 인류 역사상  
+Dialogue: 3,0:06:06.01,0:06:08.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가장 광기 어린 쇼핑을 시작합니다.  
+Dialogue: 3,0:06:08.48,0:06:11.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 2,500만 달러로 호화 전용기를 사고,  
+Dialogue: 3,0:06:11.44,0:06:12.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 2억 5천만 달러,  
+Dialogue: 3,0:06:12.78,0:06:15.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 {\c&H0000DFFF&}3,300억 원{\c&H00FFFFFF&}을 현금으로 주고 헬기  
+Dialogue: 3,0:06:15.73,0:06:16.94,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 착륙장과 영화관,  
+Dialogue: 3,0:06:16.94,0:06:22.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수영장까지 갖춘 길이 {\c&H0000DFFF&}91미터{\c&H00FFFFFF&}짜리 초호화 메가요트 '{\c&H0000DFFF&}에쿼니미티{\c&H00FFFFFF&}'호를 사들였습니다.  
+Dialogue: 3,0:06:22.99,0:06:24.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 모네와 반 고흐,  
+Dialogue: 3,0:06:24.11,0:06:24.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 피카소,  
+Dialogue: 3,0:06:24.61,0:06:27.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바스키아의 수백억 원짜리 명화들을 사 모았고,  
+Dialogue: 3,0:06:27.73,0:06:30.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 나집 총리의 의붓아들이 세운 할리우드 영화사  
+Dialogue: 3,0:06:30.73,0:06:33.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '레드 그래닛 픽처스'에 나랏돈 1억 달러  
+Dialogue: 3,0:06:33.60,0:06:40.09,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이상을 꽂아주며 레오나르도 디카프리오 주연의 영화 《더 {\c&H0000DFFF&}울프 오브 월스트리트{\c&H00FFFFFF&}》를 제작했습니다!  
+Dialogue: 3,0:06:40.09,0:06:42.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가의 사기꾼을 다룬 할리우드 영화가,  
+Dialogue: 3,0:06:42.83,0:06:46.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실제로는 진짜 사기꾼이 훔친 나랏돈으로 만들어졌다는  
+Dialogue: 3,0:06:46.49,0:06:49.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기막힌 블랙 코미디가 현실에서 벌어진 것입니다!  
+Dialogue: 3,0:06:49.89,0:06:52.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여기서 끝이 아니었습니다.  
+Dialogue: 3,0:06:52.80,0:06:55.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 패리스 힐튼에게 카지노 테이블에 앉아 놀아주는  
+Dialogue: 3,0:06:55.88,0:06:58.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대가로 하룻밤에 수억 원을 지급하고,  
+Dialogue: 3,0:06:58.34,0:07:01.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 톱모델 {\c&H0000DFFF&}미란다 커{\c&H00FFFFFF&}와 교제하면서 {\c&H0000DFFF&}1년{\c&H00FFFFFF&} 동안  
+Dialogue: 3,0:07:01.05,0:07:03.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 선물한 다이아몬드 보석 값만 무려 810만  
+Dialogue: 3,0:07:03.87,0:07:06.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 달러, 약 {\c&H0000DFFF&}100억 원{\c&H00FFFFFF&}이 넘었습니다.  
+Dialogue: 3,0:07:06.33,0:07:09.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 뉴욕 최고급 펜트하우스 거실에 들어가지  
+Dialogue: 3,0:07:09.38,0:07:12.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 않는 투명 아크릴 그랜드 피아노를 선물하기  
+Dialogue: 3,0:07:12.18,0:07:14.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 위해 건물 벽을 뜯고 크레인으로 매달아  
+Dialogue: 3,0:07:14.74,0:07:16.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 넣는 기행까지 벌였습니다.  
+Dialogue: 3,0:07:16.45,0:07:19.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 정작 그 시각 말레이시아 현지에서는 국부펀드의  
+Dialogue: 3,0:07:19.68,0:07:23.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이자조차 갚지 못해 국가 재정이 휘청거리고 국민들이  
+Dialogue: 3,0:07:23.31,0:07:25.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 물가 폭등에 신음하고 있었습니다.  
+Dialogue: 3,0:07:25.64,0:07:28.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 완전범죄로 묻힐 것 같던 이 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}의 행방은  
+Dialogue: 3,0:07:28.89,0:07:29.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2015년{\c&H00FFFFFF&},  
+Dialogue: 3,0:07:29.67,0:07:32.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 양심의 가책을 느낀 페트로사우디 전직 임원이  
+Dialogue: 3,0:07:32.79,0:07:35.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무려 22만 건에 달하는 내부 이메일과 비밀  
+Dialogue: 3,0:07:35.91,0:07:39.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 송금 내역이 담긴 하드디스크를 영국 탐사보도  
+Dialogue: 3,0:07:39.03,0:07:44.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기자 클레어 루카스 브라운과 월스트리트저널에 폭로하면서 세상에 드러났습니다.  
+Dialogue: 3,0:07:44.49,0:07:47.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 특히 {\c&H0000DFFF&}나집 라작{\c&H00FFFFFF&} 총리 본인의 개인 은행 계좌로  
+Dialogue: 3,0:07:47.78,0:07:49.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무려 6억 8,100만 달러,  
+Dialogue: 3,0:07:49.89,0:07:53.85,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 {\c&H0000DFFF&}9천억 원{\c&H00FFFFFF&}이 직접 입금된 내역까지 찍혀 있었습니다!  
+Dialogue: 3,0:07:53.85,0:07:57.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 처음에 나집 총리는 언론을 탄압하고 수사하던 검찰총장까지  
+Dialogue: 3,0:07:57.81,0:08:01.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 해임하며 "그 돈은 사우디 왕족이 조건 없이 준  
+Dialogue: 3,0:08:01.13,0:08:03.94,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 순수한 정치 기부금"이라고 발악했습니다.  
+Dialogue: 3,0:08:03.94,0:08:07.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 분노한 말레이시아 국민들은 {\c&H0000DFFF&}2018년{\c&H00FFFFFF&}  
+Dialogue: 3,0:08:07.36,0:08:10.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 총선에서 {\c&H0000DFFF&}61년{\c&H00FFFFFF&} 만에 정권을 교체하며  
+Dialogue: 3,0:08:10.21,0:08:12.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심판의 철퇴를 내렸습니다!  
+Dialogue: 3,0:08:12.21,0:08:14.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 선거 패배 직후 경찰이 나집 전 총리  
+Dialogue: 3,0:08:14.93,0:08:17.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 부부의 고급 저택과 아파트를 급습했을  
+Dialogue: 3,0:08:17.66,0:08:20.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 때, 수사관들조차 눈을 의심했습니다.  
+Dialogue: 3,0:08:20.38,0:08:23.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 현금 다발이 가득 찬 여행 가방 수십 개와  
+Dialogue: 3,0:08:23.45,0:08:26.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다이아몬드 왕관 등 보석 1만 2천 점,  
+Dialogue: 3,0:08:26.38,0:08:29.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 에르메스 버킨백을 포함한 초고가 명품  
+Dialogue: 3,0:08:29.58,0:08:32.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가방만 무려 {\c&H0000DFFF&}567개{\c&H00FFFFFF&}가 트럭 다섯 대 분량으로  
+Dialogue: 3,0:08:32.91,0:08:34.77,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 쏟아져 나왔기 때문입니다!  
+Dialogue: 3,0:08:34.77,0:08:37.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 법무부 역시 '클렙토크라시',  
+Dialogue: 3,0:08:37.23,0:08:40.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 부패 권력 자산 환수 사상 최대 규모의 작전을  
+Dialogue: 3,0:08:40.72,0:08:44.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 개시해 {\c&H0000DFFF&}3,300억 원{\c&H00FFFFFF&}짜리 슈퍼요트와 맨해튼 부동산,  
+Dialogue: 3,0:08:44.47,0:08:45.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 명화들을 압류했고,  
+Dialogue: 3,0:08:45.76,0:08:49.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 디카프리오와 {\c&H0000DFFF&}미란다 커{\c&H00FFFFFF&} 역시 선물 받았던 오스카  
+Dialogue: 3,0:08:49.13,0:08:54.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 트로피와 {\c&H0000DFFF&}100억 원{\c&H00FFFFFF&}대 다이아몬드를 미국 정부에 전부 반납해야 했습니다.  
+Dialogue: 3,0:08:54.30,0:08:57.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사기에 가담했던 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}는 {\c&H0000DFFF&}2020년{\c&H00FFFFFF&} 미국 법무부  
+Dialogue: 3,0:08:57.86,0:09:01.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 및 각국 정부에 역사상 최대 규모인 총 50억 달러  
+Dialogue: 3,0:09:01.43,0:09:01.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이상,  
+Dialogue: 3,0:09:01.81,0:09:05.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}대의 천문학적인 벌금과 합의금을  
+Dialogue: 3,0:09:05.38,0:09:07.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 물어내며 치욕스런 유죄 인정을 했고,  
+Dialogue: 3,0:09:07.92,0:09:14.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 동남아 책임자 팀 라이스너와 말레이시아 나집 전 총리는 결국 차가운 감옥에 수감되었습니다.  
+Dialogue: 3,0:09:14.29,0:09:17.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 이 완벽한 권선징악 드라마에는 단  
+Dialogue: 3,0:09:17.39,0:09:20.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하나의 소름 돋는 빈칸이 남아 있습니다.  
+Dialogue: 3,0:09:20.50,0:09:23.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일국의 총리도 감옥에 가고 세계 1위 투자은행도  
+Dialogue: 3,0:09:23.72,0:09:24.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무릎을 꿇었는데,  
+Dialogue: 3,0:09:24.84,0:09:28.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 정작 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&} 사기극을 기획하고 지휘한 진짜 몸통  
+Dialogue: 3,0:09:28.18,0:09:31.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}'는 인터폴 {\c&H0000DFFF&}적색수배{\c&H00FFFFFF&}가 내려진 지 {\c&H0000DFFF&}10년{\c&H00FFFFFF&}이  
+Dialogue: 3,0:09:31.65,0:09:35.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다 되어가도록 단 하루도 감옥에 갇히지 않았다는 사실입니다!  
+Dialogue: 3,0:09:35.74,0:09:38.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스캔들이 터지기 직전 해외로 빠져나간 그는  
+Dialogue: 3,0:09:38.60,0:09:41.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 키프로스 황금 여권 등 수십 개의 가짜 신분과  
+Dialogue: 3,0:09:41.71,0:09:44.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 천문학적인 은닉 자금을 이용해 마카오와 상하이  
+Dialogue: 3,0:09:44.82,0:09:47.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 등 아시아 최고위 권력층의 비호 아래 호화  
+Dialogue: 3,0:09:47.68,0:09:50.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 별장을 전전하며 유령처럼 살아가고 있는 것으로  
+Dialogue: 3,0:09:50.78,0:09:52.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 추적되고 있습니다.  
+Dialogue: 3,0:09:52.03,0:09:55.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가짜 왕자 행세로 한 나라의 지도자와 월가 최고의  
+Dialogue: 3,0:09:55.36,0:09:58.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 천재들을 장난감처럼 주무르고 나랏돈 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}을  
+Dialogue: 3,0:09:58.45,0:10:01.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 공중분해 시킨 스물일곱 살의 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}.  
+Dialogue: 3,0:10:01.04,0:10:04.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 과연 그는 시대를 타고난 천재 사기꾼이었을까요,  
+Dialogue: 3,0:10:04.52,0:10:07.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아니면 권력자의 부패와 거대 은행의 탐욕이  
+Dialogue: 3,0:10:07.60,0:10:09.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 합작해 만들어낸 괴물이었을까요?  
+Dialogue: 3,0:10:09.88,0:10:12.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 숨겨진 수조 원의 검은돈을 쥔 그는  
+Dialogue: 3,0:10:12.92,0:10:15.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 과연 평생 법의 심판을 피할 수 있을까요?  
+Dialogue: 3,0:10:15.95,0:10:18.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여러분의 생각을 댓글로 자유롭게  
+Dialogue: 3,0:10:18.55,0:10:20.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 남겨주시기 바랍니다.  
+Dialogue: 3,0:10:20.28,0:10:23.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세상의 돈과 권력 뒤에 숨겨진 충격적인  
+Dialogue: 3,0:10:23.50,0:10:26.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기록, '머니 아카이브'였습니다.  

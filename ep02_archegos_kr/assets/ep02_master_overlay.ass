@@ -1,0 +1,375 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DocSubOneLine,Malgun Gothic,56,&H00FFFFFF,&H0000FFFF,&H64000000,&H64000000,-1,0,0,0,100,100,1,0,3,15,0,2,50,50,46,1
+Style: TopLeftPill,Malgun Gothic,33,&H00FFFFFF,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,10,0,7,42,42,32,1
+Style: TopRightBrand,Malgun Gothic,34,&H0000D4FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,2,9,45,45,32,1
+Style: LiveTelemetryHUD,Malgun Gothic,30,&H0000DFFF,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,9,0,9,45,45,86,1
+Style: SpecCard,Malgun Gothic,32,&H00F0F0F0,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,10,0,1,45,45,134,1
+Style: GiantRedSlam,Malgun Gothic,138,&H00221CF0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,12,6,5,40,40,40,1
+Style: GiantSubLabel,Malgun Gothic,46,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:11:30.14,TopRightBrand,,0,0,0,,머니 아카이브
+Dialogue: 2,0:00:00.00,0:01:43.52,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 1 /{\c&H00FFFFFF&} 48시간 28조 증발 미스터리  
+Dialogue: 2,0:01:43.52,0:03:54.65,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 2 /{\c&H00FFFFFF&} 블랙리스트 퇴출과 패밀리 오피스 부활  
+Dialogue: 2,0:03:54.65,0:06:12.68,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 3 /{\c&H00FFFFFF&} 월가 6대 은행을 속인 익명 파생상품 TRS  
+Dialogue: 2,0:06:12.68,0:07:56.20,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 4 /{\c&H00FFFFFF&} 130조 레버리지 폭주와 유상증자 균열  
+Dialogue: 2,0:07:56.20,0:10:00.43,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 5 /{\c&H00FFFFFF&} 목요일 밤의 배신 · 새벽 6시 폭탄 투매  
+Dialogue: 2,0:10:00.43,0:11:30.14,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● ACT 6 /{\c&H00FFFFFF&} 167년 은행의 몰락과 징역 18년 심판  
+Dialogue: 2,0:00:00.00,0:00:02.40,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2021년 3월 뉴욕 · 인류 역사상 최단기간 개인 최대 파산  
+Dialogue: 4,0:00:00.00,0:00:02.50,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}48시간 -28조 원 증발
+Dialogue: 4,0:00:00.00,0:00:02.50,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}인류 금융사 최단기간 개인 자산 소멸 기록
+Dialogue: 2,0:00:25.27,0:00:31.47,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 독실한 신앙인 얼굴 뒤에 숨겨진 130조 원의 승부사  
+Dialogue: 2,0:00:41.41,0:00:47.61,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 167년 스위스 명문 은행 크레디트스위스 결국 UBS에 강제 인수  
+Dialogue: 2,0:01:02.61,0:01:08.81,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2012년 내부자 거래 적발 및 월가 블랙리스트 등재  
+Dialogue: 2,0:01:22.86,0:01:29.06,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 3월 26일 06:00 · 골드만삭스·모건스탠리 개장 전 기습 투매  
+Dialogue: 2,0:02:19.70,0:02:25.45,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 규제 사각지대 '패밀리 오피스' : 보유 지분 공시 의무 면제  
+Dialogue: 2,0:03:37.47,0:03:43.28,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 장외 파생상품 '총수익스왑(TRS)' : 6대 은행 동시 익명 레버리지  
+Dialogue: 2,0:05:24.82,0:05:31.02,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 비아콤CBS 주가 3배 폭등 & 총 포지션 약 130조 원 도달  
+Dialogue: 2,0:06:41.34,0:06:47.54,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2021년 3월 22일 비아콤CBS 30억 달러 유상증자 직격탄  
+Dialogue: 2,0:07:32.87,0:07:36.55,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 3월 25일 밤 6대 투자은행 긴급 회동과 '죄수의 딜레마'  
+Dialogue: 2,0:09:33.49,0:09:39.69,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 뒤통수 맞은 크레디트스위스 단일 손실 : -7조 원 ($5.5B)  
+Dialogue: 4,0:09:33.49,0:09:48.28,GiantRedSlam,,0,0,0,,{\pos(960,465)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}-7,000,000,000,000원
+Dialogue: 4,0:09:33.49,0:09:48.28,GiantSubLabel,,0,0,0,,{\pos(960,625)\fad(200,250)}167년 역사 크레디트스위스를 침몰시킨 결정타
+Dialogue: 2,0:10:11.55,0:10:17.75,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00F0F0F0&} 2024 뉴욕 연방법원 징역 18년형 및 대규모 몰수 선고  
+Dialogue: 2,0:04:01.55,0:04:05.28,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}13.3조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:05.28,0:04:09.00,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}13.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:09.00,0:04:12.73,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}14.7조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:12.73,0:04:16.46,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}15.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:16.46,0:04:20.18,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}16.7조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:20.18,0:04:23.91,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}17.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:23.91,0:04:27.64,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}19.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:27.64,0:04:31.36,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}20.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:31.36,0:04:35.09,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}21.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:35.09,0:04:38.82,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}23.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:38.82,0:04:42.54,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}25.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:42.54,0:04:46.27,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}26.8조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:46.27,0:04:50.00,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}28.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:50.00,0:04:53.73,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}30.3조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:53.73,0:04:57.45,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}32.2조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:04:57.45,0:05:01.18,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}34.2조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:01.18,0:05:04.91,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}36.2조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:04.91,0:05:08.63,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}38.3조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:08.63,0:05:12.36,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}40.4조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:12.36,0:05:16.09,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}42.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:16.09,0:05:19.81,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}44.8조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:19.81,0:05:23.54,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}47.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:23.54,0:05:27.27,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}49.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:27.27,0:05:30.99,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}51.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:30.99,0:05:34.72,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}54.4조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:34.72,0:05:38.45,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}56.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:38.45,0:05:42.17,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}59.4조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:42.17,0:05:45.90,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}62.0조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:45.90,0:05:49.63,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}64.7조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:49.63,0:05:53.35,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}67.4조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:53.35,0:05:57.08,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}70.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:05:57.08,0:06:00.81,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}72.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:00.81,0:06:04.53,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}75.7조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:04.53,0:06:08.26,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}78.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:08.26,0:06:11.99,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}81.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:11.99,0:06:15.71,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}84.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:15.71,0:06:19.44,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}87.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:19.44,0:06:23.17,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}90.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:23.17,0:06:26.89,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}93.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:26.89,0:06:30.62,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}96.7조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:30.62,0:06:34.35,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}99.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:34.35,0:06:38.08,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}103.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:38.08,0:06:41.80,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}106.3조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:41.80,0:06:45.53,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}109.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:45.53,0:06:49.26,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}112.9조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:49.26,0:06:52.98,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}116.2조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:52.98,0:06:56.71,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}119.6조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:06:56.71,0:07:00.44,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}123.1조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:07:00.44,0:07:04.16,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}126.5조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:07:04.16,0:07:07.89,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}아케고스 익명 레버리지 : {\c&H0000DFFF&}130.0조 원 {\c&H002820F0&}(6대 은행 스왑)  
+Dialogue: 2,0:07:21.69,0:07:25.00,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-0.52조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:25.00,0:07:28.32,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-0.58조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:28.32,0:07:31.63,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-0.67조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:31.63,0:07:34.94,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-0.79조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:34.94,0:07:38.26,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-0.94조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:38.26,0:07:41.57,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-1.11조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:41.57,0:07:44.88,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-1.30조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:44.88,0:07:48.19,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-1.52조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:48.19,0:07:51.51,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-1.76조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:51.51,0:07:54.82,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-2.02조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:54.82,0:07:58.13,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-2.30조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:58.13,0:08:01.44,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-2.61조 원 ██░░░░░░░░  
+Dialogue: 2,0:08:01.44,0:08:04.76,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-2.93조 원 ██░░░░░░░░  
+Dialogue: 2,0:08:04.76,0:08:08.07,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-3.28조 원 ██░░░░░░░░  
+Dialogue: 2,0:08:08.07,0:08:11.38,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-3.65조 원 ███░░░░░░░  
+Dialogue: 2,0:08:11.38,0:08:14.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-4.04조 원 ███░░░░░░░  
+Dialogue: 2,0:08:14.70,0:08:18.01,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-4.44조 원 ███░░░░░░░  
+Dialogue: 2,0:08:18.01,0:08:21.32,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-4.87조 원 ███░░░░░░░  
+Dialogue: 2,0:08:21.32,0:08:24.63,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-5.32조 원 ███░░░░░░░  
+Dialogue: 2,0:08:24.63,0:08:27.95,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-5.78조 원 ████░░░░░░  
+Dialogue: 2,0:08:27.95,0:08:31.26,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-6.27조 원 ████░░░░░░  
+Dialogue: 2,0:08:31.26,0:08:34.57,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-6.77조 원 ████░░░░░░  
+Dialogue: 2,0:08:34.57,0:08:37.88,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-7.30조 원 ████░░░░░░  
+Dialogue: 2,0:08:37.88,0:08:41.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-7.84조 원 ████░░░░░░  
+Dialogue: 2,0:08:41.20,0:08:44.51,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-8.40조 원 █████░░░░░  
+Dialogue: 2,0:08:44.51,0:08:47.82,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-8.97조 원 █████░░░░░  
+Dialogue: 2,0:08:47.82,0:08:51.13,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-9.57조 원 █████░░░░░  
+Dialogue: 2,0:08:51.13,0:08:54.45,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-10.18조 원 █████░░░░░  
+Dialogue: 2,0:08:54.45,0:08:57.76,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-10.82조 원 █████░░░░░  
+Dialogue: 2,0:08:57.76,0:09:01.07,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-11.46조 원 ██████░░░░  
+Dialogue: 2,0:09:01.07,0:09:04.39,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-12.13조 원 ██████░░░░  
+Dialogue: 2,0:09:04.39,0:09:07.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-12.82조 원 ██████░░░░  
+Dialogue: 2,0:09:07.70,0:09:11.01,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-13.52조 원 ██████░░░░  
+Dialogue: 2,0:09:11.01,0:09:14.32,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-14.24조 원 ██████░░░░  
+Dialogue: 2,0:09:14.32,0:09:17.64,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-14.97조 원 ███████░░░  
+Dialogue: 2,0:09:17.64,0:09:20.95,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-15.72조 원 ███████░░░  
+Dialogue: 2,0:09:20.95,0:09:24.26,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-16.49조 원 ███████░░░  
+Dialogue: 2,0:09:24.26,0:09:27.57,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-17.28조 원 ███████░░░  
+Dialogue: 2,0:09:27.57,0:09:30.89,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-18.08조 원 ███████░░░  
+Dialogue: 2,0:09:30.89,0:09:34.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-18.90조 원 ████████░░  
+Dialogue: 2,0:09:34.20,0:09:37.51,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-19.74조 원 ████████░░  
+Dialogue: 2,0:09:37.51,0:09:40.83,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-20.59조 원 ████████░░  
+Dialogue: 2,0:09:40.83,0:09:44.14,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-21.46조 원 ████████░░  
+Dialogue: 2,0:09:44.14,0:09:47.45,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-22.35조 원 ████████░░  
+Dialogue: 2,0:09:47.45,0:09:50.76,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-23.25조 원 █████████░  
+Dialogue: 2,0:09:50.76,0:09:54.08,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-24.17조 원 █████████░  
+Dialogue: 2,0:09:54.08,0:09:57.39,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-25.10조 원 █████████░  
+Dialogue: 2,0:09:57.39,0:10:00.70,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-26.05조 원 █████████░  
+Dialogue: 2,0:10:00.70,0:10:04.01,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-27.02조 원 █████████░  
+Dialogue: 2,0:10:04.01,0:10:07.33,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}48시간 증발 순자산 : {\c&H002820F0&}-28.00조 원 ██████████  
+Dialogue: 3,0:00:00.10,0:00:02.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 {\c&H0000DFFF&}48시간{\c&H00FFFFFF&}.  
+Dialogue: 3,0:00:02.50,0:00:05.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이틀이라는 시간 동안 한 사람의 개인 재산  
+Dialogue: 3,0:00:05.74,0:00:08.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}28조 원{\c&H00FFFFFF&}이 허공으로 증발했습니다.  
+Dialogue: 3,0:00:08.41,0:00:10.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인류 금융 역사가 시작된 이래,  
+Dialogue: 3,0:00:10.53,0:00:13.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한 개인이 가장 짧은 시간에 가장 많은  
+Dialogue: 3,0:00:13.16,0:00:16.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 돈을 날려버린 전무후무한 세계 신기록이었습니다.  
+Dialogue: 3,0:00:16.41,0:00:19.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 놀라운 사실은 이 천문학적인 도박판을  
+Dialogue: 3,0:00:19.32,0:00:22.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 벌인 주인공이 월가의 유대인 금융 재벌도,  
+Dialogue: 3,0:00:22.36,0:00:25.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 중동의 석유 왕자도 아니었다는 점입니다.  
+Dialogue: 3,0:00:25.27,0:00:28.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 매일 아침 성경책을 읽고 도시락을 싸 들고  
+Dialogue: 3,0:00:28.39,0:00:31.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 출근하던 조용한 중년의 한국계 남성,  
+Dialogue: 3,0:00:31.11,0:00:32.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 한국 이름 {\c&H0000DFFF&}황성국{\c&H00FFFFFF&},  
+Dialogue: 3,0:00:32.88,0:00:36.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가에서는 '{\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}'이라 불리던 사나이였습니다.  
+Dialogue: 3,0:00:36.42,0:00:39.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 진짜 소름 돋는 비극은 그의  
+Dialogue: 3,0:00:39.21,0:00:41.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 파산으로 끝나지 않았습니다.  
+Dialogue: 3,0:00:41.41,0:00:43.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 무너지는 순간 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&},  
+Dialogue: 3,0:00:43.66,0:00:44.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&},  
+Dialogue: 3,0:00:44.46,0:00:44.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 노무라,  
+Dialogue: 3,0:00:44.99,0:00:48.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}까지 전 세계를 주무르던 월가  
+Dialogue: 3,0:00:48.04,0:00:51.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 최고 투자은행 여섯 곳이 도미노처럼 피를 토하며  
+Dialogue: 3,0:00:51.48,0:00:52.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무너져 내렸고,  
+Dialogue: 3,0:00:52.54,0:01:02.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그중 {\c&H0000DFFF&}167년{\c&H00FFFFFF&} 역사를 자랑하던 스위스의 자존심 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&} 은행은 무려 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&}의 직격탄을 맞고 끝내 역사 속으로 사라지고 말았습니다.  
+Dialogue: 3,0:01:02.61,0:01:05.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 이 남자는 이미 {\c&H0000DFFF&}9년{\c&H00FFFFFF&} 전,  
+Dialogue: 3,0:01:05.16,0:01:08.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불법 내부자 거래 혐의로 금융 당국에 적발되어  
+Dialogue: 3,0:01:08.70,0:01:11.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가에서 사실상 퇴출당했던 인물이었습니다.  
+Dialogue: 3,0:01:11.96,0:01:14.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도대체 어떻게 전과 기록까지 있던 한 개인이  
+Dialogue: 3,0:01:14.93,0:01:17.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세계 최고의 천재들이 모인 6대 투자은행의  
+Dialogue: 3,0:01:17.78,0:01:20.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 눈을 감쪽같이 가리고 무려 {\c&H0000DFFF&}130조 원{\c&H00FFFFFF&}이라는  
+Dialogue: 3,0:01:20.75,0:01:22.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 판돈을 끌어모을 수 있었을까요?  
+Dialogue: 3,0:01:22.86,0:01:25.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 폭락이 시작된 운명의 목요일 밤,  
+Dialogue: 3,0:01:25.72,0:01:29.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 살기 위해 모인 여섯 은행 중 누가 먼저 동맹을  
+Dialogue: 3,0:01:29.10,0:01:32.09,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 배신하고 새벽 6시에 방아쇠를 당겼을까요?  
+Dialogue: 3,0:01:32.09,0:01:34.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가 역사상 가장 잔혹했던 {\c&H0000DFFF&}48시간{\c&H00FFFFFF&}의  
+Dialogue: 3,0:01:34.91,0:01:35.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 배신극,  
+Dialogue: 3,0:01:35.47,0:01:40.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}아케고스{\c&H00FFFFFF&} 캐피털 사태'의 전말을 지금 바로 추적해 보겠습니다.  
+Dialogue: 3,0:01:40.40,0:01:43.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사건의 비밀을 풀기 위해서는 먼저 모두가 놓쳤던  
+Dialogue: 3,0:01:43.66,0:01:46.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기묘한 사각지대 하나를 들여다봐야 합니다.  
+Dialogue: 3,0:01:46.53,0:01:47.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2012년{\c&H00FFFFFF&},  
+Dialogue: 3,0:01:47.29,0:01:50.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가의 전설 줄리안 로버트슨의 수제자로 이름을  
+Dialogue: 3,0:01:50.46,0:01:53.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 날리던 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}의 헤지펀드 '타이거 아시아'는 중국  
+Dialogue: 3,0:01:53.88,0:01:59.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행주 내부자 거래 혐의를 인정하고 수백억 원의 벌금을 물며 문을 닫았습니다.  
+Dialogue: 3,0:01:59.32,0:02:01.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 모두가 그의 금융 인생이 완전히  
+Dialogue: 3,0:02:01.95,0:02:03.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 끝났다고 생각했습니다.  
+Dialogue: 3,0:02:03.80,0:02:07.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가의 대형 투자은행들 역시 준법 감시 블랙리스트에  
+Dialogue: 3,0:02:07.56,0:02:10.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그의 이름을 올리고 거래를 끊었습니다.  
+Dialogue: 3,0:02:10.39,0:02:12.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 불과 {\c&H0000DFFF&}1년{\c&H00FFFFFF&} 뒤인 {\c&H0000DFFF&}2013년{\c&H00FFFFFF&},  
+Dialogue: 3,0:02:12.95,0:02:17.00,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}은 뉴욕 맨해튼 한복판에 '{\c&H0000DFFF&}아케고스{\c&H00FFFFFF&} 캐피털'이라는  
+Dialogue: 3,0:02:17.00,0:02:19.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 작은 간판을 달고 조용히 부활합니다.  
+Dialogue: 3,0:02:19.70,0:02:22.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 찾아낸 부활의 열쇠는 바로 '패밀리  
+Dialogue: 3,0:02:22.84,0:02:25.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 오피스'라는 합법적 구멍이었습니다.  
+Dialogue: 3,0:02:25.55,0:02:28.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 외부 투자자의 돈을 한 푼도 받지 않고 오직 자기  
+Dialogue: 3,0:02:28.73,0:02:31.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가족의 돈만 굴리는 개인 투자 회사는,  
+Dialogue: 3,0:02:31.20,0:02:34.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 증권거래위원회에 보유 주식을 투명하게 공시할  
+Dialogue: 3,0:02:34.38,0:02:37.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 의무가 면제된다는 규제 사각지대를 노린 것입니다.  
+Dialogue: 3,0:02:37.56,0:02:41.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 남의 돈을 받지 않으니 금융 당국의 감시 레이더에서  
+Dialogue: 3,0:02:41.14,0:02:43.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 완전히 투명 인간이 된 셈이었습니다.  
+Dialogue: 3,0:02:43.69,0:02:46.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기가 가진 종잣돈 약 {\c&H0000DFFF&}2,500억 원{\c&H00FFFFFF&}으로  
+Dialogue: 3,0:02:46.67,0:02:49.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 출발한 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}은 독실한 신앙심 뒤에 숨겨진  
+Dialogue: 3,0:02:49.64,0:02:52.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무서운 승부사 기질을 발휘했습니다.  
+Dialogue: 3,0:02:52.10,0:02:52.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 넷플릭스,  
+Dialogue: 3,0:02:52.74,0:02:53.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아마존,  
+Dialogue: 3,0:02:53.26,0:02:56.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 익스피디아 같은 기술주에 과감하게 집중 투자해  
+Dialogue: 3,0:02:56.47,0:03:04.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불과 {\c&H0000DFFF&}7년{\c&H00FFFFFF&} 만에 {\c&H0000DFFF&}2,500억 원{\c&H00FFFFFF&}이던 개인 재산을 무려 100억 달러, 우리 돈 {\c&H0000DFFF&}13조 원{\c&H00FFFFFF&} 이상으로 불려 놓은 것입니다!  
+Dialogue: 3,0:03:04.96,0:03:08.07,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그러자 과거 그를 블랙리스트에 올렸던 월가  
+Dialogue: 3,0:03:08.07,0:03:11.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대형 은행들의 태도가 180도 돌변했습니다.  
+Dialogue: 3,0:03:11.31,0:03:14.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}10조 원{\c&H00FFFFFF&}이 넘는 현금을 쥔 슈퍼 갑부가  
+Dialogue: 3,0:03:14.11,0:03:15.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 눈앞에 나타나자,  
+Dialogue: 3,0:03:15.25,0:03:18.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}와 노무라를 시작으로 {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&},  
+Dialogue: 3,0:03:18.43,0:03:21.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}까지 앞다투어 블랙리스트를 지우고  
+Dialogue: 3,0:03:21.36,0:03:25.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그의 사무실 문턱이 닳도록 찾아와 고개를 숙였습니다.  
+Dialogue: 3,0:03:25.04,0:03:28.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수백억 원의 중개 수수료에 눈이 먼 은행들은  
+Dialogue: 3,0:03:28.15,0:03:31.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스스로 호랑이 굴에 걸어 들어가고 있었습니다.  
+Dialogue: 3,0:03:31.49,0:03:34.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 여기서 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}은 월가 은행 전체를 장님으로  
+Dialogue: 3,0:03:34.76,0:03:37.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만든 치명적인 금융 무기를 꺼내 듭니다.  
+Dialogue: 3,0:03:37.47,0:03:39.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 '{\c&H0000DFFF&}총수익스왑{\c&H00FFFFFF&}',  
+Dialogue: 3,0:03:39.10,0:03:43.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 영어로 {\c&H0000DFFF&}TRS{\c&H00FFFFFF&}라 불리는 장외 파생상품 계약이었습니다.  
+Dialogue: 3,0:03:43.38,0:03:46.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원래 어떤 큰손이 한 회사의 주식을 {\c&H0000DFFF&}5%{\c&H00FFFFFF&}  
+Dialogue: 3,0:03:46.36,0:03:49.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이상 사들이면 반드시 법적으로 전 세계에  
+Dialogue: 3,0:03:49.35,0:03:51.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내 이름을 공개해야 합니다.  
+Dialogue: 3,0:03:51.38,0:03:54.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 {\c&H0000DFFF&}총수익스왑{\c&H00FFFFFF&} 계약을 맺으면  
+Dialogue: 3,0:03:54.10,0:03:56.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이야기가 완전히 달라집니다.  
+Dialogue: 3,0:03:56.51,0:04:00.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}이 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}에 가서 이렇게 말합니다.  
+Dialogue: 3,0:04:00.39,0:04:03.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내 돈 {\c&H0000DFFF&}2조 원{\c&H00FFFFFF&}을 담보로 맡길 테니,  
+Dialogue: 3,0:04:03.03,0:04:06.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당신들 은행 명의로 비아콤 주식을 {\c&H0000DFFF&}10조 원{\c&H00FFFFFF&}어치  
+Dialogue: 3,0:04:06.46,0:04:09.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대신 사주시오,주가가 오르면 수익은 내가 다  
+Dialogue: 3,0:04:09.63,0:04:12.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 갖고, 내리면 손실도 내가 책임지겠소.  
+Dialogue: 3,0:04:12.41,0:04:15.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대신 당신들에게는 짭짤한 이자와  
+Dialogue: 3,0:04:15.15,0:04:16.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수수료를 챙겨주리다.  
+Dialogue: 3,0:04:16.92,0:04:19.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이렇게 하면 주식 명부에는 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}의 이름이  
+Dialogue: 3,0:04:19.97,0:04:23.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 한 줄도 남지 않고 오직 '{\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}'라는  
+Dialogue: 3,0:04:23.30,0:04:24.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행 이름만 찍힙니다!  
+Dialogue: 3,0:04:24.89,0:04:28.22,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 소름 돋는 대목은 그다음이었습니다.  
+Dialogue: 3,0:04:28.22,0:04:30.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&} 문을 나선 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}은 길 건너  
+Dialogue: 3,0:04:30.92,0:04:34.00,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&}로 걸어가 똑같은 주식을 또 10조  
+Dialogue: 3,0:04:34.00,0:04:36.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원어치 대신 사달라고 계약합니다.  
+Dialogue: 3,0:04:36.31,0:04:39.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그다음 날에는 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}에 가서 또  
+Dialogue: 3,0:04:39.08,0:04:39.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}10조 원{\c&H00FFFFFF&},  
+Dialogue: 3,0:04:39.87,0:04:41.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 노무라에 가서 또 {\c&H0000DFFF&}10조 원{\c&H00FFFFFF&},  
+Dialogue: 3,0:04:41.98,0:04:47.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} UBS와 도이치뱅크에 가서 또 수조 원어치를 똑같은 방식으로 주문했습니다!  
+Dialogue: 3,0:04:47.39,0:04:49.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여섯 곳의 은행은 각자 "아하,  
+Dialogue: 3,0:04:49.56,0:04:52.38,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}이 우리 은행에서만 적당히 대출받아  
+Dialogue: 3,0:04:52.38,0:04:54.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 투자하고 있구나"라고 안심했지만,  
+Dialogue: 3,0:04:54.68,0:04:57.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실상은 여섯 은행이 똑같은 시한폭탄 주식을  
+Dialogue: 3,0:04:57.62,0:05:00.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 동시에 수십조 원어치씩 껴안고 있었던 것입니다!  
+Dialogue: 3,0:05:00.95,0:05:03.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2020년{\c&H00FFFFFF&} 코로나 팬데믹 이후 시장에  
+Dialogue: 3,0:05:03.56,0:05:06.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 돈이 풀리자 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}의 폭주는 신의 영역을  
+Dialogue: 3,0:05:06.42,0:05:08.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 넘보는 수준으로 치달았습니다.  
+Dialogue: 3,0:05:08.51,0:05:12.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그는 수십 개 종목에 분산 투자하라는 월가의 상식을  
+Dialogue: 3,0:05:12.19,0:05:12.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비웃듯,  
+Dialogue: 3,0:05:12.72,0:05:16.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 미디어 기업 '비아콤CBS'와 디스커버리,  
+Dialogue: 3,0:05:16.14,0:05:18.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 중국 기술주 바이두,  
+Dialogue: 3,0:05:18.11,0:05:24.82,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 텐센트뮤직 등 고작 7~8개 종목에 자기 재산의 {\c&H0000DFFF&}5배{\c&H00FFFFFF&}가 넘는 레버리지를 끌어다 몰빵했습니다.  
+Dialogue: 3,0:05:24.82,0:05:28.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 여섯 은행을 통해 굴린 총 포지션 규모는  
+Dialogue: 3,0:05:28.03,0:05:29.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한때 1,000억 달러,  
+Dialogue: 3,0:05:29.70,0:05:32.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}130조 원{\c&H00FFFFFF&}에 육박했고,  
+Dialogue: 3,0:05:32.26,0:05:35.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 {\c&H0000DFFF&}아케고스{\c&H00FFFFFF&} 혼자서 비아콤CBS 전체 유통  
+Dialogue: 3,0:05:35.47,0:05:39.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 주식의 절반 이상을 실질적으로 싹쓸이하는 기현상이 벌어졌습니다!  
+Dialogue: 3,0:05:39.97,0:05:42.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}이 각 은행 계좌로 거침없이 주식을  
+Dialogue: 3,0:05:42.76,0:05:43.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 쓸어 담자,  
+Dialogue: 3,0:05:43.52,0:05:46.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시장에서는 "도대체 누가 저렇게 비아콤 주식을  
+Dialogue: 3,0:05:46.69,0:05:49.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미친 듯이 사는 거냐"며 주가가 넉 달 만에  
+Dialogue: 3,0:05:49.74,0:05:53.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}36달러{\c&H00FFFFFF&}에서 {\c&H0000DFFF&}101달러{\c&H00FFFFFF&}로 거의 {\c&H0000DFFF&}3배{\c&H00FFFFFF&}나 수직 폭등했습니다.  
+Dialogue: 3,0:05:53.67,0:05:56.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 내가 산 주문이 주가를 끌어올리고,  
+Dialogue: 3,0:05:56.03,0:05:59.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불어난 평가 이익을 담보로 또 돈을 빌려 주식을  
+Dialogue: 3,0:05:59.27,0:06:02.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 사는 거대한 자가발전 바벨탑이 세워진 것입니다.  
+Dialogue: 3,0:06:02.75,0:06:04.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2021년{\c&H00FFFFFF&} 3월 중순,  
+Dialogue: 3,0:06:04.40,0:06:07.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 장부상 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}의 순자산은 한때 200억 달러에서  
+Dialogue: 3,0:06:07.96,0:06:09.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 최고 300억 달러,  
+Dialogue: 3,0:06:09.46,0:06:15.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}28조 원{\c&H00FFFFFF&}을 돌파하며 전 세계 부자 순위 최상위권을 위협했습니다.  
+Dialogue: 3,0:06:15.08,0:06:18.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 실제 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&} 내부 리스크 팀이 "이 고객의  
+Dialogue: 3,0:06:18.42,0:06:21.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 담보 비율이 너무 위험하다"고 경고를 올렸지만,  
+Dialogue: 3,0:06:21.64,0:06:24.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 연간 수백억 원의 수수료를 받아 챙기던 영업  
+Dialogue: 3,0:06:24.61,0:06:27.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 임원들은 과거 베어링스 은행 임원들이 그랬듯  
+Dialogue: 3,0:06:27.57,0:06:29.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 경고를 가볍게 무시했습니다.  
+Dialogue: 3,0:06:29.68,0:06:33.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 하늘 끝까지 치솟던 유리 성채가 박살 나는  
+Dialogue: 3,0:06:33.25,0:06:36.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 데는 단 하나의 작은 돌멩이면 충분했습니다.  
+Dialogue: 3,0:06:36.43,0:06:38.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 운명의 날은 {\c&H0000DFFF&}2021년{\c&H00FFFFFF&} 3월  
+Dialogue: 3,0:06:38.80,0:06:41.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}22일{\c&H00FFFFFF&} 월요일 저녁이었습니다.  
+Dialogue: 3,0:06:41.34,0:06:44.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기 회사 주가가 이유도 없이 {\c&H0000DFFF&}3배{\c&H00FFFFFF&}나 치솟자  
+Dialogue: 3,0:06:44.53,0:06:46.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 신이 난 비아콤CBS 경영진이,  
+Dialogue: 3,0:06:46.78,0:06:49.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} "물 들어올 때 노 젓자!"라며 무려 30억  
+Dialogue: 3,0:06:49.97,0:06:50.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 달러,  
+Dialogue: 3,0:06:50.37,0:06:57.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 3조 {\c&H0000DFFF&}5천억 원{\c&H00FFFFFF&} 규모의 대규모 유상증자, 즉 새 주식을 찍어 팔겠다고 기습 발표한 것입니다!  
+Dialogue: 3,0:06:57.40,0:07:00.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시장에 새 주식이 쏟아진다는 소식이 전해지자  
+Dialogue: 3,0:07:00.80,0:07:03.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다음 날부터 비아콤CBS 주가가 {\c&H0000DFFF&}9%{\c&H00FFFFFF&}  
+Dialogue: 3,0:07:03.63,0:07:04.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 넘게 급락했고,  
+Dialogue: 3,0:07:04.76,0:07:08.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수요일에는 {\c&H0000DFFF&}23%{\c&H00FFFFFF&}나 폭락하며 자유낙하를 시작했습니다.  
+Dialogue: 3,0:07:08.93,0:07:12.07,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 보통 투자자라면 {\c&H0000DFFF&}20%{\c&H00FFFFFF&} 하락에 그쳤겠지만,  
+Dialogue: 3,0:07:12.07,0:07:15.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기 돈의 {\c&H0000DFFF&}5배{\c&H00FFFFFF&}에서 {\c&H0000DFFF&}8배{\c&H00FFFFFF&}까지 빚을 내어 쌓아 올린  
+Dialogue: 3,0:07:15.75,0:07:19.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}의 {\c&H0000DFFF&}130조 원{\c&H00FFFFFF&}짜리 레버리지 성탑에서는 단  
+Dialogue: 3,0:07:19.29,0:07:23.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}20%{\c&H00FFFFFF&} 하락이 곧 '전 재산 전멸'을 의미했습니다.  
+Dialogue: 3,0:07:23.11,0:07:26.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}아케고스{\c&H00FFFFFF&} 재무팀은 주가를 떠받치려 마지막 남은  
+Dialogue: 3,0:07:26.32,0:07:29.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 현금까지 영혼까지 끌어모아 매수 주문을 던졌지만,  
+Dialogue: 3,0:07:29.79,0:07:32.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무너지는 댐을 손바닥으로 막는 격이었습니다.  
+Dialogue: 3,0:07:32.87,0:07:36.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2021년{\c&H00FFFFFF&} 3월 {\c&H0000DFFF&}25일{\c&H00FFFFFF&} 목요일 저녁.  
+Dialogue: 3,0:07:36.65,0:07:39.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}이 수조 원대 추가 증거금,  
+Dialogue: 3,0:07:39.04,0:07:42.48,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 즉 마진콜 납부를 거부하자 드디어 진실을 눈치챈  
+Dialogue: 3,0:07:42.48,0:07:46.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 6대 투자은행 비상 대책반이 긴급 화상 회의에 소집되었습니다.  
+Dialogue: 3,0:07:46.99,0:07:50.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 회의실에서 서로의 패를 살짝 맞춰본 은행  
+Dialogue: 3,0:07:50.04,0:07:52.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 임원들은 그 자리에서 얼어붙었습니다.  
+Dialogue: 3,0:07:52.81,0:07:56.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기 은행만 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}에게 돈을 빌려준 줄 알았는데,  
+Dialogue: 3,0:07:56.30,0:07:59.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 옆에 앉은 다섯 개 경쟁 은행 모두가 똑같은  
+Dialogue: 3,0:07:59.40,0:08:00.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비아콤과 디스커버리,  
+Dialogue: 3,0:08:00.83,0:08:04.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 중국 기술주를 수십조 원씩 담보로 잡고 있었던 것입니다!  
+Dialogue: 3,0:08:04.84,0:08:07.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여기서 월가 역사에 길이 남을 잔혹한  
+Dialogue: 3,0:08:07.53,0:08:10.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}죄수의 딜레마{\c&H00FFFFFF&}' 게임이 시작됩니다.  
+Dialogue: 3,0:08:10.23,0:08:13.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&} 측은 침착하게 제안했습니다.  
+Dialogue: 3,0:08:13.90,0:08:14.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여러분,  
+Dialogue: 3,0:08:14.42,0:08:17.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만약 내일 아침 우리 여섯 은행이 한꺼번에  
+Dialogue: 3,0:08:17.44,0:08:23.06,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 수십조 원어치 주식을 시장에 던지면 주가가 박살 나서 우리 다 같이 죽습니다!  
+Dialogue: 3,0:08:23.06,0:08:26.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일단 주말 동안 매도를 자제하고 다 함께 질서  
+Dialogue: 3,0:08:26.68,0:08:30.01,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 있게 조금씩 정리하는 신사협정을 맺읍시다.  
+Dialogue: 3,0:08:30.01,0:08:31.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 회의가 끝난 목요일 밤,  
+Dialogue: 3,0:08:31.83,0:08:34.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}와 노무라 임원들은 동료  
+Dialogue: 3,0:08:34.64,0:08:37.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행들의 신의를 믿고 잠자리에 들었습니다.  
+Dialogue: 3,0:08:37.87,0:08:41.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 월가는 신사들의 사교 클럽이 아니라  
+Dialogue: 3,0:08:41.15,0:08:43.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 피도 눈물도 없는 정글이었습니다!  
+Dialogue: 3,0:08:43.71,0:08:46.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다음 날인 3월 {\c&H0000DFFF&}26일{\c&H00FFFFFF&} 금요일 새벽  
+Dialogue: 3,0:08:46.83,0:08:50.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 6시, 정규 주식시장이 열리기도 전!  
+Dialogue: 3,0:08:50.12,0:08:53.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}와 {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&}가 어젯밤의 평화 논의를  
+Dialogue: 3,0:08:53.27,0:08:56.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비웃듯 고객들에게 긴급 전화와 이메일을 돌려  
+Dialogue: 3,0:08:56.30,0:08:57.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무려 105억 달러,  
+Dialogue: 3,0:08:57.69,0:09:00.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 {\c&H0000DFFF&}12조 원{\c&H00FFFFFF&}어치의 {\c&H0000DFFF&}아케고스{\c&H00FFFFFF&} 담보 주식을 개장  
+Dialogue: 3,0:09:00.84,0:09:04.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전 블록딜로 헐값에 전량 폭탄 투매해 버린 것입니다!  
+Dialogue: 3,0:09:04.50,0:09:05.84,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월가의 절대 법칙,  
+Dialogue: 3,0:09:05.84,0:09:08.53,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} "패닉이 터질 땐 가장 먼저 문밖으로  
+Dialogue: 3,0:09:08.53,0:09:12.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 뛰어내린 놈만 살아남는다"를 그대로 실행한 것이었습니다.  
+Dialogue: 3,0:09:12.68,0:09:15.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 금요일 아침 9시 30분 개장 벨이 울렸을  
+Dialogue: 3,0:09:15.79,0:09:16.06,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 때,  
+Dialogue: 3,0:09:16.06,0:09:21.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비아콤CBS와 디스커버리 주가는 반토막이 나며 문자 그대로 증발해 버렸습니다.  
+Dialogue: 3,0:09:21.88,0:09:25.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가장 먼저 도망친 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}와 {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&}는  
+Dialogue: 3,0:09:25.02,0:09:27.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 손실을 최소화하며 지옥에서 탈출했지만,  
+Dialogue: 3,0:09:27.89,0:09:30.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 순진하게 약속을 믿고 한발 늦었던 후발  
+Dialogue: 3,0:09:30.76,0:09:33.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행들에게는 시체 더미만 남았습니다.  
+Dialogue: 3,0:09:33.49,0:09:36.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 일본 최대 증권사 노무라는 약 3조 2천억  
+Dialogue: 3,0:09:36.58,0:09:38.06,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원의 손실을 입었고,  
+Dialogue: 3,0:09:38.06,0:09:41.69,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가장 늦게까지 머뭇거렸던 스위스의 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}는  
+Dialogue: 3,0:09:41.69,0:09:44.78,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 단일 사건 하나로만 무려 55억 달러,  
+Dialogue: 3,0:09:44.78,0:09:48.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&}이라는 치명상을 입었습니다!  
+Dialogue: 3,0:09:48.28,0:09:48.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 이틀,  
+Dialogue: 3,0:09:48.98,0:09:52.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}48시간{\c&H00FFFFFF&} 만에 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&} 개인의 순자산 {\c&H0000DFFF&}28조 원{\c&H00FFFFFF&}이  
+Dialogue: 3,0:09:52.64,0:09:58.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 흔적도 없이 사라졌고, 관련 기업들의 시가총액은 {\c&H0000DFFF&}100조 원{\c&H00FFFFFF&} 이상 날아갔습니다.  
+Dialogue: 3,0:09:58.83,0:10:02.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결국 이 {\c&H0000DFFF&}7조 원{\c&H00FFFFFF&}의 내상을 끝내 회복하지 못한  
+Dialogue: 3,0:10:02.21,0:10:05.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}167년{\c&H00FFFFFF&} 역사의 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}는 고객 자금 이탈  
+Dialogue: 3,0:10:05.73,0:10:09.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 끝에 {\c&H0000DFFF&}2023년{\c&H00FFFFFF&} 경쟁사 UBS에 강제 인수되며  
+Dialogue: 3,0:10:09.11,0:10:11.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 영원히 간판을 내리고 말았습니다.  
+Dialogue: 3,0:10:11.55,0:10:14.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사건 직후 미국 연방 검찰은 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}을 사기  
+Dialogue: 3,0:10:14.86,0:10:18.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 및 시세 조종 혐의로 전격 기소했습니다.  
+Dialogue: 3,0:10:18.03,0:10:21.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 검찰은 그가 은행들에 포트폴리오 구성을 거짓으로  
+Dialogue: 3,0:10:21.24,0:10:24.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 답해 더 많은 대출을 끌어냈고 인위적으로 주가를  
+Dialogue: 3,0:10:24.45,0:10:26.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 부풀렸다고 주장한 반면,  
+Dialogue: 3,0:10:26.05,0:10:29.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&} 측은 "나는 내가 믿는 기업에 합법적 파생상품으로  
+Dialogue: 3,0:10:29.87,0:10:30.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 투자했을 뿐이며,  
+Dialogue: 3,0:10:30.98,0:10:36.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 탐욕에 눈이 멀어 돈을 빌려준 건 은행들 자신"이라며 무죄를 호소했습니다.  
+Dialogue: 3,0:10:36.04,0:10:38.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 치열한 법정 공방 끝에 {\c&H0000DFFF&}2024년{\c&H00FFFFFF&} 뉴욕  
+Dialogue: 3,0:10:38.98,0:10:41.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 연방법원은 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}에게 유죄 평결과 함께  
+Dialogue: 3,0:10:41.92,0:10:43.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 징역 {\c&H0000DFFF&}18년{\c&H00FFFFFF&}형,  
+Dialogue: 3,0:10:43.03,0:10:47.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 약 {\c&H0000DFFF&}17조 원{\c&H00FFFFFF&} 규모의 몰수 및 배상 명령을 선고했습니다.  
+Dialogue: 3,0:10:48.00,0:10:51.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경건한 성경 공부 모임의 후원자이자 28조  
+Dialogue: 3,0:10:51.24,0:10:54.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원의 거부에서 하루아침에 월가 최대 파산  
+Dialogue: 3,0:10:54.33,0:10:56.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기록 보유자가 된 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}.  
+Dialogue: 3,0:10:56.25,0:10:59.01,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 수수료 몇백억 원을 더 챙기려다  
+Dialogue: 3,0:10:59.01,0:11:01.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 리스크 경고를 무시하고 서로의 등에 칼을  
+Dialogue: 3,0:11:01.90,0:11:04.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 꽂은 세계 최고 엘리트 은행들.  
+Dialogue: 3,0:11:04.14,0:11:07.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 과연 {\c&H0000DFFF&}167년{\c&H00FFFFFF&} 은행을 침몰시킨 진짜 폭탄은  
+Dialogue: 3,0:11:07.19,0:11:09.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한 개인의 무모한 레버리지였을까요,  
+Dialogue: 3,0:11:09.71,0:11:13.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아니면 눈앞의 수수료에 취해 안전장치를 스스로  
+Dialogue: 3,0:11:13.02,0:11:15.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 꺼버린 월가 카르텔의 탐욕이었을까요?  
+Dialogue: 3,0:11:15.67,0:11:18.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여러분의 날카로운 생각을 댓글로  
+Dialogue: 3,0:11:18.28,0:11:19.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 남겨주시기 바랍니다.  
+Dialogue: 3,0:11:19.97,0:11:23.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 돈과 권력 뒤에 숨겨진 충격적인 실화를 기록하는  
+Dialogue: 3,0:11:23.30,0:11:24.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '머니 아카이브',  
+Dialogue: 3,0:11:24.58,0:11:28.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다음 에피소드에서 더 강렬한 이야기로 찾아오겠습니다.  

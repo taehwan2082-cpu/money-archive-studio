@@ -1,0 +1,47 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopHook1,Malgun Gothic,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,8,4,8,45,45,82,1
+Style: TopHook2,Malgun Gothic,64,&H0000E8FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,9,4,8,45,45,160,1
+Style: ShortsSub,Malgun Gothic,64,&H00FFFFFF,&H0000FFFF,&H78000000,&H78000000,-1,0,0,0,100,100,0,0,3,14,0,2,65,135,525,1
+Style: RelatedCTA,Malgun Gothic,44,&H0000F0FF,&H0000FFFF,&H881414B4,&H881414B4,-1,0,0,0,100,100,1,0,3,12,0,2,65,135,435,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:56.76,TopHook1,,0,0,0,,나랏돈 6조 통째로 털어서
+Dialogue: 2,0:00:00.00,0:00:56.76,TopHook2,,0,0,0,,영화 찍고 증발한 27살 사기꾼!
+Dialogue: 4,0:00:51.26,0:00:56.76,RelatedCTA,,0,0,0,,  ▼ 아래 [관련 동영상] 클릭해 풀버전 보기  
+Dialogue: 3,0:00:00.10,0:00:01.82,ShortsSub,,0,0,0,,  한 나라의 세금 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}을  
+Dialogue: 3,0:00:01.82,0:00:02.80,ShortsSub,,0,0,0,,  통째로 훔쳐서,  
+Dialogue: 3,0:00:02.80,0:00:05.01,ShortsSub,,0,0,0,,  할리우드 영화를 찍고 슈퍼모델에게  
+Dialogue: 3,0:00:05.01,0:00:06.85,ShortsSub,,0,0,0,,  100억 다이아몬드를 선물한  
+Dialogue: 3,0:00:06.85,0:00:08.82,ShortsSub,,0,0,0,,  스물일곱 살 청년이 있습니다!  
+Dialogue: 3,0:00:08.77,0:00:10.55,ShortsSub,,0,0,0,,  말레이시아 출신 유학생 '조  
+Dialogue: 3,0:00:10.55,0:00:12.34,ShortsSub,,0,0,0,,  로우'는 빚내서 빌린 요트로  
+Dialogue: 3,0:00:12.34,0:00:14.49,ShortsSub,,0,0,0,,  중동 왕자 행세를 하며 말레이시아  
+Dialogue: 3,0:00:14.49,0:00:16.40,ShortsSub,,0,0,0,,  총리 부부의 환심을 샀는데요.  
+Dialogue: 3,0:00:16.40,0:00:18.68,ShortsSub,,0,0,0,,  총리를 설득해 만든 국가 경제개발  
+Dialogue: 3,0:00:18.68,0:00:20.84,ShortsSub,,0,0,0,,  펀드 '{\c&H0000DFFF&}1MDB{\c&H00FFFFFF&}'에서 유령 회사  
+Dialogue: 3,0:00:20.84,0:00:22.75,ShortsSub,,0,0,0,,  계좌 하나로 첫날에만 9천억  
+Dialogue: 3,0:00:22.75,0:00:24.02,ShortsSub,,0,0,0,,  원을 빼돌렸습니다.  
+Dialogue: 3,0:00:24.02,0:00:26.17,ShortsSub,,0,0,0,,  심지어 월가 황제 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}에  
+Dialogue: 3,0:00:26.17,0:00:27.92,ShortsSub,,0,0,0,,  수수료 {\c&H0000DFFF&}7,800억 원{\c&H00FFFFFF&}을  
+Dialogue: 3,0:00:27.92,0:00:29.68,ShortsSub,,0,0,0,,  쥐여주고 국채를 찍어 총  
+Dialogue: 3,0:00:29.68,0:00:32.37,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}의 나랏돈을 공중분해 시켰죠!  
+Dialogue: 3,0:00:32.37,0:00:34.27,ShortsSub,,0,0,0,,  그 돈으로 3,300억 요트를  
+Dialogue: 3,0:00:34.27,0:00:35.93,ShortsSub,,0,0,0,,  사고 디카프리오 주연 영화  
+Dialogue: 3,0:00:35.93,0:00:38.90,ShortsSub,,0,0,0,,  '{\c&H0000DFFF&}울프 오브 월스트리트{\c&H00FFFFFF&}' 제작비까지 댔습니다.  
+Dialogue: 3,0:00:38.90,0:00:40.73,ShortsSub,,0,0,0,,  결국 분노한 국민들이 정권을  
+Dialogue: 3,0:00:40.73,0:00:43.28,ShortsSub,,0,0,0,,  뒤집어 총리는 감옥에 가고 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}는  
+Dialogue: 3,0:00:43.28,0:00:45.11,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}대 벌금을 물었지만,  
+Dialogue: 3,0:00:45.11,0:00:46.94,ShortsSub,,0,0,0,,  소름 돋게도 주범 {\c&H0000DFFF&}조 로우{\c&H00FFFFFF&}는  
+Dialogue: 3,0:00:46.94,0:00:49.49,ShortsSub,,0,0,0,,  지금도 감옥 밖에서 증발한 상태입니다!  
+Dialogue: 3,0:00:49.49,0:00:51.92,ShortsSub,,0,0,0,,  영화보다 더 미친 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&} 강탈  
+Dialogue: 3,0:00:51.92,0:00:52.35,ShortsSub,,0,0,0,,  실화,  
+Dialogue: 3,0:00:52.35,0:00:56.05,ShortsSub,,0,0,0,,  바로 아래 관련 동영상 본편에서 확인해 보세요!  

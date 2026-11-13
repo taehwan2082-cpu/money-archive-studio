@@ -1,0 +1,53 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopHook1,Malgun Gothic,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,8,4,8,45,45,82,1
+Style: TopHook2,Malgun Gothic,64,&H0000E8FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,9,4,8,45,45,160,1
+Style: ShortsSub,Malgun Gothic,64,&H00FFFFFF,&H0000FFFF,&H78000000,&H78000000,-1,0,0,0,100,100,0,0,3,14,0,2,65,135,525,1
+Style: RelatedCTA,Malgun Gothic,44,&H0000F0FF,&H0000FFFF,&H881414B4,&H881414B4,-1,0,0,0,100,100,1,0,3,12,0,2,65,135,435,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:01:05.00,TopHook1,,0,0,0,,단 48시간 만에 28조 증발!
+Dialogue: 2,0:00:00.00,0:01:05.00,TopHook2,,0,0,0,,월가 은행 박살 낸 한국인의 정체
+Dialogue: 4,0:00:59.50,0:01:05.00,RelatedCTA,,0,0,0,,  ▼ 아래 [관련 동영상] 클릭해 풀버전 보기  
+Dialogue: 3,0:00:00.10,0:00:02.73,ShortsSub,,0,0,0,,  단 {\c&H0000DFFF&}48시간{\c&H00FFFFFF&} 만에 내 통장에서  
+Dialogue: 3,0:00:02.73,0:00:05.03,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}28조 원{\c&H00FFFFFF&}이 사라졌습니다!  
+Dialogue: 3,0:00:04.98,0:00:06.67,ShortsSub,,0,0,0,,  심지어 이 한국계 남자  
+Dialogue: 3,0:00:06.67,0:00:08.36,ShortsSub,,0,0,0,,  한 명 때문에 {\c&H0000DFFF&}167년{\c&H00FFFFFF&}  
+Dialogue: 3,0:00:08.36,0:00:10.05,ShortsSub,,0,0,0,,  역사의 세계적 은행까지  
+Dialogue: 3,0:00:10.05,0:00:11.46,ShortsSub,,0,0,0,,  공중분해 됐는데요.  
+Dialogue: 3,0:00:11.46,0:00:13.11,ShortsSub,,0,0,0,,  매일 성경을 읽던 조용한  
+Dialogue: 3,0:00:13.11,0:00:14.50,ShortsSub,,0,0,0,,  투자자 '{\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}'은,  
+Dialogue: 3,0:00:14.50,0:00:16.41,ShortsSub,,0,0,0,,  과거 내부자 거래로 월가에서  
+Dialogue: 3,0:00:16.41,0:00:18.18,ShortsSub,,0,0,0,,  퇴출당하자 감시망을 피하는  
+Dialogue: 3,0:00:18.18,0:00:19.83,ShortsSub,,0,0,0,,  개인 회사로 부활합니다.  
+Dialogue: 3,0:00:19.83,0:00:21.65,ShortsSub,,0,0,0,,  그가 쓴 비밀 무기는 은행  
+Dialogue: 3,0:00:21.65,0:00:23.87,ShortsSub,,0,0,0,,  명의로 주식을 대신 사게 만드는  
+Dialogue: 3,0:00:23.87,0:00:25.30,ShortsSub,,0,0,0,,  '{\c&H0000DFFF&}총수익스왑{\c&H00FFFFFF&}' 계약!  
+Dialogue: 3,0:00:25.30,0:00:26.16,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&},  
+Dialogue: 3,0:00:26.16,0:00:27.03,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}모건스탠리{\c&H00FFFFFF&},  
+Dialogue: 3,0:00:27.03,0:00:29.33,ShortsSub,,0,0,0,,  {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&} 등 6대 은행을  
+Dialogue: 3,0:00:29.33,0:00:31.92,ShortsSub,,0,0,0,,  감쪽같이 속여 자기 돈을 130조  
+Dialogue: 3,0:00:31.92,0:00:34.95,ShortsSub,,0,0,0,,  원으로 뻥튀기해 소수 종목에 몰빵했죠.  
+Dialogue: 3,0:00:34.95,0:00:37.41,ShortsSub,,0,0,0,,  하지만 비아콤의 기습 유상증자로  
+Dialogue: 3,0:00:37.41,0:00:40.16,ShortsSub,,0,0,0,,  주가가 꺾이자 지옥문이 열렸습니다!  
+Dialogue: 3,0:00:40.16,0:00:41.73,ShortsSub,,0,0,0,,  함께 살자며 긴급회의를  
+Dialogue: 3,0:00:41.73,0:00:43.55,ShortsSub,,0,0,0,,  했던 은행 중 {\c&H0000DFFF&}골드만삭스{\c&H00FFFFFF&}가  
+Dialogue: 3,0:00:43.55,0:00:45.11,ShortsSub,,0,0,0,,  새벽 6시에 먼저 배신  
+Dialogue: 3,0:00:45.11,0:00:46.67,ShortsSub,,0,0,0,,  때리고 {\c&H0000DFFF&}12조 원{\c&H00FFFFFF&}어치를  
+Dialogue: 3,0:00:46.67,0:00:48.10,ShortsSub,,0,0,0,,  투매해 버린 겁니다!  
+Dialogue: 3,0:00:48.10,0:00:50.43,ShortsSub,,0,0,0,,  결국 {\c&H0000DFFF&}빌 황{\c&H00FFFFFF&}은 이틀 만에 28조를  
+Dialogue: 3,0:00:50.43,0:00:52.50,ShortsSub,,0,0,0,,  날리고 징역 {\c&H0000DFFF&}18년{\c&H00FFFFFF&}을 받았고,  
+Dialogue: 3,0:00:52.50,0:00:54.45,ShortsSub,,0,0,0,,  뒤통수 맞은 {\c&H0000DFFF&}크레디트스위스{\c&H00FFFFFF&}는  
+Dialogue: 3,0:00:54.45,0:00:57.42,ShortsSub,,0,0,0,,  7조 손실 끝에 역사 속으로 사라졌습니다.  
+Dialogue: 3,0:00:57.42,0:00:59.95,ShortsSub,,0,0,0,,  월가를 피바다로 만든 {\c&H0000DFFF&}48시간{\c&H00FFFFFF&}의  
+Dialogue: 3,0:00:59.95,0:01:00.54,ShortsSub,,0,0,0,,  배신극,  
+Dialogue: 3,0:01:00.54,0:01:02.32,ShortsSub,,0,0,0,,  바로 아래 관련 동영상  
+Dialogue: 3,0:01:02.32,0:01:04.25,ShortsSub,,0,0,0,,  본편에서 확인해 보세요!  
