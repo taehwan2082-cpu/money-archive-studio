@@ -1,0 +1,452 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DocSubOneLine,Malgun Gothic,52,&H00FFFFFF,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,14,0,2,50,50,42,1
+Style: TopLeftPill,Malgun Gothic,32,&H00FFFFFF,&H0000FFFF,&H55000000,&H55000000,-1,0,0,0,100,100,1,0,3,10,0,7,42,42,32,1
+Style: TopRightBrand,Malgun Gothic,34,&H0000D4FF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,2,9,45,45,32,1
+Style: LiveTelemetryHUD,Malgun Gothic,29,&H0000DFFF,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,9,0,9,45,45,86,1
+Style: SpecCard,Malgun Gothic,31,&H00E8E8E8,&H0000FFFF,&H58000000,&H58000000,-1,0,0,0,100,100,1,0,3,10,0,1,45,45,128,1
+Style: GiantRedSlam,Malgun Gothic,138,&H00221CF0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,12,6,5,40,40,40,1
+Style: GiantSubLabel,Malgun Gothic,46,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,40,1
+Style: ChartVector,Malgun Gothic,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: ChartTitle,Malgun Gothic,38,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,5,2,7,0,0,0,1
+Style: ChartLabelGold,Malgun Gothic,36,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,6,3,5,0,0,0,1
+Style: ChartLabelRed,Malgun Gothic,52,&H00241CF5,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,8,4,5,0,0,0,1
+Style: ChartAxis,Malgun Gothic,28,&H00CCCCCC,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,4,1,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:13:32.20,TopRightBrand,,0,0,0,,머니 아카이브
+Dialogue: 2,0:00:00.00,0:02:11.50,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 11만 원 ➔ 0.01원 · 사흘 만의 50조 증발  
+Dialogue: 2,0:02:11.50,0:04:49.64,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 권도형의 '테라·루나' 알고리즘 시소  
+Dialogue: 2,0:04:49.64,0:07:15.11,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 연 20% 이자 '앵커 금고'와 오만한 독설  
+Dialogue: 2,0:07:15.11,0:08:42.08,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 죽음의 소용돌이 · 6조 5천억 개 무한 증식  
+Dialogue: 2,0:08:42.08,0:10:02.79,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 폭락 직전 법인 해산 · 위조여권 체포  
+Dialogue: 2,0:10:02.79,0:11:59.64,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} [2부] FTX 샘 뱅크먼프리드 · 11조 백도어  
+Dialogue: 2,0:11:59.64,0:13:32.20,TopLeftPill,,0,0,0,,  {\c&H002820F0&}● /{\c&H00FFFFFF&} 72시간 뱅크런 · 100조 도미노의 최후  
+Dialogue: 2,0:00:00.00,0:00:06.00,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 2022년 5월 11일 새벽 · 대한민국 코인 투자자 28만 명 패닉  
+Dialogue: 2,0:00:09.12,0:00:15.12,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 글로벌 시가총액 8위 '루나(LUNA)'의 대붕괴  
+Dialogue: 2,0:00:30.67,0:00:36.67,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} LUNA 가격 붕괴 차트 : 119,000원 ➔ 0.01원 (-99.9999%)  
+Dialogue: 3,0:00:30.67,0:00:41.08,ChartVector,,0,0,0,,{\an7\pos(0,0)\p1\c&H1A263E&\alpha&H35&}m 180 155 l 1740 155 1740 855 180 855{\p0}
+Dialogue: 4,0:00:30.67,0:00:41.08,ChartVector,,0,0,0,,{\an7\pos(0,0)\p1\c&H405A8A&\alpha&H00&}m 260 240 l 265 240 265 780 1660 780 1660 785 260 785{\p0}
+Dialogue: 5,0:00:30.67,0:00:41.08,ChartTitle,,0,0,0,,{\an7\pos(260,178)}📉 LUNA/KRW 실시간 대폭락 차트 (2022.04 고점 ➔ 2022.05.13 상장폐지)
+Dialogue: 5,0:00:30.67,0:00:41.08,ChartVector,,0,0,0,,{\an7\pos(0,0)\clip(260,220,275,810)\t(0,9202,\clip(260,220,1670,810))\p1\c&H241CF5&}m 270 390 l 430 355 610 310 790 265 960 285 1080 340 1180 520 1280 690 1410 760 1640 768 1640 782 1410 774 1280 704 1180 534 1080 354 960 299 790 279 610 324 430 369 270 404{\p0}
+Dialogue: 6,0:00:30.67,0:00:41.08,ChartLabelGold,,0,0,0,,{\an5\pos(790,228)\fad(300,200)}고점 119,000원 (시총 8위)
+Dialogue: 6,0:00:36.08,0:00:41.08,ChartLabelRed,,0,0,0,,{\an5\pos(1430,685)\fscx130\fscy130\t(0,220,\fscx100\fscy100)}0.01원 (-99.9999%)
+Dialogue: 2,0:00:41.08,0:00:47.08,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 전 세계 루나·테라 증발 시가총액 : 약 50조 원  
+Dialogue: 5,0:00:41.08,0:00:47.66,GiantRedSlam,,0,0,0,,{\pos(960,455)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}-50,000,000,000,000원
+Dialogue: 5,0:00:41.08,0:00:47.66,GiantSubLabel,,0,0,0,,{\pos(960,620)\fad(200,250)}단 72시간 만에 공중분해 된 루나·테라 시가총액
+Dialogue: 2,0:01:08.63,0:01:14.19,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 폭락 직전 트위터 조롱 : "난 가난한 사람들과 토론하지 않는다"  
+Dialogue: 2,0:01:36.85,0:01:42.85,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} [2부] 바하마 펜트하우스 · 세계 2위 거래소 FTX 창업자 SBF  
+Dialogue: 2,0:02:15.88,0:02:21.88,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 2018년 · 스탠퍼드 출신 권도형 & 신현성 '테라폼랩스' 설립  
+Dialogue: 2,0:02:46.40,0:02:52.35,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 현금 담보 0원 · 수학 코드로 묶인 '테라-루나 알고리즘 시소'  
+Dialogue: 2,0:04:04.10,0:04:10.10,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 무제한 자동 발행 알고리즘 폭주 · 디지털 하이퍼인플레이션  
+Dialogue: 2,0:04:32.83,0:04:38.83,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 2022년 5월 7~13일 · 1달러 페깅 붕괴 및 데스 스파이럴 발동  
+Dialogue: 2,0:04:57.02,0:05:03.02,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 앵커 프로토콜(Anchor) : 연 20% 확정 이자 미끼에 75% 자금 집중  
+Dialogue: 2,0:07:58.15,0:08:04.15,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} LUNA 발행량 폭주 : 3.4억 개 ➔ 6조 5,300억 개 (나흘 만에 19,200배)  
+Dialogue: 3,0:07:58.15,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\p1\c&H1A263E&\alpha&H35&}m 180 155 l 1740 155 1740 855 180 855{\p0}
+Dialogue: 4,0:07:58.15,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\p1\c&H405A8A&\alpha&H00&}m 260 240 l 265 240 265 780 1660 780 1660 785 260 785{\p0}
+Dialogue: 5,0:07:58.15,0:08:13.64,ChartTitle,,0,0,0,,{\an7\pos(260,178)}⚠️ LUNA 유통량 하이퍼인플레이션 폭발 (단 96시간 만에 19,200배 증식)
+Dialogue: 5,0:07:58.15,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\fad(180,150)\p1\c&H00D4FF&}m 360 779 l 520 779 520 774 360 774{\p0}
+Dialogue: 6,0:07:58.15,0:08:13.64,ChartLabelGold,,0,0,0,,{\an5\pos(440,740)\fad(180,150)}3.4억 개
+Dialogue: 6,0:07:58.15,0:08:13.64,ChartAxis,,0,0,0,,{\an5\pos(440,814)}5월 9일 (월)
+Dialogue: 5,0:08:01.72,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\fad(180,150)\p1\c&H00A8FF&}m 690 779 l 850 779 850 748 690 748{\p0}
+Dialogue: 6,0:08:01.72,0:08:13.64,ChartLabelGold,,0,0,0,,{\an5\pos(770,714)\fad(180,150)}71억 개
+Dialogue: 6,0:07:58.15,0:08:13.64,ChartAxis,,0,0,0,,{\an5\pos(770,814)}5월 11일 (수)
+Dialogue: 5,0:08:05.29,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\fad(180,150)\p1\c&H2855FF&}m 1020 779 l 1180 779 1180 620 1020 620{\p0}
+Dialogue: 6,0:08:05.29,0:08:13.64,ChartLabelGold,,0,0,0,,{\an5\pos(1100,586)\fad(180,150)}4,300억 개
+Dialogue: 6,0:07:58.15,0:08:13.64,ChartAxis,,0,0,0,,{\an5\pos(1100,814)}5월 12일 (목)
+Dialogue: 5,0:08:08.44,0:08:13.64,ChartVector,,0,0,0,,{\an7\pos(0,0)\fad(180,150)\p1\c&H201CF5&}m 1360 779 l 1520 779 1520 275 1360 275{\p0}
+Dialogue: 6,0:08:08.44,0:08:13.64,ChartLabelGold,,0,0,0,,{\an5\pos(1440,241)\fad(180,150)}6조 5,300억 개!
+Dialogue: 6,0:07:58.15,0:08:13.64,ChartAxis,,0,0,0,,{\an5\pos(1440,814)}5월 13일 (금)
+Dialogue: 2,0:08:49.02,0:08:55.02,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 대폭락 직전 2022년 4월 30일 한국 법인 전격 해산 및 출국  
+Dialogue: 2,0:09:09.52,0:09:15.52,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 2023년 3월 23일 몬테네그로 포드고리차 공항 위조여권 체포  
+Dialogue: 2,0:09:44.63,0:09:50.63,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 미 증권거래위원회(SEC) 사기 제소 · 약 6조 원($4.5B) 환수·벌금 합의  
+Dialogue: 2,0:10:35.24,0:10:41.24,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 슈퍼볼 광고·정치 후원금으로 쌓아 올린 '크립토 구원자' 가면  
+Dialogue: 2,0:11:01.36,0:11:07.36,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 비밀 백도어 가동 : FTX 고객 예치금 11조 원($8B) 알라메다 불법 전용  
+Dialogue: 2,0:12:03.08,0:12:09.08,SpecCard,,0,0,0,,{\fad(180,250)}  {\c&H002820F0&}▌{\c&H00E8E8E8&} 72시간 뱅크런 · 기업가치 43조 원 FTX 파산 보호 신청  
+Dialogue: 5,0:12:03.08,0:12:15.92,GiantRedSlam,,0,0,0,,{\pos(960,455)\fscx135\fscy135\t(0,220,\fscx100\fscy100)\fad(60,250)}기업가치 43조 ➔ 파산
+Dialogue: 5,0:12:03.08,0:12:15.92,GiantSubLabel,,0,0,0,,{\pos(960,620)\fad(200,250)}72시간 8조 원 뱅크런 · 세계 2위 거래소 FTX의 몰락
+Dialogue: 2,0:07:15.11,0:07:16.69,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-0.2조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:16.69,0:07:18.27,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-0.6조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:18.27,0:07:19.85,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-1.0조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:19.85,0:07:21.44,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-1.5조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:21.44,0:07:23.02,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-2.0조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:23.02,0:07:24.60,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-2.5조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:24.60,0:07:26.18,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-3.1조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:26.18,0:07:27.76,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-3.7조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:27.76,0:07:29.34,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-4.3조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:29.34,0:07:30.92,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-5.0조 원 █░░░░░░░░░  
+Dialogue: 2,0:07:30.92,0:07:32.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-5.7조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:32.50,0:07:34.09,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-6.4조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:34.09,0:07:35.67,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-7.1조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:35.67,0:07:37.25,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-7.9조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:37.25,0:07:38.83,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-8.7조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:38.83,0:07:40.41,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-9.4조 원 ██░░░░░░░░  
+Dialogue: 2,0:07:40.41,0:07:41.99,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-10.2조 원 ███░░░░░░░  
+Dialogue: 2,0:07:41.99,0:07:43.57,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-11.1조 원 ███░░░░░░░  
+Dialogue: 2,0:07:43.57,0:07:45.15,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-11.9조 원 ███░░░░░░░  
+Dialogue: 2,0:07:45.15,0:07:46.74,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-12.8조 원 ███░░░░░░░  
+Dialogue: 2,0:07:46.74,0:07:48.32,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-13.6조 원 ███░░░░░░░  
+Dialogue: 2,0:07:48.32,0:07:49.90,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-14.5조 원 ████░░░░░░  
+Dialogue: 2,0:07:49.90,0:07:51.48,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-15.4조 원 ████░░░░░░  
+Dialogue: 2,0:07:51.48,0:07:53.06,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-16.3조 원 ████░░░░░░  
+Dialogue: 2,0:07:53.06,0:07:54.64,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-17.2조 원 ████░░░░░░  
+Dialogue: 2,0:07:54.64,0:07:56.22,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-18.2조 원 ████░░░░░░  
+Dialogue: 2,0:07:56.22,0:07:57.80,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-19.1조 원 ████░░░░░░  
+Dialogue: 2,0:07:57.80,0:07:59.39,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-20.1조 원 █████░░░░░  
+Dialogue: 2,0:07:59.39,0:08:00.97,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-21.1조 원 █████░░░░░  
+Dialogue: 2,0:08:00.97,0:08:02.55,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-22.1조 원 █████░░░░░  
+Dialogue: 2,0:08:02.55,0:08:04.13,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-23.1조 원 █████░░░░░  
+Dialogue: 2,0:08:04.13,0:08:05.71,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-24.1조 원 █████░░░░░  
+Dialogue: 2,0:08:05.71,0:08:07.29,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-25.1조 원 ██████░░░░  
+Dialogue: 2,0:08:07.29,0:08:08.87,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-26.1조 원 ██████░░░░  
+Dialogue: 2,0:08:08.87,0:08:10.45,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-27.2조 원 ██████░░░░  
+Dialogue: 2,0:08:10.45,0:08:12.04,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-28.2조 원 ██████░░░░  
+Dialogue: 2,0:08:12.04,0:08:13.62,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-29.3조 원 ██████░░░░  
+Dialogue: 2,0:08:13.62,0:08:15.20,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-30.4조 원 ██████░░░░  
+Dialogue: 2,0:08:15.20,0:08:16.78,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-31.4조 원 ███████░░░  
+Dialogue: 2,0:08:16.78,0:08:18.36,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-32.5조 원 ███████░░░  
+Dialogue: 2,0:08:18.36,0:08:19.94,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-33.6조 원 ███████░░░  
+Dialogue: 2,0:08:19.94,0:08:21.52,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-34.7조 원 ███████░░░  
+Dialogue: 2,0:08:21.52,0:08:23.10,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-35.9조 원 ███████░░░  
+Dialogue: 2,0:08:23.10,0:08:24.69,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-37.0조 원 ████████░░  
+Dialogue: 2,0:08:24.69,0:08:26.27,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-38.1조 원 ████████░░  
+Dialogue: 2,0:08:26.27,0:08:27.85,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-39.3조 원 ████████░░  
+Dialogue: 2,0:08:27.85,0:08:29.43,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-40.4조 원 ████████░░  
+Dialogue: 2,0:08:29.43,0:08:31.01,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-41.6조 원 ████████░░  
+Dialogue: 2,0:08:31.01,0:08:32.59,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-42.8조 원 ████████░░  
+Dialogue: 2,0:08:32.59,0:08:34.17,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-44.0조 원 █████████░  
+Dialogue: 2,0:08:34.17,0:08:35.75,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-45.2조 원 █████████░  
+Dialogue: 2,0:08:35.75,0:08:37.34,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-46.4조 원 █████████░  
+Dialogue: 2,0:08:37.34,0:08:38.92,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-47.6조 원 █████████░  
+Dialogue: 2,0:08:38.92,0:08:40.50,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-48.8조 원 █████████░  
+Dialogue: 2,0:08:40.50,0:08:42.08,LiveTelemetryHUD,,0,0,0,,  📉 {\c&H00FFFFFF&}루나·테라 증발 시총 : {\c&H002820F0&}-50.0조 원 ██████████  
+Dialogue: 2,0:11:01.35,0:11:03.35,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-0.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:03.35,0:11:05.36,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-0.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:05.36,0:11:07.36,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-0.7조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:07.36,0:11:09.37,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-0.9조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:09.37,0:11:11.37,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:11.37,0:11:13.37,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.1조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:13.37,0:11:15.38,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.3조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:15.38,0:11:17.38,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:17.38,0:11:19.38,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:19.38,0:11:21.39,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-1.8조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:21.39,0:11:23.39,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-2.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:23.39,0:11:25.40,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-2.2조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:25.40,0:11:27.40,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-2.3조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:27.40,0:11:29.40,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-2.5조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:29.40,0:11:31.41,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-2.8조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:31.41,0:11:33.41,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-3.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:33.41,0:11:35.41,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-3.2조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:35.41,0:11:37.42,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-3.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:37.42,0:11:39.42,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-3.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:39.42,0:11:41.43,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-3.9조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:41.43,0:11:43.43,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-4.1조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:43.43,0:11:45.43,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-4.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:45.43,0:11:47.44,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-4.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:47.44,0:11:49.44,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-4.9조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:49.44,0:11:51.44,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-5.1조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:51.44,0:11:53.45,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-5.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:53.45,0:11:55.45,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-5.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:55.45,0:11:57.46,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-5.9조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:57.46,0:11:59.46,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-6.2조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:11:59.46,0:12:01.46,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-6.5조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:01.46,0:12:03.47,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-6.7조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:03.47,0:12:05.47,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-7.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:05.47,0:12:07.47,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-7.3조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:07.47,0:12:09.48,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-7.6조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:09.48,0:12:11.48,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-7.9조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:11.48,0:12:13.49,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-8.2조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:13.49,0:12:15.49,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-8.5조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:15.49,0:12:17.49,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-8.8조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:17.49,0:12:19.50,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-9.1조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:19.50,0:12:21.50,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-9.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:21.50,0:12:23.50,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-9.7조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:23.50,0:12:25.51,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-10.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:25.51,0:12:27.51,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-10.4조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:27.51,0:12:29.52,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-10.7조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 2,0:12:29.52,0:12:31.52,LiveTelemetryHUD,,0,0,0,,  ⚠️ {\c&H00FFFFFF&}FTX 고객 예치금 불법 유출 : {\c&H0000DFFF&}-11.0조 원 {\c&H002820F0&}(백도어 가동)  
+Dialogue: 6,0:00:00.10,0:00:02.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2022년{\c&H00FFFFFF&} 5월 {\c&H0000DFFF&}11일{\c&H00FFFFFF&} 새벽 3시,  
+Dialogue: 6,0:00:02.79,0:00:06.20,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 잠 못 이루던 대한민국 서울의 수많은 아파트  
+Dialogue: 6,0:00:06.20,0:00:09.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 창문에서 비명 소리가 터져 나왔습니다.  
+Dialogue: 6,0:00:09.12,0:00:12.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불과 며칠 전까지만 해도 한 개에 11만 9천  
+Dialogue: 6,0:00:12.24,0:00:15.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원에 거래되며 전 세계 시가총액 8위까지 치솟았던  
+Dialogue: 6,0:00:15.60,0:00:17.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자랑스러운 한국산 암호화폐,  
+Dialogue: 6,0:00:17.46,0:00:21.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}루나{\c&H00FFFFFF&}'가 눈앞에서 실시간으로 녹아내리고 있었기 때문입니다.  
+Dialogue: 6,0:00:21.57,0:00:23.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 {\c&H0000DFFF&}72시간{\c&H00FFFFFF&}.  
+Dialogue: 6,0:00:23.83,0:00:27.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인류 금융 역사상 그 어떤 거대한 제국도 이토록  
+Dialogue: 6,0:00:27.32,0:00:30.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 짧은 시간 안에 공중분해 된 적은 없었습니다.  
+Dialogue: 6,0:00:30.67,0:00:33.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}10만 원{\c&H00FFFFFF&}이 깨지더니 만 원이 되고,  
+Dialogue: 6,0:00:33.34,0:00:35.74,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 천 원이 되더니 백 원이 되었고,  
+Dialogue: 6,0:00:35.74,0:00:41.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 마침내 소수점 아래 네 자리, 단돈 {\c&H0000DFFF&}0.01원{\c&H00FFFFFF&}짜리 먼지가 되어버렸습니다.  
+Dialogue: 6,0:00:41.08,0:00:44.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전 세계 투자자들의 피 같은 돈 {\c&H0000DFFF&}50조 원{\c&H00FFFFFF&}이 문자  
+Dialogue: 6,0:00:44.56,0:00:47.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그대로 연기처럼 증발해 버린 순간이었습니다.  
+Dialogue: 6,0:00:47.66,0:00:51.62,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한국에서만 무려 28만 명의 계좌가 휴지조각이 되었고,  
+Dialogue: 6,0:00:51.62,0:00:55.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 평생 모은 퇴직금과 전세 자금을 넣었던 수많은 평범한  
+Dialogue: 6,0:00:55.44,0:00:57.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 사람들이 벼랑 끝으로 내몰렸습니다.  
+Dialogue: 6,0:00:57.95,0:01:00.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 이 끔찍한 {\c&H0000DFFF&}50조 원{\c&H00FFFFFF&} 증발 사태가  
+Dialogue: 6,0:01:00.71,0:01:02.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 터지기 불과 여드레 전,  
+Dialogue: 6,0:01:02.35,0:01:04.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 코인을 만든 서른 살 한국인 청년은  
+Dialogue: 6,0:01:04.99,0:01:08.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인터넷 방송에 나와 해맑게 웃으며 이렇게 말했습니다.  
+Dialogue: 6,0:01:08.63,0:01:11.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기업들이 태어나고 망해가는 걸 지켜보는  
+Dialogue: 6,0:01:11.60,0:01:14.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 건 솔직히 꽤 재미있는 구경거리죠.  
+Dialogue: 6,0:01:14.29,0:01:17.67,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자신을 비판하는 세계적인 경제학자들을 향해서는  
+Dialogue: 6,0:01:17.67,0:01:20.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} "나는 가난한 사람들과는 토론하지 않는다"며  
+Dialogue: 6,0:01:20.93,0:01:22.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 오만한 독설을 퍼부었습니다.  
+Dialogue: 6,0:01:22.96,0:01:25.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 그로부터 정확히 일주일 뒤,  
+Dialogue: 6,0:01:25.61,0:01:28.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 비웃던 바로 그 붕괴의 주인공은  
+Dialogue: 6,0:01:28.39,0:01:31.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다름 아닌 자기 자신이 되었습니다.  
+Dialogue: 6,0:01:31.04,0:01:32.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 충격적인 건,  
+Dialogue: 6,0:01:32.35,0:01:36.85,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}루나{\c&H00FFFFFF&}의 붕괴는 끝이 아니라 시작에 불과했다는 사실입니다.  
+Dialogue: 6,0:01:36.85,0:01:40.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한국 청년 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}이 무너뜨린 첫 번째 도미노는  
+Dialogue: 6,0:01:40.11,0:01:43.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 반년 뒤 지구 반대편 바하마의 초호화 펜트하우스에  
+Dialogue: 6,0:01:43.64,0:01:46.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 숨어 있던 또 다른 서른 살 천재,  
+Dialogue: 6,0:01:46.12,0:01:49.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '크립토의 제왕' {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&}의 {\c&H0000DFFF&}43조 원{\c&H00FFFFFF&}짜리  
+Dialogue: 6,0:01:49.64,0:01:52.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 제국 {\c&H0000DFFF&}FTX{\c&H00FFFFFF&}까지 통째로 집어삼키게 됩니다.  
+Dialogue: 6,0:01:52.64,0:01:55.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도대체 어떻게 종이 한 장 없는 디지털 숫자  
+Dialogue: 6,0:01:55.58,0:01:58.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 놀음이 전 세계에서 {\c&H0000DFFF&}100조 원{\c&H00FFFFFF&} 가까운 부를  
+Dialogue: 6,0:01:58.52,0:02:00.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단숨에 증발시킬 수 있었을까요?  
+Dialogue: 6,0:02:00.60,0:02:03.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 오늘 머니 아카이브에서는 대한민국과 전  
+Dialogue: 6,0:02:03.30,0:02:06.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세계 금융사를 뒤흔든 최악의 코인 대폭락,  
+Dialogue: 6,0:02:06.25,0:02:08.94,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}루나{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 사태와 {\c&H0000DFFF&}FTX{\c&H00FFFFFF&} 도미노 붕괴의  
+Dialogue: 6,0:02:08.94,0:02:11.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 소름 돋는 전말을 끝까지 추적합니다.  
+Dialogue: 6,0:02:11.51,0:02:15.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이야기의 시작은 {\c&H0000DFFF&}2018년{\c&H00FFFFFF&}으로 거슬러 올라갑니다.  
+Dialogue: 6,0:02:15.88,0:02:18.65,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 스물일곱 살이던 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 대원외고를  
+Dialogue: 6,0:02:18.65,0:02:22.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 졸업하고 미국 명문 스탠퍼드 대학교에서 컴퓨터공학을  
+Dialogue: 6,0:02:22.19,0:02:25.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전공한 뒤 애플과 마이크로소프트를 거친 화려한  
+Dialogue: 6,0:02:25.35,0:02:26.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스펙의 소유자였습니다.  
+Dialogue: 6,0:02:26.86,0:02:30.59,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여기에 대한민국 대표 소셜커머스 '티몬'의 창업자였던  
+Dialogue: 6,0:02:30.59,0:02:32.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 신현성 대표가 손을 잡으면서,  
+Dialogue: 6,0:02:32.64,0:02:36.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 두 사람은 블록체인 기업 '{\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스'를 설립합니다.  
+Dialogue: 6,0:02:36.36,0:02:38.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 스탠퍼드 출신 천재 엔지니어'와 '티몬  
+Dialogue: 6,0:02:38.99,0:02:41.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 창업 신화의 주역'이 만났다는 소식에  
+Dialogue: 6,0:02:41.50,0:02:44.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 국내외 대형 벤처캐피탈들은 앞다투어 수백억  
+Dialogue: 6,0:02:44.39,0:02:46.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원의 투자금을 쏟아부었습니다.  
+Dialogue: 6,0:02:46.40,0:02:49.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그들이 세상에 내놓은 핵심 발명품은 바로  
+Dialogue: 6,0:02:49.35,0:02:52.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}테라{\c&H00FFFFFF&}'라는 이름의 스테이블코인이었습니다.  
+Dialogue: 6,0:02:52.45,0:02:56.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원래 비트코인 같은 암호화폐는 하루에도 가격이 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&}씩  
+Dialogue: 6,0:02:56.42,0:03:00.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 널뛰기 때문에 실생활에서 커피 한 잔 사 먹기 어렵다는  
+Dialogue: 6,0:03:00.15,0:03:02.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 치명적인 약점이 있었습니다.  
+Dialogue: 6,0:03:02.02,0:03:05.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그래서 기존 시장의 강자들은 은행 금고에 실제 미국  
+Dialogue: 6,0:03:05.64,0:03:07.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 달러 현금 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}를 넣어두고,  
+Dialogue: 6,0:03:07.71,0:03:12.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그 증표로 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}짜리 코인을 발행하는 안전한 방식을 썼습니다.  
+Dialogue: 6,0:03:12.10,0:03:15.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 코웃음을 쳤습니다.  
+Dialogue: 6,0:03:15.34,0:03:17.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 은행에 현금을 쌓아두는 건  
+Dialogue: 6,0:03:17.50,0:03:19.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 구시대적이고 비효율적이다.  
+Dialogue: 6,0:03:19.66,0:03:22.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리는 오직 수학 공식과 컴퓨터 알고리즘만으로  
+Dialogue: 6,0:03:22.88,0:03:25.46,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 언제나 정확히 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&} 가치를 유지하는  
+Dialogue: 6,0:03:25.46,0:03:27.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 마법의 화폐를 만들겠다!  
+Dialogue: 6,0:03:27.14,0:03:29.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그가 설계한 마법의 시소는 언뜻  
+Dialogue: 6,0:03:29.66,0:03:31.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 보면 천재적으로 보였습니다.  
+Dialogue: 6,0:03:31.97,0:03:35.00,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 언제나 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}에 고정되는 코인 '{\c&H0000DFFF&}테라{\c&H00FFFFFF&} UST'  
+Dialogue: 6,0:03:35.00,0:03:35.37,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 옆에,  
+Dialogue: 6,0:03:35.37,0:03:40.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가격 변동을 흡수해 주는 쌍둥이 코인 '{\c&H0000DFFF&}루나{\c&H00FFFFFF&}'를 세트로 묶어놓은 겁니다.  
+Dialogue: 6,0:03:40.16,0:03:43.03,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원리는 아주 단순했습니다.  
+Dialogue: 6,0:03:43.03,0:03:46.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만약 시장에서 {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 가격이 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&} 아래인 {\c&H0000DFFF&}90센트{\c&H00FFFFFF&}로  
+Dialogue: 6,0:03:46.29,0:03:46.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 떨어지면,  
+Dialogue: 6,0:03:46.88,0:03:49.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 누구든 이 {\c&H0000DFFF&}90센트{\c&H00FFFFFF&}짜리 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를 시스템에 가져와  
+Dialogue: 6,0:03:49.79,0:03:53.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 항상 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}어치의 새 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 코인으로 바꿔 갈 수 있게 해줬습니다.  
+Dialogue: 6,0:03:53.98,0:03:56.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 앉은자리에서 {\c&H0000DFFF&}10센트{\c&H00FFFFFF&} 공짜 차익이 생기니  
+Dialogue: 6,0:03:56.70,0:03:59.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 투자자들이 앞다투어 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를 사들여 소각할  
+Dialogue: 6,0:03:59.41,0:03:59.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 것이고,  
+Dialogue: 6,0:03:59.91,0:04:04.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그러면 {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 공급이 줄어 다시 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}로 올라간다는 계산이었죠.  
+Dialogue: 6,0:04:04.10,0:04:07.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 반대로 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}가 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}보다 비싸지면 {\c&H0000DFFF&}루나{\c&H00FFFFFF&}를 태워  
+Dialogue: 6,0:04:07.50,0:04:10.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를 새로 찍어내 가격을 맞췄습니다.  
+Dialogue: 6,0:04:10.34,0:04:13.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 현금 담보 한 푼 없이 서로가 서로의 가치를  
+Dialogue: 6,0:04:13.58,0:04:16.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 받쳐주는 일명 '알고리즘 시소'였습니다.  
+Dialogue: 6,0:04:16.54,0:04:19.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 전 세계 수많은 경제학자들과  
+Dialogue: 6,0:04:19.10,0:04:22.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 월스트리트의 베테랑들은 이 구조를 보자마자  
+Dialogue: 6,0:04:22.21,0:04:24.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 섬뜩한 경고를 날렸습니다.  
+Dialogue: 6,0:04:24.10,0:04:26.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 평소엔 시소가 잘 움직이겠지만,  
+Dialogue: 6,0:04:26.39,0:04:29.47,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만약 어느 날 사람들이 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}와 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 둘 다  
+Dialogue: 6,0:04:29.47,0:04:32.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 못 믿겠다며 동시에 팔아치우면 어떻게 되는가?  
+Dialogue: 6,0:04:32.83,0:04:35.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}로 방어하려고 {\c&H0000DFFF&}루나{\c&H00FFFFFF&}를 미친 듯이  
+Dialogue: 6,0:04:35.89,0:04:38.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 새로 찍어내면 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 가격이 폭락하고,  
+Dialogue: 6,0:04:38.43,0:04:41.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}루나{\c&H00FFFFFF&}가 폭락하면 겁에 질린 사람들이 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를  
+Dialogue: 6,0:04:41.36,0:04:42.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 던지고,  
+Dialogue: 6,0:04:42.13,0:04:45.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그러면 {\c&H0000DFFF&}루나{\c&H00FFFFFF&}를 수천억 개씩 더 찍어내야 하는  
+Dialogue: 6,0:04:45.18,0:04:49.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}죽음의 소용돌이{\c&H00FFFFFF&}', 즉 {\c&H0000DFFF&}데스 스파이럴{\c&H00FFFFFF&}이 터진다는 경고였습니다.  
+Dialogue: 6,0:04:49.64,0:04:52.23,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그렇다면 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 어떻게 이 위태로운  
+Dialogue: 6,0:04:52.23,0:04:54.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시소에 전 세계 수십만 명의 돈 50조  
+Dialogue: 6,0:04:54.95,0:04:57.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원을 끌어모을 수 있었을까요?  
+Dialogue: 6,0:04:57.02,0:05:00.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 여기에 금융 사기 역사상 가장 달콤한  
+Dialogue: 6,0:05:00.33,0:05:03.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미끼, '{\c&H0000DFFF&}앵커 프로토콜{\c&H00FFFFFF&}'이 등장합니다.  
+Dialogue: 6,0:05:03.36,0:05:07.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2021년{\c&H00FFFFFF&} 당시 전 세계 은행 예금 금리는 연 {\c&H0000DFFF&}1퍼센트{\c&H00FFFFFF&}도  
+Dialogue: 6,0:05:07.64,0:05:10.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 채 되지 않던 제로 금리 시대였습니다.  
+Dialogue: 6,0:05:10.54,0:05:14.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스는 충격적인 선언을 합니다.  
+Dialogue: 6,0:05:14.41,0:05:17.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 코인을 사서 {\c&H0000DFFF&}앵커 프로토콜{\c&H00FFFFFF&}이라는 금고에  
+Dialogue: 6,0:05:17.83,0:05:18.97,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 예치하기만 하면,  
+Dialogue: 6,0:05:18.97,0:05:24.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가격 변동 위험도 없이 매년 따박따박 연 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&}의 확정 이자를 주겠습니다!  
+Dialogue: 6,0:05:24.43,0:05:28.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}1억 원{\c&H00FFFFFF&}을 넣어두면 아무 일도 안 해도 {\c&H0000DFFF&}1년{\c&H00FFFFFF&}에 2천만  
+Dialogue: 6,0:05:28.05,0:05:31.42,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 원씩 이자가 불어난다는 소리에 한국은 물론 미국과  
+Dialogue: 6,0:05:31.42,0:05:34.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 유럽의 투자자들까지 눈이 뒤집혔습니다.  
+Dialogue: 6,0:05:34.04,0:05:37.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 강남의 자산가들과 직장인들 사이에서는  
+Dialogue: 6,0:05:37.31,0:05:40.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대출을 받아 앵커에 넣는 이른바 '이자  
+Dialogue: 6,0:05:40.17,0:05:42.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 농사' 열풍까지 불었습니다.  
+Dialogue: 6,0:05:42.21,0:05:45.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 상식적으로 땅을 파서 장사하는 것도 아닌데  
+Dialogue: 6,0:05:45.21,0:05:47.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도대체 무슨 돈으로 연 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&}라는  
+Dialogue: 6,0:05:47.83,0:05:50.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 말도 안 되는 이자를 줬을까요?  
+Dialogue: 6,0:05:50.05,0:05:53.31,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 비밀은 처참할 정도로 단순했습니다.  
+Dialogue: 6,0:05:53.31,0:05:56.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 대출 이자 수익만으로는 턱없이 모자라자,  
+Dialogue: 6,0:05:56.16,0:05:59.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스가 재단 금고에 쌓아둔 준비금을 헐어  
+Dialogue: 6,0:05:59.40,0:06:02.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 매일 수십억 원씩 적자를 메우며 억지로 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&}  
+Dialogue: 6,0:06:02.90,0:06:05.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이자를 지급하고 있었던 겁니다!  
+Dialogue: 6,0:06:05.10,0:06:08.06,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 쉽게 말해 들어오는 투자자를 기하급수적으로  
+Dialogue: 6,0:06:08.06,0:06:10.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 늘리기 위해 내 돈 깎아 먹으며 미끼를  
+Dialogue: 6,0:06:10.76,0:06:13.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 뿌린 사실상의 마케팅 비용이었습니다.  
+Dialogue: 6,0:06:13.33,0:06:15.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 전체 {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 발행량의 무려 {\c&H0000DFFF&}75퍼센트{\c&H00FFFFFF&}가  
+Dialogue: 6,0:06:15.98,0:06:18.88,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 오직 이 연 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&} 이자 하나만 보고  
+Dialogue: 6,0:06:18.88,0:06:21.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 앵커 금고 한곳에 몰려 있었습니다.  
+Dialogue: 6,0:06:21.39,0:06:23.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 시한폭탄의 심지에 이미 불이  
+Dialogue: 6,0:06:23.73,0:06:25.61,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 붙어 있었던 셈입니다.  
+Dialogue: 6,0:06:25.61,0:06:28.95,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그사이 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 가격은 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&} 미만에서 {\c&H0000DFFF&}100달러{\c&H00FFFFFF&},  
+Dialogue: 6,0:06:28.95,0:06:32.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}11만 9천 원{\c&H00FFFFFF&}까지 수백 배 폭등했고,  
+Dialogue: 6,0:06:32.29,0:06:35.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 서른 살 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 단숨에 전 세계 코인 시장의  
+Dialogue: 6,0:06:35.51,0:06:37.05,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 신으로 추앙받았습니다.  
+Dialogue: 6,0:06:37.05,0:06:39.56,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그리고 바로 이 정점의 순간,  
+Dialogue: 6,0:06:39.56,0:06:42.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인간의 오만함은 하늘을 찔렀습니다.  
+Dialogue: 6,0:06:42.55,0:06:45.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2021년{\c&H00FFFFFF&} 말 영국의 경제학자 프랜시스  
+Dialogue: 6,0:06:45.39,0:06:48.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 코폴라가 알고리즘 코인의 붕괴 위험을 지적하자,  
+Dialogue: 6,0:06:48.91,0:06:51.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 전 세계가 보는 트위터에 "나는  
+Dialogue: 6,0:06:51.89,0:06:55.00,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가난한 사람들과는 토론하지 않는다"며 조롱  
+Dialogue: 6,0:06:55.00,0:06:56.76,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 섞인 답글을 남겼습니다.  
+Dialogue: 6,0:06:56.86,0:06:59.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 또 다른 코인 투자자가 "{\c&H0000DFFF&}1년{\c&H00FFFFFF&} 뒤에 {\c&H0000DFFF&}루나{\c&H00FFFFFF&}  
+Dialogue: 6,0:06:59.58,0:07:02.30,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가격이 지금보다 낮을지에 100만 달러를  
+Dialogue: 6,0:07:02.30,0:07:03.66,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 걸겠다"고 도발하자,  
+Dialogue: 6,0:07:03.66,0:07:06.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 즉석에서 1,000만 달러,  
+Dialogue: 6,0:07:06.13,0:07:09.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}130억 원{\c&H00FFFFFF&}을 판돈으로 걸며 기고만장해했습니다.  
+Dialogue: 6,0:07:09.96,0:07:13.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 운명의 심판은 그의 장담보다  
+Dialogue: 6,0:07:13.02,0:07:15.11,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 훨씬 빨리 찾아왔습니다.  
+Dialogue: 6,0:07:15.11,0:07:17.39,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2022년{\c&H00FFFFFF&} 5월 {\c&H0000DFFF&}7일{\c&H00FFFFFF&} 주말 밤,  
+Dialogue: 6,0:07:17.39,0:07:21.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 거대한 자본 세력이 {\c&H0000DFFF&}앵커 프로토콜{\c&H00FFFFFF&}에서 수천억 원어치의  
+Dialogue: 6,0:07:21.27,0:07:25.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&}를 한꺼번에 빼내 시장에 투매하기 시작했습니다.  
+Dialogue: 6,0:07:25.02,0:07:28.21,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 철옹성 같던 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}의 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&} 벽이 {\c&H0000DFFF&}98센트{\c&H00FFFFFF&},  
+Dialogue: 6,0:07:28.21,0:07:31.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}95센트{\c&H00FFFFFF&}로 미세하게 금이 가기 시작하자,  
+Dialogue: 6,0:07:31.26,0:07:34.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그동안 불안해하던 전 세계 투자자들이 한꺼번에  
+Dialogue: 6,0:07:34.72,0:07:39.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 출구로 몰려가는 대탈출, 즉 디지털 뱅크런이 터졌습니다!  
+Dialogue: 6,0:07:39.02,0:07:40.13,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 그 순간,  
+Dialogue: 6,0:07:40.13,0:07:43.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경제학자들이 경고했던 '{\c&H0000DFFF&}죽음의 소용돌이{\c&H00FFFFFF&}'가  
+Dialogue: 6,0:07:43.32,0:07:46.50,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 컴퓨터 코드 그대로 작동하기 시작했습니다.  
+Dialogue: 6,0:07:46.50,0:07:49.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무너진 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}를 되돌리기 위해 알고리즘 기계는  
+Dialogue: 6,0:07:49.72,0:07:52.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인간의 개입도 없이 자동으로 새 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 코인을  
+Dialogue: 6,0:07:52.80,0:07:54.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 찍어내 시장에 쏟아부었습니다.  
+Dialogue: 6,0:07:54.86,0:07:58.15,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 숫자를 보면 등골이 서늘해집니다.  
+Dialogue: 6,0:07:58.15,0:08:01.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 5월 {\c&H0000DFFF&}9일{\c&H00FFFFFF&} 월요일까지 전 세계에 약 3억 4천만  
+Dialogue: 6,0:08:01.71,0:08:03.91,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 개뿐이던 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 코인 발행량이,  
+Dialogue: 6,0:08:03.91,0:08:05.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 화요일에는 수십억 개,  
+Dialogue: 6,0:08:05.55,0:08:08.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 목요일에는 수천억 개로 불어나더니,  
+Dialogue: 6,0:08:08.16,0:08:13.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 금요일인 5월 {\c&H0000DFFF&}13일{\c&H00FFFFFF&}에는 무려 {\c&H0000DFFF&}6조 5,300억 개{\c&H00FFFFFF&}로 폭발해 버렸습니다!  
+Dialogue: 6,0:08:13.64,0:08:16.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불과 나흘 만에 화폐 발행량이 2만 배 가까이  
+Dialogue: 6,0:08:16.89,0:08:20.26,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 불어난 역사상 초유의 하이퍼인플레이션이었습니다.  
+Dialogue: 6,0:08:20.26,0:08:23.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 독일 바이마르 공화국이나 짐바브웨에서 수레에  
+Dialogue: 6,0:08:23.41,0:08:26.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 지폐를 싣고 가 빵 한 조각을 사던 비극이,  
+Dialogue: 6,0:08:26.57,0:08:29.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 21세기 최첨단 블록체인 위에서 단 {\c&H0000DFFF&}72시간{\c&H00FFFFFF&}  
+Dialogue: 6,0:08:29.72,0:08:31.29,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만에 재현된 것입니다.  
+Dialogue: 6,0:08:31.29,0:08:34.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 국내 거래소 업비트와 빗썸을 비롯한 세계  
+Dialogue: 6,0:08:34.08,0:08:36.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 최대 거래소 바이낸스는 줄줄이 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 상장  
+Dialogue: 6,0:08:36.87,0:08:38.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 폐지를 선언했고,  
+Dialogue: 6,0:08:38.02,0:08:42.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}50조 원{\c&H00FFFFFF&}의 제국은 문자 그대로 {\c&H0000DFFF&}0원{\c&H00FFFFFF&}이 되어 사라졌습니다.  
+Dialogue: 6,0:08:42.08,0:08:45.68,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 투자자들이 피눈물을 흘리던 바로 그 시점,  
+Dialogue: 6,0:08:45.68,0:08:49.02,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 등 뒤에서 소름 돋는 사실 하나가 드러납니다.  
+Dialogue: 6,0:08:49.02,0:08:51.99,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 등기부등본을 확인해 보니 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 대폭락이  
+Dialogue: 6,0:08:51.99,0:08:55.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 터지기 불과 며칠 전인 {\c&H0000DFFF&}2022년{\c&H00FFFFFF&} 4월 {\c&H0000DFFF&}30일{\c&H00FFFFFF&},  
+Dialogue: 6,0:08:55.35,0:08:58.71,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이미 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스의 한국 본사 법인과 부산 지점을  
+Dialogue: 6,0:08:58.71,0:09:01.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 주주총회 결의로 조용히 해산시키고 싱가포르로  
+Dialogue: 6,0:09:01.81,0:09:03.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 출국해 버린 뒤였던 겁니다!  
+Dialogue: 6,0:09:03.75,0:09:07.35,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 본인은 "우연의 일치일 뿐"이라고 해명했지만,  
+Dialogue: 6,0:09:07.35,0:09:09.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 분노한 여론은 들끓었습니다.  
+Dialogue: 6,0:09:09.52,0:09:12.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인터폴 적색 수배령이 떨어지자 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 "나는  
+Dialogue: 6,0:09:12.60,0:09:15.93,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 도주 중이 아니다"라고 큰소리치면서도 싱가포르에서  
+Dialogue: 6,0:09:15.93,0:09:16.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 두바이로,  
+Dialogue: 6,0:09:16.55,0:09:21.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 다시 동유럽 세르비아로 숨어 다니며 무려 {\c&H0000DFFF&}11개{\c&H00FFFFFF&}월간 추적을 피했습니다.  
+Dialogue: 6,0:09:21.36,0:09:25.22,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그의 기막힌 도피 행각이 막을 내린 곳은 {\c&H0000DFFF&}2023년{\c&H00FFFFFF&}  
+Dialogue: 6,0:09:25.22,0:09:26.18,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 3월 {\c&H0000DFFF&}23일{\c&H00FFFFFF&},  
+Dialogue: 6,0:09:26.18,0:09:30.87,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 발칸반도의 작은 나라 몬테네그로 포드고리차 국제공항이었습니다.  
+Dialogue: 6,0:09:30.87,0:09:33.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 두바이행 초호화 전용기에 오르려던 그와 측근의  
+Dialogue: 6,0:09:33.96,0:09:36.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 가방에서 코스타리카 {\c&H0000DFFF&}위조 여권{\c&H00FFFFFF&}과 벨기에 위조  
+Dialogue: 6,0:09:36.92,0:09:39.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 여권이 줄줄이 쏟아져 나온 겁니다.  
+Dialogue: 6,0:09:39.27,0:09:42.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 더 기가 막힌 건 체포 이후에 드러난  
+Dialogue: 6,0:09:42.17,0:09:44.63,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 돈의 행방과 처벌 규모였습니다.  
+Dialogue: 6,0:09:44.63,0:09:48.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 증권거래위원회 SEC는 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}과 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스가  
+Dialogue: 6,0:09:48.24,0:09:51.44,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 투자자들을 속여 천문학적인 사기극을 벌였다며  
+Dialogue: 6,0:09:51.44,0:09:52.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 소송을 제기했고,  
+Dialogue: 6,0:09:52.64,0:09:55.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2024년{\c&H00FFFFFF&} 법원은 {\c&H0000DFFF&}테라{\c&H00FFFFFF&}폼랩스와 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}에게 무려  
+Dialogue: 6,0:09:55.98,0:09:56.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 45억 달러,  
+Dialogue: 6,0:09:56.92,0:10:02.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 약 {\c&H0000DFFF&}6조 원{\c&H00FFFFFF&}에 달하는 사상 초유의 환수금 및 벌금 합의를 명령했습니다!  
+Dialogue: 6,0:10:02.79,0:10:06.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하지만 이야기는 여기서 끝나지 않습니다!  
+Dialogue: 6,0:10:06.36,0:10:09.79,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 만약 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 사태가 한국 청년 한 명의 {\c&H0000DFFF&}50조 원{\c&H00FFFFFF&}  
+Dialogue: 6,0:10:09.79,0:10:13.34,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 몰락극으로 끝났다면 그나마 다행이었을지 모릅니다.  
+Dialogue: 6,0:10:13.34,0:10:16.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 진짜 공포스러운 제2막은 {\c&H0000DFFF&}루나{\c&H00FFFFFF&}가 터진  
+Dialogue: 6,0:10:16.10,0:10:17.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 직후인 {\c&H0000DFFF&}2022년{\c&H00FFFFFF&} 가을,  
+Dialogue: 6,0:10:17.89,0:10:21.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 카리브해의 낙원 바하마에서 터져 나왔습니다.  
+Dialogue: 6,0:10:21.19,0:10:24.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 전 세계 암호화폐 시장에는 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}과는  
+Dialogue: 6,0:10:24.27,0:10:26.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 정반대 이미지로 추앙받던 또 한 명의  
+Dialogue: 6,0:10:26.96,0:10:29.24,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 서른 살 슈퍼스타가 있었습니다.  
+Dialogue: 6,0:10:29.24,0:10:32.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 바로 세계 2위 코인 거래소 {\c&H0000DFFF&}FTX{\c&H00FFFFFF&}의  
+Dialogue: 6,0:10:32.32,0:10:35.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 창업자, {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&}였습니다!  
+Dialogue: 6,0:10:35.24,0:10:38.51,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 부스스한 곱슬머리에 늘 낡은 티셔츠와 반바지만  
+Dialogue: 6,0:10:38.51,0:10:39.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 입고 다니고,  
+Dialogue: 6,0:10:39.43,0:10:42.32,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 백악관 정치인들과 빌 클린턴 전 대통령,  
+Dialogue: 6,0:10:42.32,0:10:45.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 슈퍼볼 광고판까지 장악하며 "나는 돈을 다 벌어  
+Dialogue: 6,0:10:45.72,0:10:50.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 인류를 위해 기부할 것"이라고 외치던 '효율적 이타주의자'였습니다.  
+Dialogue: 6,0:10:50.58,0:10:53.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 심지어 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 사태로 코인 기업들이 줄도산할  
+Dialogue: 6,0:10:53.64,0:10:56.83,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 때 사재를 털어 구제금융을 뿌리며 '크립토의  
+Dialogue: 6,0:10:56.83,0:10:57.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 구원자,  
+Dialogue: 6,0:10:57.36,0:11:01.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 코인계의 JP모건'이라는 찬사까지 한 몸에 받았습니다.  
+Dialogue: 6,0:11:01.36,0:11:03.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그런데 {\c&H0000DFFF&}2022년{\c&H00FFFFFF&} 11월 {\c&H0000DFFF&}2일{\c&H00FFFFFF&},  
+Dialogue: 6,0:11:03.54,0:11:07.01,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경제 전문 매체 코인데스크가 입수한 내부 재무제표  
+Dialogue: 6,0:11:07.01,0:11:10.49,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 한 장이 이 성자 같은 가면을 산산조각 냈습니다!  
+Dialogue: 6,0:11:10.49,0:11:13.17,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&}가 따로 세운 자매 투자회사  
+Dialogue: 6,0:11:13.17,0:11:16.33,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} '{\c&H0000DFFF&}알라메다 리서치{\c&H00FFFFFF&}'의 자산 {\c&H0000DFFF&}20조 원{\c&H00FFFFFF&} 중 대부분이  
+Dialogue: 6,0:11:16.33,0:11:17.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 현금이 아니라,  
+Dialogue: 6,0:11:17.27,0:11:21.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 자기네 {\c&H0000DFFF&}FTX{\c&H00FFFFFF&} 거래소가 직접 찍어낸 코인 'FTT'였던 겁니다.  
+Dialogue: 6,0:11:21.36,0:11:24.73,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 알고 보니 봄에 터진 바로 그 '{\c&H0000DFFF&}루나{\c&H00FFFFFF&} {\c&H0000DFFF&}테라{\c&H00FFFFFF&} 대폭락'  
+Dialogue: 6,0:11:24.73,0:11:28.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 당시 {\c&H0000DFFF&}알라메다 리서치{\c&H00FFFFFF&}도 수조 원대의 치명적인 손실을  
+Dialogue: 6,0:11:28.10,0:11:29.90,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 입어 파산 직전에 몰렸는데,  
+Dialogue: 6,0:11:29.90,0:11:33.28,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&}가 아무도 모르게 컴퓨터 {\c&H0000DFFF&}백도어{\c&H00FFFFFF&} 비밀  
+Dialogue: 6,0:11:33.28,0:11:34.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 통로를 열어,  
+Dialogue: 6,0:11:34.12,0:11:37.25,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}FTX{\c&H00FFFFFF&} 거래소를 믿고 맡긴 일반 고객들의 예치금  
+Dialogue: 6,0:11:37.25,0:11:38.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 무려 80억 달러,  
+Dialogue: 6,0:11:38.45,0:11:45.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 우리 돈 {\c&H0000DFFF&}11조 원{\c&H00FFFFFF&}을 여자친구 캐롤라인 엘리슨이 이끌던 알라메다로 몰래 빼돌려 구멍을 메우고 있었던 것입니다!  
+Dialogue: 6,0:11:45.80,0:11:48.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 고객들의 소중한 돈으로 바하마에 수천억 원짜리  
+Dialogue: 6,0:11:48.86,0:11:51.80,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 초호화 해변 부동산을 사들이고 정치 후원금을  
+Dialogue: 6,0:11:51.80,0:11:53.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 뿌렸다는 사실이 드러나자,  
+Dialogue: 6,0:11:53.52,0:11:56.58,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경쟁사 바이낸스의 창업자 자오창펑이 보유 중인  
+Dialogue: 6,0:11:56.58,0:11:59.64,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} FTT 코인을 전량 매각하겠다고 선언했습니다.  
+Dialogue: 6,0:11:59.64,0:12:03.08,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 결과는 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 사태의 데자뷔였습니다.  
+Dialogue: 6,0:12:03.08,0:12:06.41,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 {\c&H0000DFFF&}72시간{\c&H00FFFFFF&} 만에 {\c&H0000DFFF&}8조 원{\c&H00FFFFFF&}의 인출 요청이 몰리며  
+Dialogue: 6,0:12:06.41,0:12:08.60,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}FTX{\c&H00FFFFFF&}는 출금을 전면 중단했고,  
+Dialogue: 6,0:12:08.60,0:12:12.19,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 기업 가치 {\c&H0000DFFF&}43조 원{\c&H00FFFFFF&}을 자랑하던 세계 2위 거래소는  
+Dialogue: 6,0:12:12.19,0:12:15.92,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 하루아침에 파산 보호 신청을 내며 산산조각 났습니다.  
+Dialogue: 6,0:12:15.92,0:12:19.04,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 미국 검찰에 송환된 {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&}는 함께  
+Dialogue: 6,0:12:19.04,0:12:22.43,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 살던 최측근들과 전 여자친구의 법정 증언 속에  
+Dialogue: 6,0:12:22.43,0:12:25.01,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 모든 사기 혐의가 유죄로 인정되어,  
+Dialogue: 6,0:12:25.01,0:12:28.27,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}2024년{\c&H00FFFFFF&} 뉴욕 연방법원에서 징역 {\c&H0000DFFF&}25년형{\c&H00FFFFFF&}과  
+Dialogue: 6,0:12:28.27,0:12:31.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 약 {\c&H0000DFFF&}15조 원{\c&H00FFFFFF&}의 몰수 명령을 선고받았습니다.  
+Dialogue: 6,0:12:31.52,0:12:34.52,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 돌이켜보면 서른 살의 {\c&H0000DFFF&}권도형{\c&H00FFFFFF&}과 서른 살의  
+Dialogue: 6,0:12:34.52,0:12:35.75,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}샘 뱅크먼프리드{\c&H00FFFFFF&},  
+Dialogue: 6,0:12:35.75,0:12:39.70,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 두 천재가 무너진 공식은 소름 끼치도록 똑같았습니다.  
+Dialogue: 6,0:12:39.70,0:12:42.98,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 화려한 명문대 간판과 최첨단 금융 용어로 대중의  
+Dialogue: 6,0:12:42.98,0:12:43.86,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 눈을 가렸고,  
+Dialogue: 6,0:12:43.86,0:12:47.14,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} "위험은 전혀 없지만 수익은 연 {\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&}"라는  
+Dialogue: 6,0:12:47.14,0:12:50.55,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 세상에 존재할 수 없는 달콤한 신기루를 팔았으며,  
+Dialogue: 6,0:12:50.55,0:12:53.57,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 경고를 보내는 전문가들을 오만하게 조롱하다가  
+Dialogue: 6,0:12:53.57,0:12:57.36,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 단 사흘간의 뱅크런 앞에 모래성처럼 무너져 내렸습니다.  
+Dialogue: 6,0:12:57.36,0:13:00.89,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 그렇다면 여러분의 생각은 어떠신가요?  
+Dialogue: 6,0:13:00.89,0:13:04.54,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}50조 원{\c&H00FFFFFF&}이 사라진 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 사태와 {\c&H0000DFFF&}43조 원{\c&H00FFFFFF&}이 증발한  
+Dialogue: 6,0:13:04.54,0:13:05.45,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} {\c&H0000DFFF&}FTX{\c&H00FFFFFF&} 사태,  
+Dialogue: 6,0:13:05.45,0:13:08.72,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 이 천문학적인 비극은 애초에 작정하고 판을 짠  
+Dialogue: 6,0:13:08.72,0:13:10.81,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 천재 사기꾼들의 범죄였을까요,  
+Dialogue: 6,0:13:10.81,0:13:17.07,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 아니면 '실패한 혁신'과 일확천금을 쫓은 인간의 탐욕이 함께 만든 예정된 참사였을까요?  
+Dialogue: 6,0:13:17.07,0:13:20.12,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 댓글로 여러분의 날카로운 생각을 남겨주시고,  
+Dialogue: 6,0:13:20.12,0:13:23.16,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 오늘 이야기가 흥미로우셨다면 구독과 좋아요로  
+Dialogue: 6,0:13:23.16,0:13:25.96,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 머니 아카이브의 다음 실화 추적을 함께해  
+Dialogue: 6,0:13:25.96,0:13:27.10,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 주시기 바랍니다.  
+Dialogue: 6,0:13:27.10,0:13:30.40,DocSubOneLine,,0,0,0,,  {\c&H0000D4FF&}▌{\c&H00FFFFFF&} 지금까지 머니 아카이브였습니다.  

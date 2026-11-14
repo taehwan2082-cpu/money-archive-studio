@@ -1,0 +1,53 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopBadge,Malgun Gothic,40,&H00FFFFFF,&H0000FFFF,&H001814DF,&H001814DF,-1,0,0,0,100,100,1,0,3,12,0,8,40,40,125,1
+Style: TopHook1,Malgun Gothic,72,&H00FFFFFF,&H0000FFFF,&H00000000,&HC0000000,-1,0,0,0,100,100,-2,0,1,11,5,8,40,40,205,1
+Style: TopHook2,Malgun Gothic,78,&H0000DCFF,&H0000FFFF,&H00000000,&HC0000000,-1,0,0,0,100,100,-2,0,1,12,6,8,40,40,295,1
+Style: ShortsSub,Malgun Gothic,62,&H00FFFFFF,&H0000FFFF,&H00000000,&HB0000000,-1,0,0,0,100,100,-1,0,1,10,5,2,55,55,360,1
+Style: BrandBottom,Malgun Gothic,36,&H0000D4FF,&H0000FFFF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,6,3,2,40,40,210,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:57.64,TopBadge,,0,0,0,,  실화 경제다큐 · 머니 아카이브  
+Dialogue: 3,0:00:00.00,0:00:57.64,TopHook1,,0,0,0,,사흘 만에 50조 증발!
+Dialogue: 3,0:00:00.00,0:00:57.64,TopHook2,,0,0,0,,11만 원 ➔ 0.01원 실화
+Dialogue: 2,0:00:00.00,0:00:57.64,BrandBottom,,0,0,0,,▼ 아래 관련 동영상에서 풀버전 본편 확인
+Dialogue: 4,0:00:00.09,0:00:02.30,ShortsSub,,0,0,0,,단 사흘 만에 시가총액 50조
+Dialogue: 4,0:00:02.30,0:00:03.96,ShortsSub,,0,0,0,,원이 {\c&H0000DFFF&}0원{\c&H00FFFFFF&}이 됐습니다.
+Dialogue: 4,0:00:03.91,0:00:05.79,ShortsSub,,0,0,0,,한 개에 {\c&H0000DFFF&}11만 9천 원{\c&H00FFFFFF&}이던
+Dialogue: 4,0:00:05.79,0:00:08.30,ShortsSub,,0,0,0,,한국산 코인 '{\c&H0000DFFF&}루나{\c&H00FFFFFF&}'가 {\c&H0000DFFF&}0.01원{\c&H00FFFFFF&}짜리
+Dialogue: 4,0:00:08.30,0:00:09.55,ShortsSub,,0,0,0,,먼지가 된 건데요!
+Dialogue: 4,0:00:09.55,0:00:11.37,ShortsSub,,0,0,0,,스탠퍼드 출신 서른 살 창업자
+Dialogue: 4,0:00:11.37,0:00:12.96,ShortsSub,,0,0,0,,{\c&H0000DFFF&}권도형{\c&H00FFFFFF&}은 맡기기만 해도 연
+Dialogue: 4,0:00:12.96,0:00:14.90,ShortsSub,,0,0,0,,{\c&H0000DFFF&}20퍼센트{\c&H00FFFFFF&} 이자를 준다는 '앵커
+Dialogue: 4,0:00:14.90,0:00:17.40,ShortsSub,,0,0,0,,금고'로 전 세계 돈을 쓸어 담았습니다.
+Dialogue: 4,0:00:17.40,0:00:19.55,ShortsSub,,0,0,0,,위험을 경고하는 경제학자들에게는
+Dialogue: 4,0:00:19.55,0:00:21.08,ShortsSub,,0,0,0,,"가난한 사람들과는 말
+Dialogue: 4,0:00:21.08,0:00:23.48,ShortsSub,,0,0,0,,안 섞는다"며 공개 조롱까지 했죠!
+Dialogue: 4,0:00:23.48,0:00:25.27,ShortsSub,,0,0,0,,하지만 거액의 투매로 {\c&H0000DFFF&}1달러{\c&H00FFFFFF&}
+Dialogue: 4,0:00:25.27,0:00:26.82,ShortsSub,,0,0,0,,고정값이 깨지자 '죽음의
+Dialogue: 4,0:00:26.82,0:00:29.68,ShortsSub,,0,0,0,,소용돌이' 알고리즘이 폭주하기 시작했습니다.
+Dialogue: 4,0:00:29.68,0:00:31.59,ShortsSub,,0,0,0,,고작 3억 개였던 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 코인이
+Dialogue: 4,0:00:31.59,0:00:33.25,ShortsSub,,0,0,0,,단 나흘 만에 6조 5천억
+Dialogue: 4,0:00:33.25,0:00:34.92,ShortsSub,,0,0,0,,개로 무한 복사되며 가치가
+Dialogue: 4,0:00:34.92,0:00:36.23,ShortsSub,,0,0,0,,증발해 버린 겁니다!
+Dialogue: 4,0:00:36.23,0:00:37.96,ShortsSub,,0,0,0,,더 소름 돋는 건 폭락 직전
+Dialogue: 4,0:00:37.96,0:00:39.58,ShortsSub,,0,0,0,,한국 법인을 미리 해산하고
+Dialogue: 4,0:00:39.58,0:00:41.66,ShortsSub,,0,0,0,,{\c&H0000DFFF&}위조 여권{\c&H00FFFFFF&}으로 도주하다 몬테네그로
+Dialogue: 4,0:00:41.66,0:00:43.62,ShortsSub,,0,0,0,,공항에서 붙잡혔다는 사실인데요!
+Dialogue: 4,0:00:43.62,0:00:45.23,ShortsSub,,0,0,0,,여기에 {\c&H0000DFFF&}루나{\c&H00FFFFFF&} 폭락 여파로
+Dialogue: 4,0:00:45.23,0:00:46.96,ShortsSub,,0,0,0,,고객 돈 {\c&H0000DFFF&}11조 원{\c&H00FFFFFF&}을 몰래
+Dialogue: 4,0:00:46.96,0:00:48.45,ShortsSub,,0,0,0,,빼돌리다 징역 {\c&H0000DFFF&}25년{\c&H00FFFFFF&}을
+Dialogue: 4,0:00:48.45,0:00:49.94,ShortsSub,,0,0,0,,받은 세계 2위 거래소
+Dialogue: 4,0:00:49.94,0:00:51.18,ShortsSub,,0,0,0,,{\c&H0000DFFF&}FTX{\c&H00FFFFFF&}의 몰락까지!
+Dialogue: 4,0:00:51.18,0:00:52.99,ShortsSub,,0,0,0,,{\c&H0000DFFF&}100조 원{\c&H00FFFFFF&}이 증발한 최악의
+Dialogue: 4,0:00:52.99,0:00:54.21,ShortsSub,,0,0,0,,코인 도미노 실화,
+Dialogue: 4,0:00:54.21,0:00:55.66,ShortsSub,,0,0,0,,지금 아래 관련 동영상
+Dialogue: 4,0:00:55.66,0:00:56.99,ShortsSub,,0,0,0,,본편에서 확인하세요!

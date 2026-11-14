@@ -1,10 +1,12 @@
 __pycache__/
 *.pyc
 */assets/clips_v4/
+*/assets/clips_v3/
 */assets/clips_v2/
 */assets/*.wav
 */assets/*.m4a
 */assets/bgm_archive/
+assets_shared/*.wav
 *_본편.mp4
 client_secret*.json
 *token*.json

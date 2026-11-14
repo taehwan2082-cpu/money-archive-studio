@@ -5,9 +5,9 @@
   "daily_schedule_kst": "18:00",
   "daily_target_episodes": 1,
   "shorts_stagger_minutes": 150,
-  "target_longform_duration_sec": [510, 620],
+  "target_longform_duration_sec": [510, 840],
   "min_midroll_safe_sec": 485,
-  "target_shorts_duration_sec": [36, 45],
+  "target_shorts_duration_sec": [36, 58],
   "single_incident_only": true,
   "episodes": [
     {
@@ -15,26 +15,36 @@
       "ep_id": "ep01_barings_kr",
       "status": "published",
       "longform_video_id": "dF5BvdauZtM",
-      "shorts_video_id": "o1R5z0s4X1k",
-      "topic": "베어링스 은행 비밀계좌 88888 파산 사건"
+      "shorts_video_id": "HRgi7EBKGes",
+      "topic": "베어링스 은행 비밀계좌 88888 & 제롬 케르비엘 9조 증발 사건"
     },
     {
       "ep_num": 2,
       "ep_id": "ep02_archegos_kr",
       "status": "published",
-      "longform_video_id": "9fM0rQ_ep02",
+      "longform_video_id": "gzCdxJrVPPg",
+      "shorts_video_id": "Lq-d7zWxrg0",
       "topic": "빌 황 아케고스 48시간 28조 증발 사건"
     },
     {
       "ep_num": 3,
       "ep_id": "ep03_jholow_kr",
       "status": "published",
-      "longform_video_id": "7kL2pW_ep03",
+      "longform_video_id": "NwNM_Ow2WLs",
+      "shorts_video_id": "y4LHN2pOjdg",
       "topic": "조 로우 말레이시아 국부펀드 1MDB 6조 횡령 사건"
     },
     {
       "ep_num": 4,
-      "ep_id": "ep04_theranos_kr",
+      "ep_id": "ep04_luna_kr",
+      "status": "published",
+      "longform_video_id": "3ivxegZ6BBI",
+      "shorts_video_id": "0H-cYDPP7eU",
+      "topic": "11만 원이 0.01원으로.. 사흘 만에 50조 증발한 루나·테라 권도형 & FTX 몰락 실화"
+    },
+    {
+      "ep_num": 5,
+      "ep_id": "ep05_theranos_kr",
       "status": "pending",
       "single_incident": true,
       "topic": "피 한 방울로 암까지 찾는다더니 전부 가짜 기계였다! 실리콘밸리 10조 천재 소녀 엘리자베스 홈즈 테라노스 사기극",
@@ -43,18 +53,6 @@
       "thumb_top": "피 한 방울의 기적?",
       "thumb_bot": "10조 삼킨 가짜 기계!",
       "shorts_cliffhanger_rule": "월그린 약국에서 환자 피를 뽑아 비밀 지하 실험실로 빼돌리던 내부 고발자가 새벽에 장비를 열어본 순간(41초)에서 절단! 징역 11년 결말 언급 금지"
-    },
-    {
-      "ep_num": 5,
-      "ep_id": "ep05_ftx_kr",
-      "status": "pending",
-      "single_incident": true,
-      "topic": "고객 돈 11조 빼돌려 바하마 초호화 펜트하우스 파티 벌이다 단 72시간 만에 박살 난 30살 코인 제왕! FTX 샘 뱅크먼프리드 실화",
-      "thumb_badge": "#고객돈11조_증발",
-      "thumb_shock": "72시간 -40조 파산!",
-      "thumb_top": "착한 천재인 줄 알았는데",
-      "thumb_bot": "고객 돈 11조 털었다!",
-      "shorts_cliffhanger_rule": "전 세계 투자자들이 동시에 출금 버튼을 누르자 금고 잔고가 텅 비어 있던 것이 드러난 새벽 긴급 회의(42초)에서 절단! 법원 판결 스포 금지"
     },
     {
       "ep_num": 6,
@@ -127,18 +125,6 @@
       "thumb_top": "혼자 달리는 수소트럭?",
       "thumb_bot": "알고 보니 언덕 내리막길!",
       "shorts_cliffhanger_rule": "홍보 영상 속 사막 도로를 직접 찾아간 조사원이 도로 경사각을 측정하고 카메라를 기울여본 순간(39초)에서 절단!"
-    },
-    {
-      "ep_num": 12,
-      "ep_id": "ep12_terraluna_kr",
-      "status": "pending",
-      "single_incident": true,
-      "topic": "절대 안 무너지는 연 20% 이자 마법이라더니 일주일 만에 50조가 휴지조각 됐다! 전 세계 개미들 피눈물 흘리게 한 테라·루나 대폭락 실화",
-      "thumb_badge": "#일주일_50조_공중분해",
-      "thumb_shock": "14만 원 ➔ 0.01원 폭락!",
-      "thumb_top": "연 20% 평생 이자 준다고?",
-      "thumb_bot": "7일 만에 50조 증발했다!",
-      "shorts_cliffhanger_rule": "1달러 고정 페깅이 깨지자 알고리즘이 루나 코인을 조 단위로 무한 발행하며 죽음의 소용돌이가 시작된 첫날 밤(43초)에서 절단!"
     }
   ]
 }

@@ -1,0 +1,20 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopBadge,Malgun Gothic,38,&H00FFFFFF,&H0000FFFF,&H001814DF,&H001814DF,-1,0,0,0,100,100,1,0,3,13,0,7,38,38,34,1
+Style: BrandTag,Malgun Gothic,31,&H0000DCFF,&H0000FFFF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,6,3,9,38,38,36,1
+Style: MainWhite,Malgun Gothic,86,&H00FFFFFF,&H0000FFFF,&H00000000,&HD8000000,-1,0,0,0,100,100,-2,0,1,13,6,5,20,20,20,1
+Style: MainYellow,Malgun Gothic,94,&H0000DCFF,&H0000FFFF,&H00000000,&HD8000000,-1,0,0,0,100,100,-2,0,1,14,7,5,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:05.00,TopBadge,,0,0,0,,  시총 50조 공중분해  
+Dialogue: 2,0:00:00.00,0:00:05.00,BrandTag,,0,0,0,,머니 아카이브
+Dialogue: 3,0:00:00.00,0:00:05.00,MainWhite,,0,0,0,,{\an5\pos(640,518)}11만 원 ➔ 0.01원 추락
+Dialogue: 4,0:00:00.00,0:00:05.00,MainYellow,,0,0,0,,{\an5\pos(640,632)}사흘 만에 50조 증발 실화

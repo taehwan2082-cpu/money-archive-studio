@@ -81,7 +81,7 @@ def get_authenticated_service(
     for attempt in range(3):
         creds = None
         if os.path.exists(token_path):
-            creds = Credentials.from_authorized_user_file(token_path, SCOPES)
+            creds = Credentials.from_authorized_user_file(token_path)
 
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:

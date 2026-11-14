@@ -847,14 +847,19 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ep", choices=["ep02", "ep03", "both"], default="ep03")
+    parser.add_argument("target", nargs="?", default="")
+    parser.add_argument("--ep", default="ep03")
     parser.add_argument("--allow-legacy-len", action="store_true")
     args = parser.parse_args()
 
-    if args.ep in ("ep02", "both"):
+    ep_arg = args.target or args.ep
+    if ep_arg in ("ep02", "both"):
         build_episode("ep02", allow_legacy_len=args.allow_legacy_len)
-    if args.ep in ("ep03", "both"):
+    if ep_arg in ("ep03", "both"):
         build_episode("ep03", allow_legacy_len=args.allow_legacy_len)
+    if ep_arg not in ("ep02", "ep03", "both"):
+        from build_daily_episode_v3 import build_episode_v3
+        build_episode_v3(ep_arg)
 
 
 if __name__ == "__main__":

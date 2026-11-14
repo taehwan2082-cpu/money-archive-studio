@@ -2,6 +2,7 @@ import argparse
 from datetime import datetime, timedelta, timezone
 import json
 import os
+import subprocess
 import sys
 import time
 
@@ -13,7 +14,6 @@ from upload_youtube_api import (
     STUDIO_DIR,
     find_client_secrets,
     get_authenticated_service,
-    post_top_comment,
     resolve_local_path,
     upload_video,
 )
@@ -39,8 +39,29 @@ def update_ep01_non_portrait_thumbnail(youtube):
         return False
 
 
+def ensure_episode_built(ep_id: str, cfg: dict, cfg_dir: str):
+    prefix = ep_id.split("_")[0]
+    ep_dir = os.path.join(STUDIO_DIR, ep_id)
+    long_mp3 = os.path.join(ep_dir, f"{prefix}_longform_kr.mp3")
+    short_mp3 = os.path.join(ep_dir, f"{prefix}_shorts_kr.mp3")
+    if not (os.path.exists(long_mp3) and os.path.exists(short_mp3)):
+        print(f"[자동 빌드 1/3] {ep_id} 내레이션(MP3) 및 타임코드(SRT) 합성 중...", flush=True)
+        subprocess.run([sys.executable, os.path.join(STUDIO_DIR, "generate_ep02_ep03_voice.py"), ep_id], check=True)
+
+    thumb_path = resolve_local_path(cfg.get("longform", {}).get("thumbnail_file", ""), config_dir=cfg_dir)
+    if thumb_path and not os.path.exists(thumb_path):
+        print(f"[자동 빌드 2/3] {ep_id} 3D 다큐 썸네일 렌더링 중...", flush=True)
+        subprocess.run([sys.executable, os.path.join(STUDIO_DIR, "build_thumbnails_v2.py"), ep_id], check=True)
+
+    long_mp4 = resolve_local_path(cfg["longform"]["video_file"], config_dir=cfg_dir)
+    short_mp4 = resolve_local_path(cfg["shorts"]["video_file"], config_dir=cfg_dir)
+    if not (os.path.exists(long_mp4) and os.path.exists(short_mp4)):
+        print(f"[자동 빌드 3/3] {ep_id} 본편(16:9) 및 쇼츠(9:16) MP4 자동 렌더링 중...", flush=True)
+        subprocess.run([sys.executable, os.path.join(STUDIO_DIR, "build_daily_episode_v3.py"), ep_id], check=True)
+
+
 def main():
-    parser = argparse.ArgumentParser(description="머니 아카이브 일일 단일 에피소드 v3.0 업로더 (하루 1회차 + 시차 예약)")
+    parser = argparse.ArgumentParser(description="머니 아카이브 일일 단일 에피소드 v3.0 업로더 (자가 빌드 + 시차 예약)")
     parser.add_argument("--ep-id", default="", help="업로드할 에피소드 폴더명 (비우면 episode_queue.json의 첫 pending 1개 선택)")
     parser.add_argument("--stagger-shorts-minutes", type=int, default=150)
     parser.add_argument("--update-ep01-thumb", action="store_true", help="EP01 가짜 인물 썸네일을 88888 CRT 썸네일로 교체")
@@ -82,6 +103,9 @@ def main():
     cfg = json.load(open(cfg_path, "r", encoding="utf-8"))
     cfg_dir = os.path.dirname(cfg_path)
 
+    # Self-healing check: if MP3, Thumbnail, or MP4 is missing on this PC (since *_본편.mp4 is gitignored), build automatically!
+    ensure_episode_built(ep_id, cfg, cfg_dir)
+
     print(f"\n================ [{ep_id}] v3.0 단일 회차 업로드 시작 ================", flush=True)
     long_id = upload_video(youtube, cfg["longform"], config_dir=cfg_dir, is_longform=True)
     time.sleep(3)
@@ -115,7 +139,7 @@ def main():
     with open(QUEUE_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(queue, f, ensure_ascii=False, indent=2)
 
-    print(f"\n[완료] {ep_id} 본편({long_id}) 즉시 공개 & 쇼츠({short_id}) 시차 예약 등록 완료!", flush=True)
+    print(f"\n[완료] {ep_id} 본편({long_id}) 즉시 공개 & 쇼츠({short_id}) 등록 완료!", flush=True)
 
 
 if __name__ == "__main__":
