@@ -8,5 +8,5 @@ __pycache__/
 *_본편.mp4
 client_secret*.json
 *token*.json
-oauth_credentials.json
+oauth_credentials*.json
 .env

@@ -447,7 +447,7 @@ def colorize_keywords(line: str, patterns: list[str]) -> str:
     return "".join(out)
 
 
-def build_episode(ep_key: str):
+def build_episode(ep_key: str, allow_legacy_len: bool = False):
     cfg = EPISODE_CONFIGS[ep_key]
     ep_dir = os.path.join(STUDIO_DIR, cfg["dir_name"])
     assets_dir = os.path.join(ep_dir, "assets")
@@ -466,6 +466,10 @@ def build_episode(ep_key: str):
     raw_entries = parse_srt_file(long_srt)
     sentences = merge_into_sentences(raw_entries)
     total_dur = max(get_audio_duration(long_mp3), sentences[-1]["end"]) + 1.8
+    if not allow_legacy_len and total_dur < 485.0:
+        raise RuntimeError(
+            f"[{ep_key.upper()}] Longform duration ({total_dur:.1f}s) is below v3.0 mid-roll minimum (485.0s / 8m 05s)!"
+        )
     print(f"[{ep_key.upper()}] Longform Duration: {total_dur:.1f}s ({total_dur/60:.2f}m), {len(sentences)} sentences", flush=True)
 
     tasks = []
@@ -597,6 +601,7 @@ Style: LiveTelemetryHUD,Malgun Gothic,30,&H0000DFFF,&H0000FFFF,&H60000000,&H6000
 Style: SpecCard,Malgun Gothic,32,&H00F0F0F0,&H0000FFFF,&H60000000,&H60000000,-1,0,0,0,100,100,1,0,3,10,0,1,45,45,134,1
 Style: GiantRedSlam,Malgun Gothic,138,&H00221CF0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,12,6,5,40,40,40,1
 Style: GiantSubLabel,Malgun Gothic,46,&H0000DFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,5,2,5,40,40,40,1
+Style: SubOutroBanner,Malgun Gothic,36,&H0000E8FF,&H0000FFFF,&H8810141E,&H8810141E,-1,0,0,0,100,100,1,0,3,12,0,8,60,60,140,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -680,6 +685,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                     f"Dialogue: 3,{format_ass_time(p_s)},{format_ass_time(p_e)},DocSubOneLine,,0,0,0,,{sub_line}\n"
                 )
 
+        outro_s = format_ass_time(max(0.0, total_dur - 11.0))
+        outro_e = format_ass_time(max(0.5, total_dur - 0.5))
+        f.write(
+            f"Dialogue: 4,{outro_s},{outro_e},SubOutroBanner,,0,0,0,,"
+            f"{{\\fad(250,250)}}  🔔 금융·비즈니스 실화 [머니 아카이브] 구독 · 좋아요는 다음 추적에 큰 힘이 됩니다  \n"
+        )
+
     clips_txt = os.path.join(assets_dir, "clips_concat.txt")
     with open(clips_txt, "w", encoding="utf-8") as f:
         for cid in subclip_order:
@@ -691,8 +703,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", clips_txt, "-i", master_m4a,
             "-vf", f"ass='{ass_esc}',format=yuv420p",
             "-map", "0:v", "-map", "1:a", "-t", f"{total_dur:.2f}",
-            "-c:v", "libx264", "-profile:v", "main", "-pix_fmt", "yuv420p",
-            "-preset", "veryfast", "-crf", "19", "-c:a", "copy", "-movflags", "+faststart",
+            "-c:v", "libx264", "-profile:v", "high", "-pix_fmt", "yuv420p",
+            "-preset", "veryfast", "-crf", "19", "-maxrate", "5500k", "-bufsize", "11000k",
+            "-c:a", "copy", "-movflags", "+faststart",
             out_full_mp4,
         ],
         check=True,
@@ -701,11 +714,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     print(f"[{ep_key.upper()}] SUCCESS Full 16:9 Rendered: {out_full_mp4}", flush=True)
 
     # =========================================================================
-    # Build v2 9:16 FULL-BLEED SAFE-ZONE SHORTS (1080x1920, Zero Black Bars!)
+    # Build v3 9:16 FULL-BLEED SAFE-ZONE CLIFFHANGER SHORTS (1080x1920, Zero Black Bars!)
     # =========================================================================
     short_raw = parse_srt_file(shorts_srt)
     short_sents = merge_into_sentences(short_raw)
     shorts_dur = max(get_audio_duration(shorts_mp3), short_sents[-1]["end"]) + 0.7
+    if not allow_legacy_len and shorts_dur > 48.5:
+        raise RuntimeError(
+            f"[{ep_key.upper()}] Shorts duration ({shorts_dur:.1f}s) exceeds v3.0 cliffhanger cap (48.5s)! "
+            f"Cut right before the ending reveal (36~45s) or pass --allow-legacy-len for legacy EP02/EP03."
+        )
 
     shorts_sfx = [
         (0.03, os.path.join(SFX_DIR, "sfx_stamp_slam.wav"), 0.90),
@@ -801,10 +819,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         f.write(shorts_ass_header)
         f.write(f"Dialogue: 2,0:00:00.00,{format_ass_time(shorts_dur)},TopHook1,,0,0,0,,{cfg['shorts_hook_1']}\n")
         f.write(f"Dialogue: 2,0:00:00.00,{format_ass_time(shorts_dur)},TopHook2,,0,0,0,,{cfg['shorts_hook_2']}\n")
-        cta_start = max(0.0, shorts_dur - 5.5)
+        cta_start = max(0.0, shorts_dur - 7.5)
         f.write(
             f"Dialogue: 4,{format_ass_time(cta_start)},{format_ass_time(shorts_dur)},RelatedCTA,,0,0,0,,"
-            f"  ▼ 아래 [관련 동영상] 클릭해 풀버전 보기  \n"
+            f"  ▼ 아래 [관련 동영상]에서 결말 확인 · 구독하기 ▼  \n"
         )
         for s_obj in short_sents:
             for p_s, p_e, phrase in split_into_phrases(s_obj["text"], s_obj["start"], s_obj["end"], max_chars=16):
@@ -829,13 +847,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ep", choices=["ep02", "ep03", "both"], default="both")
+    parser.add_argument("--ep", choices=["ep02", "ep03", "both"], default="ep03")
+    parser.add_argument("--allow-legacy-len", action="store_true")
     args = parser.parse_args()
 
     if args.ep in ("ep02", "both"):
-        build_episode("ep02")
+        build_episode("ep02", allow_legacy_len=args.allow_legacy_len)
     if args.ep in ("ep03", "both"):
-        build_episode("ep03")
+        build_episode("ep03", allow_legacy_len=args.allow_legacy_len)
 
 
 if __name__ == "__main__":

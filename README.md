@@ -1,45 +1,48 @@
-# 💼 Money Archive Studio (머니 아카이브 — 비즈니스·금융 스릴러 다큐 스튜디오 v2.0)
+# 💼 Money Archive Studio v3.0 (머니 아카이브 — 금융·기업 몰락 스릴러 다큐 스튜디오)
 
-수백만 조회수 아웃라이어(Outlier) 검증 공식과 YouTube Studio 실측 데이터 피드백을 반영한 **고단가(고RPM) 기업 몰락 & 금융 범죄 스릴러 다큐멘터리 자동 제작·배포 파이프라인** 저장소입니다.
+수백만 조회수 아웃라이어(Outlier) 검증 공식과 YouTube Studio 실측 데이터를 바탕으로 개편된 **〈머니 아카이브 (`@money-archive-kr`)〉 단일 사건 금융·비즈니스 스릴러 자동 제작·배포 파이프라인 v3.0** 저장소입니다.
 
 * **공식 유튜브 채널**: [머니 아카이브 (@money-archive-kr)](https://www.youtube.com/@money-archive-kr) (`UC2Q7ithCngR3GyV9HfK3u4w`)
-* **핵심 포맷 (v2.0)**:
-  * **본편 (16:9 Full HD, 10~15분 미드롤 최적화)**: 6막 논스톱 스릴러 구조 + 실시간 손실/레버리지 카운터 HUD + 오케스트라 3막 BGM & 커스텀 폴리 SFX 믹싱
-  * **유입용 쇼츠 (9:16 Full-Bleed 1080x1920, 56~58초)**: 상하 검은 여백 0% 전체화면 + 유튜브 Shorts UI 안전영역(Safe Zone) 자막 + 스튜디오 `[관련 동영상]` 본편 직결 브릿지
-  * **고클릭률 썸네일 v2 (1280x720)**: `BlackHanSans` 3D 입체 외곽선·수직 그라데이션 + 우상단 숫자 충격 콜아웃 배지
 
 ---
 
-## 📂 에피소드 라인업 및 구조
+## 🔥 v3.0 파이프라인 6대 핵심 규격 (오후 6시 자동화 표준)
 
-```text
-money-archive-studio/
-├── branding/                                    # 채널 프로필(800x800), 배너(2560x1440), 구독 워터마크
-├── docs/
-│   ├── 01_수백만뷰_아웃라이어_분석리포트.md
-│   ├── 02_제1화_15분블록버스터_최종기획서.md
-│   └── 03_채널조회수_정밀진단_및_v2개선리포트.md    # 스튜디오 실측 데이터 분석 및 5대 개선 내역
-├── ep01_barings_kr/                             # EP01: 베어링스 은행 비밀계좌 88888 & 제롬 케르비엘 9조 증발
-├── ep02_archegos_kr/                            # EP02: 빌 황 & 아케고스 캐피털 48시간 28조 증발 사건
-├── ep03_jholow_kr/                              # EP03: 조 로우 & 말레이시아 국부펀드 1MDB 6조 강탈 사건
-├── generate_ep02_ep03_voice.py                  # 대본(TXT) ➔ 내레이션(MP3) + 타임코드(SRT) 생성기
-├── build_finance_sfx.py                         # 금융 스릴러 전용 커스텀 폴리 SFX 6종 합성기
-├── build_thumbnails_v2.py                       # 3D 입체 그라데이션 + 숫자 콜아웃 썸네일 v2 생성기
-├── build_ep02_ep03_v2.py                        # 16:9 본편 + 9:16 풀스크린 안전영역 쇼츠 v2 렌더러
-└── upload_youtube_api.py                        # YouTube Data API v3 자동 업로더
-```
+1. **대중성 100% 단일 기업 몰락·사기 실화 집중 (`auto_pipeline/episode_queue.json`)**:
+   * 난해한 파생상품 용어를 제목에서 배제하고, 누구나 1초 만에 이해하는 희대의 단일 실화(`EP04` 테라노스 피 한 방울 10조 사기극, `EP05` FTX 40조 붕괴, `EP06` 엔론, `EP07` 위워크, `EP08` 버니 매도프, `EP09` 와이어카드, `EP10` 루이싱커피, `EP11` 니콜라 수소트럭, `EP12` 테라·루나)를 하루 1편씩 깊게 다룹니다.
+2. **8분 미드롤 안전선 코드 강제 (`>= 485초`)**:
+   * `generate_ep02_ep03_voice.py`, `build_ep02_ep03_v2.py`, `upload_youtube_api.py` 3단계에서 오디오 `500초+` / 최종 MP4 `485초(8분 05초)+` 미만 시 자동 속도 보정 및 업로드 차단을 수행합니다.
+3. **쇼츠 36~45초 클리프행어 절단 (결말·형량 스포일러 금지)**:
+   * 쇼츠에서 징역 형량이나 파산 결말까지 다 요약해 주던 구성을 폐기하고, 사기극이 들통나기 직전 절정(36~45초)에서 끊어 시청자가 `[▶ 관련 동영상]`으로 본편을 클릭하게 만듭니다.
+4. **하루 1회차 + 본편·쇼츠 2시간 30분 시차 예약 발행 (`publishAt`)**:
+   * 한 번에 영상 4개를 동시 투하하던 `upload_today_batch_api.py`를 전면 개편하여, 하루 **단 1회차(18:00 본편 즉시 공개 ➔ 20:30 쇼츠 `+150분` 예약 공개)**만 시차 발행합니다.
+5. **가짜 AI 웃는 인물 썸네일 폐기 ➔ 다큐 오브제·현장 썸네일 적용**:
+   * EP01의 가짜 AI 트레이더 얼굴(`thumb_smiling_trader.jpg`) 대신 비밀 계좌 `88888` 야간 딜링룸 모니터(`ch3_account_88888_crt.jpg`) 기반 3D `BlackHanSans` 다큐 썸네일로 교체했습니다.
+6. **멀티 PC 100% 호환 상대경로 & 상단 유도 댓글(`commentThreads.insert`) 자동 등록**:
+   * 번들링된 `branding/fonts/BlackHanSans-Regular.ttf` 및 상대경로 적용으로 `C:\Users\USER` 등 어느 PC에서나 `git pull` 즉시 실행되며, 업로드 직후 `pinned_comment`가 유튜브 댓글창에 자동 등록됩니다.
 
 ---
 
-## 🚀 v2.0 파이프라인 빠른 실행 순서
+## 🚀 다른 PC(`C:\Users\USER`) 오후 6시 자동화 동기화 & 실행 방법
 
-```bash
-# 1. 에피소드 내레이션(MP3) 및 타임코드 자막(SRT) 생성
-python generate_ep02_ep03_voice.py
+```powershell
+# 1. 최신 v3.0 파이프라인 및 대기열 동기화
+git pull origin main
 
-# 2. 고클릭률 v2 썸네일 일괄 생성 (EP01 개선본 · EP02 · EP03)
+# 2. 내레이션(MP3) + 타임코드(SRT) 생성 (500초+ 미드롤 & 45초 쇼츠 자동 검증)
+python generate_ep02_ep03_voice.py ep04_theranos_kr
+
+# 3. 다큐 오브제 기반 3D 바이럴 썸네일 생성
 python build_thumbnails_v2.py
 
-# 3. 본편(16:9) 및 여백 제로 안전영역 쇼츠(9:16) 렌더링
-python build_ep02_ep03_v2.py --ep both
+# 4. 본편 즉시 공개(18:00) + 쇼츠 +150분 예약 공개(20:30) + 상단 댓글 자동 등록
+python upload_today_batch_api.py --stagger-shorts-minutes 150
+
+# 5. EP01 기존 가짜 인물 썸네일을 88888 CRT 다큐 썸네일로 즉시 교체할 때 (1회 실행)
+python upload_today_batch_api.py --update-ep01-thumb
+
+# 6. 진행 상태 커밋 & 푸시 (토큰/시크릿 JSON은 .gitignore로 자동 보호)
+git add auto_pipeline/episode_queue.json
+git commit -m "Publish daily Money Archive v3 episode"
+git push origin main
 ```

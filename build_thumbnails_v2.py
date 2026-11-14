@@ -5,8 +5,8 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 sys.stdout.reconfigure(encoding="utf-8")
 
 STUDIO_DIR = os.path.dirname(os.path.abspath(__file__))
-FONT_BLACK_HAN = r"C:\Users\USER\.gemini\antigravity\scratch\mystery-doc-studio\branding\fonts\BlackHanSans-Regular.ttf"
-FONT_HEAVY = r"C:\Users\USER\AppData\Local\Microsoft\Windows\Fonts\NanumSquareNeo-eHv.ttf"
+FONT_BLACK_HAN = os.path.join(STUDIO_DIR, "branding", "fonts", "BlackHanSans-Regular.ttf")
+FONT_HEAVY = os.path.expandvars(r"%LOCALAPPDATA%\Microsoft\Windows\Fonts\NanumSquareNeo-eHv.ttf")
 FONT_MALGUN_BOLD = r"C:\Windows\Fonts\malgunbd.ttf"
 
 PALETTES = {
@@ -217,16 +217,16 @@ def build_thumbnail_card(
 
 
 def main():
-    # 1. EP01 v2 Upgraded High-CTR Thumbnail
-    ep01_bg = os.path.join(STUDIO_DIR, "raw_images", "thumb_smiling_trader.jpg")
+    # 1. EP01 v3 Upgraded Documentary Object Thumbnail (Zero fake AI smiling face -> Secret 88888 CRT Terminal!)
+    ep01_bg = os.path.join(STUDIO_DIR, "raw_images", "ch3_account_88888_crt.jpg")
     if os.path.exists(ep01_bg):
         build_thumbnail_card(
             bg_path=ep01_bg,
             out_jpg=os.path.join(STUDIO_DIR, "ep01_barings_kr", "EP01_썸네일_v2_머니아카이브_1280x720.jpg"),
-            top_tag="#역대최악_금융사고",
-            shock_badge="1,700원 파산 / -9조!",
-            line1_segs=[("233년 왕실 은행 ", "white"), ("박살 낸", "red")],
-            line2_segs=[("28살 고졸 신입의 최후!", "yellow")],
+            top_tag="#비밀계좌88888_실화",
+            shock_badge="왕실은행 1,700원 파산!",
+            line1_segs=[("실수 3천만 원 ", "white"), ("숨기려다", "yellow")],
+            line2_segs=[("233년 은행 박살 낸 신입!", "red")],
         )
 
     # 2. EP02 Bill Hwang & Archegos Thumbnail
