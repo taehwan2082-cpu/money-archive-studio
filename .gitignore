@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 */assets/clips_v4/
 */assets/clips_v3/
+*/assets/clips_v3_build/
 */assets/clips_v2/
 */assets/*.wav
 */assets/*.m4a

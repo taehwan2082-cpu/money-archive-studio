@@ -10,10 +10,9 @@ trigger: always_on
    - 파이프라인 실행 직전 반드시 `git pull origin main`으로 최신 코드와 `auto_pipeline/episode_queue.json` 대기열을 동기화합니다.
    - 제작·업로드 후 대기열 상태(`published`)와 신규 에피소드 설정 파일을 커밋·푸시합니다 (`*token*.json`, `oauth_credentials*.json`, `client_secret*.json` 인증 파일은 절대 커밋 금지).
 
-2. **하루 1회차 생산 + 본편·쇼츠 시차 예약 발행 (`publishAt`)**:
-   - 하루에 본편 2개 + 쇼츠 2개를 한꺼번에 동시 공개하는 일괄 투하를 금지합니다.
-   - 하루 **단 1회차(본편 1개 + 짝꿍 쇼츠 1개)**만 업로드합니다.
-   - **오후 6시(18:00 KST) 본편 즉시 공개(`public`)** 후, **쇼츠는 `+150분` 뒤(20:30 KST) 자동 공개(`privacyStatus="private"`, `publishAt`)**되도록 `upload_youtube_api.py --target both --stagger-shorts-minutes 150` 옵션으로 시차 발행합니다.
+2. **하루 2회차(오전 9시 · 오후 6시) 생산 + 본편·쇼츠 시차 예약 발행 (`publishAt`)**:
+   - 한 번에 본편 여러 개를 동시 공개하는 일괄 투하를 금지하고, **오전 9시(09:00 KST)에 1회차**, **오후 6시(18:00 KST)에 1회차**씩 하루 총 **2회차(회차당 본편 1개 + 짝꿍 쇼츠 1개)**를 업로드합니다.
+   - 각 실행 시각(**09:00 KST / 18:00 KST**)에 **본편은 즉시 공개(`public`)** 후, **쇼츠는 `+150분` 뒤(11:30 KST / 20:30 KST) 자동 공개(`privacyStatus="private"`, `publishAt`)**되도록 `upload_youtube_api.py --target both --stagger-shorts-minutes 150` 옵션으로 시차 발행합니다.
 
 3. **단일 사건 100% 집중 & 본편 8분 30초 ~ 10분 30초 (미드롤 `>= 485초` 필수)**:
    - 어려운 금융 전문용어(`TRS`, `레버리지 스왑` 등)를 제목·초반 30초에 배치하지 말고, 대중이 즉각 직관적으로 이해하는 **단일 기업 몰락·희대의 사기 실화 딱 1개**만 5막 스릴러 구조로 9~10분 동안 깊게 추적합니다.

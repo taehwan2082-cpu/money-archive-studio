@@ -2,12 +2,21 @@
   "channel": "머니 아카이브",
   "channel_id": "UC2Q7ithCngR3GyV9HfK3u4w",
   "pipeline_version": "3.0",
-  "daily_schedule_kst": "18:00",
-  "daily_target_episodes": 1,
+  "daily_schedule_kst": [
+    "09:00",
+    "18:00"
+  ],
+  "daily_target_episodes": 2,
   "shorts_stagger_minutes": 150,
-  "target_longform_duration_sec": [510, 840],
+  "target_longform_duration_sec": [
+    510,
+    840
+  ],
   "min_midroll_safe_sec": 485,
-  "target_shorts_duration_sec": [36, 58],
+  "target_shorts_duration_sec": [
+    36,
+    58
+  ],
   "single_incident_only": true,
   "episodes": [
     {
@@ -45,14 +54,17 @@
     {
       "ep_num": 5,
       "ep_id": "ep05_theranos_kr",
-      "status": "pending",
+      "status": "published",
       "single_incident": true,
       "topic": "피 한 방울로 암까지 찾는다더니 전부 가짜 기계였다! 실리콘밸리 10조 천재 소녀 엘리자베스 홈즈 테라노스 사기극",
       "thumb_badge": "#피한방울_10조사기",
       "thumb_shock": "기업가치 10조 ➔ 0원!",
       "thumb_top": "피 한 방울의 기적?",
       "thumb_bot": "10조 삼킨 가짜 기계!",
-      "shorts_cliffhanger_rule": "월그린 약국에서 환자 피를 뽑아 비밀 지하 실험실로 빼돌리던 내부 고발자가 새벽에 장비를 열어본 순간(41초)에서 절단! 징역 11년 결말 언급 금지"
+      "shorts_cliffhanger_rule": "월그린 약국에서 환자 피를 뽑아 비밀 지하 실험실로 빼돌리던 내부 고발자가 새벽에 장비를 열어본 순간(41초)에서 절단! 징역 11년 결말 언급 금지",
+      "longform_video_id": "B30_kT13NWA",
+      "shorts_video_id": "PVtDYkpBGGk",
+      "shorts_scheduled_publish_at": "2026-11-15T03:45:17Z"
     },
     {
       "ep_num": 6,
