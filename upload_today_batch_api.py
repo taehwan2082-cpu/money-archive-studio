@@ -139,6 +139,13 @@ def main():
     with open(QUEUE_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(queue, f, ensure_ascii=False, indent=2)
 
+    try:
+        from sync_autoplay_playlist import sync_playlists
+        print("[자동재생 목록 동기화] 신규 회차를 공식 연속재생 플레이리스트에 자동 추가합니다...", flush=True)
+        sync_playlists()
+    except Exception as e:
+        print(f"  [참고] 재생목록 자동 동기화 건너뜀: {e}", flush=True)
+
     print(f"\n[완료] {ep_id} 본편({long_id}) 즉시 공개 & 쇼츠({short_id}) 등록 완료!", flush=True)
 
 
