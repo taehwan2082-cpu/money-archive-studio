@@ -200,7 +200,25 @@ def sync_playlists():
     existing_short_vids = get_playlist_video_ids(youtube, shorts_pl_id)
     for ep in published_eps_newest_first:
         svid = ep.get("shorts_video_id")
-        if svid and svid not in existing_short_vids:
+        if not svid:
+            continue
+        # Ensure Shorts video is immediately public (not stuck in scheduled/private)
+        v_res = youtube.videos().list(part="status", id=svid).execute()
+        v_items = v_res.get("items", [])
+        if v_items and v_items[0]["status"].get("privacyStatus") != "public":
+            youtube.videos().update(
+                part="status",
+                body={
+                    "id": svid,
+                    "status": {
+                        "privacyStatus": "public",
+                        "selfDeclaredMadeForKids": False,
+                    },
+                },
+            ).execute()
+            print(f"[쇼츠 즉시 공개 전환 완료!] EP{ep['ep_num']:02d} Shorts ({svid}) -> PUBLIC", flush=True)
+            ep.pop("shorts_scheduled_publish_at", None)
+        if svid not in existing_short_vids:
             pos = 0 if existing_short_vids else None
             add_video_to_playlist(youtube, shorts_pl_id, svid, position=pos)
             print(f"[쇼츠 재생목록 추가 완료] EP{ep['ep_num']:02d} Shorts -> {svid}", flush=True)

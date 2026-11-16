@@ -63,7 +63,7 @@ def ensure_episode_built(ep_id: str, cfg: dict, cfg_dir: str):
 def main():
     parser = argparse.ArgumentParser(description="머니 아카이브 일일 단일 에피소드 v3.0 업로더 (자가 빌드 + 시차 예약)")
     parser.add_argument("--ep-id", default="", help="업로드할 에피소드 폴더명 (비우면 episode_queue.json의 첫 pending 1개 선택)")
-    parser.add_argument("--stagger-shorts-minutes", type=int, default=150)
+    parser.add_argument("--stagger-shorts-minutes", type=int, default=0)
     parser.add_argument("--update-ep01-thumb", action="store_true", help="EP01 가짜 인물 썸네일을 88888 CRT 썸네일로 교체")
     args = parser.parse_args()
 
