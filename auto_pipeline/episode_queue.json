@@ -69,26 +69,32 @@
     {
       "ep_num": 6,
       "ep_id": "ep06_enron_kr",
-      "status": "pending",
+      "status": "published",
       "single_incident": true,
       "topic": "미국 7위 초거대 기업이 사실은 유령회사 수천 개로 만든 가짜 제국이었다! 임원들은 1조 챙겨 튀고 직원 연금은 휴지조각 된 엔론 파산 실화",
       "thumb_badge": "#미국역사상_최악분식",
       "thumb_shock": "직원연금 2.5조 증발!",
       "thumb_top": "주가는 사상 최고인데",
       "thumb_bot": "지하실엔 파쇄기만 돌았다!",
-      "shorts_cliffhanger_rule": "임원들이 직원들에게 '절대 주식 팔지 마라'고 이메일 보낸 그날 밤 몰래 자기 주식을 전량 매도하던 순간(40초)에서 절단!"
+      "shorts_cliffhanger_rule": "임원들이 직원들에게 '절대 주식 팔지 마라'고 이메일 보낸 그날 밤 몰래 자기 주식을 전량 매도하던 순간(40초)에서 절단!",
+      "longform_video_id": "-zHbTRs1EDQ",
+      "shorts_video_id": "ZAE1Bu4WvGc",
+      "shorts_scheduled_publish_at": "2026-11-16T16:17:18Z"
     },
     {
       "ep_num": 7,
       "ep_id": "ep07_wework_kr",
-      "status": "pending",
+      "status": "published",
       "single_incident": true,
       "topic": "평범한 월세 사무실에 간판만 바꿔 달고 손정의 회장 돈 20조 태워 먹은 희대의 교주! 위워크 아담 뉴먼 60조 거품 붕괴 실화",
       "thumb_badge": "#손정의도_속은_60조거품",
       "thumb_shock": "쫓겨나면서 2조 꿀꺽?!",
       "thumb_top": "적자만 수조 원인데",
       "thumb_bot": "전용기에서 파티 벌였다!",
-      "shorts_cliffhanger_rule": "나스닥 상장 서류(S-1)가 공개되자 월스트리트 애널리스트들이 경악하며 투자 철회를 선언한 순간(42초)에서 절단!"
+      "shorts_cliffhanger_rule": "나스닥 상장 서류(S-1)가 공개되자 월스트리트 애널리스트들이 경악하며 투자 철회를 선언한 순간(42초)에서 절단!",
+      "longform_video_id": "gz_QWzAKgMA",
+      "shorts_video_id": "BbvfoUJkAxk",
+      "shorts_scheduled_publish_at": "2026-11-16T16:27:33Z"
     },
     {
       "ep_num": 8,

@@ -1,0 +1,77 @@
+{
+  "ep_id": "ep09_wirecard_kr",
+  "ep_num": 9,
+  "longform_mp4": "머니아카이브_EP09_와이어카드_2조6천억증발_본편.mp4",
+  "shorts_mp4": "머니아카이브_EP09_와이어카드_2조6천억증발_쇼츠_9x16.mp4",
+  "longform_audio": "ep09_longform_kr.mp3",
+  "longform_srt": "ep09_longform_kr.srt",
+  "shorts_audio": "ep09_shorts_kr.mp3",
+  "shorts_srt": "ep09_shorts_kr.srt",
+  "shorts_top_title": "독일 최고 핀테크 금고에서 2.6조 증발한 실화",
+  "shorts_bottom_cta": "▼ 아래 [관련 동영상]에서 결말 확인 · 채널 구독하기 ▼",
+  "scenes": [
+    {
+      "img": "s01_munich_wirecard_hq_panic.jpg",
+      "tag": "CHAPTER 01 · JUNE 18, 2020 MUNICH SHOCK",
+      "sub": "1.9 BILLION EUROS MISSING FROM BALANCE SHEET",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s02_dax30_fintech_champion.jpg",
+      "tag": "CHAPTER 02 · OVERTAKING DEUTSCHE BANK IN DAX 30",
+      "sub": "24 BILLION EURO FINTECH PRIDE OF GERMANY",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s03_asian_third_party_ghost_offices.jpg",
+      "tag": "CHAPTER 03 · GHOST OFFICES IN MANILA & DUBAI",
+      "sub": "ROUND-TRIPPING FAKE REVENUE & ESCROW ACCOUNTS",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s04_financial_times_whistleblower.jpg",
+      "tag": "CHAPTER 04 · FINANCIAL TIMES INVESTIGATION",
+      "sub": "DAN MCCRUM & SINGAPORE INTERNAL LEAKED LEDGERS",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s05_bafin_short_selling_ban.jpg",
+      "tag": "CHAPTER 05 · REGULATORS ATTACK THE JOURNALISTS",
+      "sub": "GERMAN BAFIN PROTECTS WIRECARD & BANS SHORTING",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s06_philippine_central_bank_denial.jpg",
+      "tag": "CHAPTER 06 · BDO & BPI BANK FORGED CERTIFICATES",
+      "sub": "BANGKO SENTRAL: 'ZERO EUROS EVER ENTERED PHILIPPINES'",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s07_wirecard_stock_99pct_collapse.jpg",
+      "tag": "CHAPTER 07 · FIRST DAX 30 COMPANY TO GO BANKRUPT",
+      "sub": "33 TRILLION WON MARKET CAP WIPED OUT IN DAYS",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s08_marsalek_private_jet_moscow.jpg",
+      "tag": "CHAPTER 08 · JAN MARSALEK FLEES TO MOSCOW BY JET",
+      "sub": "INTERPOL RED NOTICE & RUSSIAN INTELLIGENCE TIES",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s09_munich_court_trial_verdict.jpg",
+      "tag": "CHAPTER 09 · MUNICH UNDERGROUND COURTROOM TRIAL",
+      "sub": "EUROPE'S BIGGEST POST-WAR ACCOUNTING SCANDAL",
+      "kb": "zoom_in"
+    }
+  ],
+  "shorts_images": [
+    "s02_dax30_fintech_champion.jpg",
+    "s03_asian_third_party_ghost_offices.jpg",
+    "s04_financial_times_whistleblower.jpg",
+    "s05_bafin_short_selling_ban.jpg",
+    "s06_philippine_central_bank_denial.jpg",
+    "s07_wirecard_stock_99pct_collapse.jpg",
+    "s08_marsalek_private_jet_moscow.jpg"
+  ]
+}

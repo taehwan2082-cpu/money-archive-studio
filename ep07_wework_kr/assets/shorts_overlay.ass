@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TopBadge,Malgun Gothic,40,&H00FFFFFF,&H0000FFFF,&H001814DF,&H001814DF,-1,0,0,0,100,100,1,0,3,12,0,8,40,40,125,1
+Style: TopHook1,Malgun Gothic,68,&H00FFFFFF,&H0000FFFF,&H00000000,&HC0000000,-1,0,0,0,100,100,-2,0,1,11,5,8,40,40,205,1
+Style: TopHook2,Malgun Gothic,74,&H0000DCFF,&H0000FFFF,&H00000000,&HC0000000,-1,0,0,0,100,100,-2,0,1,12,6,8,40,40,295,1
+Style: ShortsSub,Malgun Gothic,62,&H00FFFFFF,&H0000FFFF,&H00000000,&HB0000000,-1,0,0,0,100,100,-1,0,1,10,5,2,55,120,480,1
+Style: BrandBottom,Malgun Gothic,38,&H0000D4FF,&H0000FFFF,&H00000000,&H90000000,-1,0,0,0,100,100,2,0,1,6,3,2,40,120,390,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:46.46,TopBadge,,0,0,0,,  실화 경제다큐 · 머니 아카이브  
+Dialogue: 3,0:00:00.00,0:00:46.46,TopHook1,,0,0,0,,사상 최악의 기업 사기 실화
+Dialogue: 3,0:00:00.00,0:00:46.46,TopHook2,,0,0,0,,머니 아카이브 단독 추적
+Dialogue: 2,0:00:00.00,0:00:46.46,BrandBottom,,0,0,0,,▼ 아래 [관련 동영상]에서 본편 결말 확인
+Dialogue: 4,0:00:00.10,0:00:02.24,ShortsSub,,0,0,0,,평범한 월세 사무실에 유리벽만
+Dialogue: 4,0:00:02.24,0:00:04.51,ShortsSub,,0,0,0,,세워놓고 최첨단 기술 기업이라며
+Dialogue: 4,0:00:04.51,0:00:07.72,ShortsSub,,0,0,0,,전 세계 투자자들을 홀린 남자가 있었습니다.
+Dialogue: 4,0:00:07.67,0:00:09.44,ShortsSub,,0,0,0,,소프트뱅크 손정의 회장에게
+Dialogue: 4,0:00:09.44,0:00:11.22,ShortsSub,,0,0,0,,무려 {\c&H0000DFFF&}20조 원{\c&H00FFFFFF&}을 투자받아
+Dialogue: 4,0:00:11.22,0:00:13.12,ShortsSub,,0,0,0,,기업 가치 {\c&H0000DFFF&}60조 원{\c&H00FFFFFF&} 신화를
+Dialogue: 4,0:00:13.12,0:00:15.66,ShortsSub,,0,0,0,,썼던 {\c&H0000DFFF&}위워크{\c&H00FFFFFF&} 창업자 {\c&H0000DFFF&}아담 뉴먼{\c&H00FFFFFF&}인데요.
+Dialogue: 4,0:00:15.66,0:00:17.71,ShortsSub,,0,0,0,,매년 {\c&H0000DFFF&}2조 원{\c&H00FFFFFF&}씩 적자가 나는데도
+Dialogue: 4,0:00:17.71,0:00:19.28,ShortsSub,,0,0,0,,회사 돈 {\c&H0000DFFF&}700억 원{\c&H00FFFFFF&}으로
+Dialogue: 4,0:00:19.28,0:00:21.20,ShortsSub,,0,0,0,,전용기를 사서 파티를 벌이고,
+Dialogue: 4,0:00:21.20,0:00:22.89,ShortsSub,,0,0,0,,자기 건물을 회사에 비싸게
+Dialogue: 4,0:00:22.89,0:00:25.18,ShortsSub,,0,0,0,,세를 놓아 수백억 원을 챙겼습니다.
+Dialogue: 4,0:00:25.18,0:00:26.92,ShortsSub,,0,0,0,,그러던 {\c&H0000DFFF&}2019년{\c&H00FFFFFF&} 8월,
+Dialogue: 4,0:00:26.92,0:00:28.78,ShortsSub,,0,0,0,,나스닥 상장을 위해 베일에
+Dialogue: 4,0:00:28.78,0:00:30.52,ShortsSub,,0,0,0,,싸여 있던 {\c&H0000DFFF&}위워크{\c&H00FFFFFF&}의 내부
+Dialogue: 4,0:00:30.52,0:00:32.25,ShortsSub,,0,0,0,,장부 서류가 월스트리트에
+Dialogue: 4,0:00:32.25,0:00:33.72,ShortsSub,,0,0,0,,처음 공개되었는데요.
+Dialogue: 4,0:00:33.72,0:00:35.67,ShortsSub,,0,0,0,,수백 페이지짜리 비밀 장부를
+Dialogue: 4,0:00:35.67,0:00:37.87,ShortsSub,,0,0,0,,펼쳐본 분석가들은 그 안에 적힌
+Dialogue: 4,0:00:37.87,0:00:40.21,ShortsSub,,0,0,0,,충격적인 실체를 보고 그 자리에서
+Dialogue: 4,0:00:40.21,0:00:41.63,ShortsSub,,0,0,0,,얼어붙고 말았습니다.
+Dialogue: 4,0:00:41.63,0:00:44.03,ShortsSub,,0,0,0,,아래 [관련 동영상]에서 결말
+Dialogue: 4,0:00:44.03,0:00:45.83,ShortsSub,,0,0,0,,확인 · 채널 구독하기

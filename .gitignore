@@ -9,6 +9,7 @@ __pycache__/
 */assets/bgm_archive/
 assets_shared/*.wav
 *_본편.mp4
+*_쇼츠_9x16.mp4
 client_secret*.json
 *token*.json
 oauth_credentials*.json

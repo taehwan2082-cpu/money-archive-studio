@@ -1,0 +1,77 @@
+{
+  "ep_id": "ep07_wework_kr",
+  "ep_num": 7,
+  "longform_mp4": "머니아카이브_EP07_위워크_60조거품붕괴_본편.mp4",
+  "shorts_mp4": "머니아카이브_EP07_위워크_60조거품붕괴_쇼츠_9x16.mp4",
+  "longform_audio": "ep07_longform_kr.mp3",
+  "longform_srt": "ep07_longform_kr.srt",
+  "shorts_audio": "ep07_shorts_kr.mp3",
+  "shorts_srt": "ep07_shorts_kr.srt",
+  "shorts_top_title": "손정의 회장 돈 20조 태워 먹은 월세 사무실 사기극",
+  "shorts_bottom_cta": "▼ 아래 [관련 동영상]에서 결말 확인 · 채널 구독하기 ▼",
+  "scenes": [
+    {
+      "img": "s01_manhattan_glass_office.jpg",
+      "tag": "CHAPTER 01 · $47 BILLION OFFICE ILLUSION",
+      "sub": "NEW YORK MANHATTAN · WEWORK HEADQUARTERS",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s02_brooklyn_sublease_blueprint.jpg",
+      "tag": "CHAPTER 02 · SUBLEASE ARBITRAGE TRAP",
+      "sub": "15-YEAR LONG LEASE VS 1-MONTH SHORT DESK RENTAL",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s03_community_adjusted_ebitda.jpg",
+      "tag": "CHAPTER 03 · FAKE METRIC: COMMUNITY EBITDA",
+      "sub": "ERASING RENT & MARKETING FROM FINANCIAL STATEMENTS",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s04_vision_fund_20trillion_check.jpg",
+      "tag": "CHAPTER 04 · SOFTBANK VISION FUND $18.5B BET",
+      "sub": "12-MINUTE TOUR · IPAD MEGA INVESTMENT SIGNING",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s05_gulfstream_g650_private_jet.jpg",
+      "tag": "CHAPTER 05 · $60M PRIVATE JET & SELF-DEALING",
+      "sub": "$5.9M 'WE' TRADEMARK & LANDLORD CONFLICT OF INTEREST",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s06_sec_s1_filing_bombshell.jpg",
+      "tag": "CHAPTER 06 · AUGUST 2019 SEC S-1 FILING EXPOSED",
+      "sub": "$1.9B ANNUAL LOSS & $47B LEASE LIABILITY REVEALED",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s07_golden_parachute_1_7b.jpg",
+      "tag": "CHAPTER 07 · $1.7 BILLION GOLDEN PARACHUTE",
+      "sub": "FOUNDER OUSTED WITH 2 TRILLION WON PAYOUT",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s08_empty_coworking_desks.jpg",
+      "tag": "CHAPTER 08 · PANDEMIC & EMPTY GLASS OFFICES",
+      "sub": "UNPAID RENTS ACROSS GLOBAL LANDMARK TOWERS",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s09_chapter11_bankruptcy_court.jpg",
+      "tag": "CHAPTER 09 · NOVEMBER 2023 CHAPTER 11 BANKRUPTCY",
+      "sub": "$47B VALUATION CRASHES TO ZERO · WALL STREET LESSON",
+      "kb": "zoom_in"
+    }
+  ],
+  "shorts_images": [
+    "s01_manhattan_glass_office.jpg",
+    "s04_vision_fund_20trillion_check.jpg",
+    "s05_gulfstream_g650_private_jet.jpg",
+    "s03_community_adjusted_ebitda.jpg",
+    "s06_sec_s1_filing_bombshell.jpg",
+    "s07_golden_parachute_1_7b.jpg",
+    "s09_chapter11_bankruptcy_court.jpg"
+  ]
+}

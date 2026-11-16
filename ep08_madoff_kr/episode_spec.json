@@ -1,0 +1,77 @@
+{
+  "ep_id": "ep08_madoff_kr",
+  "ep_num": 8,
+  "longform_mp4": "머니아카이브_EP08_매도프_85조폰지사기_본편.mp4",
+  "shorts_mp4": "머니아카이브_EP08_매도프_85조폰지사기_쇼츠_9x16.mp4",
+  "longform_audio": "ep08_longform_kr.mp3",
+  "longform_srt": "ep08_longform_kr.srt",
+  "shorts_audio": "ep08_shorts_kr.mp3",
+  "shorts_srt": "ep08_shorts_kr.srt",
+  "shorts_top_title": "40년간 주식 0주 사고 85조 꿀꺽한 월스트리트 전설",
+  "shorts_bottom_cta": "▼ 아래 [관련 동영상]에서 결말 확인 · 채널 구독하기 ▼",
+  "scenes": [
+    {
+      "img": "s01_manhattan_penthouse_confession.jpg",
+      "tag": "CHAPTER 01 · DECEMBER 10, 2008 CONFESSION",
+      "sub": "MANHATTAN PENTHOUSE · $64.8 BILLION PONZI REVEALED",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s02_nasdaq_chairman_prestige.jpg",
+      "tag": "CHAPTER 02 · THE NASDAQ CHAIRMAN HALO",
+      "sub": "WALL STREET PIONEER & ELECTRONIC TRADING EMPIRE",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s03_lipstick_building_17th_floor.jpg",
+      "tag": "CHAPTER 03 · THE FORBIDDEN 17TH FLOOR VAULT",
+      "sub": "LIPSTICK BUILDING · RESTRICTED ACCESS CRIME SCENE",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s04_palm_beach_country_club.jpg",
+      "tag": "CHAPTER 04 · EXCLUSIVE 10% RETURN MARKETING",
+      "sub": "PALM BEACH ELITE & GLOBAL CELEBRITY VICTIMS",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s05_ibm_as400_dot_matrix_printer.jpg",
+      "tag": "CHAPTER 05 · ZERO TRADES & VINTAGE IBM PRINTER",
+      "sub": "BACKDATED FAKE STATEMENTS COOLED IN REFRIGERATORS",
+      "kb": "zoom_in"
+    },
+    {
+      "img": "s06_markopolos_sec_warnings.jpg",
+      "tag": "CHAPTER 06 · 5 IGNORED SEC WHISTLEBLOWER REPORTS",
+      "sub": "HARRY MARKOPOLOS MATHEMATICAL PROOF OF FRAUD",
+      "kb": "pan_right"
+    },
+    {
+      "img": "s07_2008_financial_crisis_run.jpg",
+      "tag": "CHAPTER 07 · 2008 LEHMAN COLLAPSE & $7B REDEMPTION",
+      "sub": "CHASE MANHATTAN ACCOUNT DRAINED TO ZERO",
+      "kb": "zoom_out"
+    },
+    {
+      "img": "s08_fbi_arrest_lipstick_hq.jpg",
+      "tag": "CHAPTER 08 · FBI RAID ON THE 17TH FLOOR",
+      "sub": "THE BIGGEST FINANCIAL FRAUD IN HUMAN HISTORY",
+      "kb": "pan_left"
+    },
+    {
+      "img": "s09_150_year_federal_sentence.jpg",
+      "tag": "CHAPTER 09 · 150 YEARS IN FEDERAL PRISON",
+      "sub": "MANHATTAN FEDERAL COURT · FINAL VERDICT",
+      "kb": "zoom_in"
+    }
+  ],
+  "shorts_images": [
+    "s02_nasdaq_chairman_prestige.jpg",
+    "s04_palm_beach_country_club.jpg",
+    "s03_lipstick_building_17th_floor.jpg",
+    "s05_ibm_as400_dot_matrix_printer.jpg",
+    "s06_markopolos_sec_warnings.jpg",
+    "s08_fbi_arrest_lipstick_hq.jpg",
+    "s09_150_year_federal_sentence.jpg"
+  ]
+}
