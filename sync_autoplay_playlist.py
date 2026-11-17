@@ -158,6 +158,37 @@ def update_video_descriptions_with_playlist(youtube, published_eps: list[dict], 
         time.sleep(0.5)
 
 
+def update_shorts_descriptions_with_longform(youtube, published_eps: list[dict], long_pl_id: str):
+    """Ensure every Shorts description links directly to its full Longform episode & autoplay playlist."""
+    marker = "📺 본편 전체보기"
+    for ep in published_eps:
+        svid = ep.get("shorts_video_id")
+        lvid = ep.get("longform_video_id")
+        if not svid or not lvid:
+            continue
+        res = youtube.videos().list(part="snippet", id=svid).execute()
+        items = res.get("items", [])
+        if not items:
+            continue
+        snippet = items[0]["snippet"]
+        old_desc = snippet.get("description", "")
+        link_block = (
+            f"{marker} ({ep.get('ep_num')}화 풀버전 다큐): "
+            f"https://www.youtube.com/watch?v={lvid}&list={long_pl_id}\n"
+            f"📂 전편 연속재생: https://www.youtube.com/playlist?list={long_pl_id}"
+        )
+        if marker in old_desc:
+            before = old_desc.split(marker, 1)[0].rstrip()
+            new_desc = (before + "\n\n" + link_block).strip()
+        else:
+            new_desc = (old_desc.rstrip() + "\n\n" + link_block).strip()
+        if new_desc != old_desc:
+            snippet["description"] = new_desc
+            youtube.videos().update(part="snippet", body={"id": svid, "snippet": snippet}).execute()
+            print(f"[쇼츠->본편 유입 링크 업데이트 완료] EP{ep['ep_num']:02d} Shorts ({svid}) -> {lvid}", flush=True)
+            time.sleep(0.4)
+
+
 def sync_playlists():
     youtube = get_youtube()
     with open(QUEUE_JSON_PATH, "r", encoding="utf-8") as f:
@@ -230,6 +261,7 @@ def sync_playlists():
             time.sleep(0.5)
 
     update_video_descriptions_with_playlist(youtube, published_eps, long_pl_id)
+    update_shorts_descriptions_with_longform(youtube, published_eps, long_pl_id)
 
     with open(QUEUE_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(queue, f, ensure_ascii=False, indent=2)
