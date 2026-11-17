@@ -16,8 +16,8 @@ def fmt_srt_time(ns_100):
     ms = rem % 1000
     return f"{hrs:02d}:{mins:02d}:{secs:02d},{ms:03d}"
 
-async def build_audio_and_srt(text, mp3_path, srt_path, voice="ko-KR-InJoonNeural", rate="+10%"):
-    communicate = edge_tts.Communicate(text, voice, rate=rate)
+async def build_audio_and_srt(text, mp3_path, srt_path, voice="ko-KR-HyunsuMultilingualNeural", rate="+6%", pitch="-5Hz"):
+    communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
     srt_entries = []
     idx = 1
     with open(mp3_path, "wb") as f:

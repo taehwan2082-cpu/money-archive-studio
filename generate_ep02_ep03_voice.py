@@ -36,7 +36,7 @@ async def build_audio_and_srt(
     text: str,
     mp3_path: str,
     srt_path: str,
-    voice: str = "ko-KR-InJoonNeural",
+    voice: str = "ko-KR-HyunsuMultilingualNeural",
     rate: str = "+10%",
     pitch: str = "-2Hz",
 ) -> float:

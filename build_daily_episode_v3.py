@@ -241,7 +241,7 @@ def build_episode_v3(ep_folder: str):
     subclip_order = []
     sent_timings = []
     prev_end = 0.0
-    tints = ["normal", "cold", "crimson_alert", "cyan_lab"]
+    tints = ["normal", "normal", "cold"]
 
     for i, s_obj in enumerate(sentences):
         seg_end = total_dur if i == len(sentences) - 1 else sentences[i + 1]["start"]
@@ -286,7 +286,7 @@ def build_episode_v3(ep_folder: str):
             "-stream_loop", "-1", "-t", f"{total_dur:.2f}", "-i", BGM_WAV,
             "-i", sfx_wav,
             "-filter_complex", (
-                "[0:a]volume=1.58,equalizer=f=3200:t=q:w=1.2:g=2.6[voice];"
+                "[0:a]volume=1.58,equalizer=f=200:t=q:w=1.1:g=2.4,equalizer=f=3200:t=q:w=1.2:g=1.4[voice];"
                 f"[1:a]volume=0.30,afade=t=in:st=0:d=2,afade=t=out:st={max(0.0, total_dur-4.5):.2f}:d=4.5[bgm];"
                 "[2:a]lowpass=f=3800,volume=0.55[sfx];"
                 "[voice][bgm][sfx]amix=inputs=3:duration=first:dropout_transition=2:normalize=0[aout]"
@@ -358,7 +358,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             "ffmpeg", "-y", "-i", shorts_mp3,
             "-stream_loop", "-1", "-t", f"{shorts_dur:.2f}", "-i", BGM_WAV,
             "-filter_complex", (
-                "[0:a]volume=1.60,equalizer=f=3200:t=q:w=1.2:g=2.6[voice];"
+                "[0:a]volume=1.60,equalizer=f=200:t=q:w=1.1:g=2.4,equalizer=f=3200:t=q:w=1.2:g=1.4[voice];"
                 f"[1:a]volume=0.32,afade=t=out:st={max(0.0, shorts_dur-2.0):.2f}:d=2.0[bgm];"
                 "[voice][bgm]amix=inputs=2:duration=first:dropout_transition=2:normalize=0[aout]"
             ),
