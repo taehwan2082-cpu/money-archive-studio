@@ -97,14 +97,16 @@
     {
       "ep_num": 8,
       "ep_id": "ep08_madoff_kr",
-      "status": "pending",
+      "status": "published",
       "single_incident": true,
       "topic": "40년 동안 주식 한 주도 안 사고 가짜 수익률 종이만 인쇄해 85조를 꿀꺽한 월스트리트 전설! 버니 매도프 역사상 최대 폰지 사기 실화",
       "thumb_badge": "#역사상최대_85조사기",
       "thumb_shock": "40년간 주식 매수 0주!",
       "thumb_top": "출입 금지된 17층 금고",
       "thumb_bot": "열어보니 가짜 프린터뿐!",
-      "shorts_cliffhanger_rule": "직원도 절대 못 들어가던 17층 비밀 사무실 문을 FBI와 두 아들이 마침내 열었을 때(41초)에서 절단! 징역 150년 결말 언급 금지"
+      "shorts_cliffhanger_rule": "직원도 절대 못 들어가던 17층 비밀 사무실 문을 FBI와 두 아들이 마침내 열었을 때(41초)에서 절단! 징역 150년 결말 언급 금지",
+      "longform_video_id": "o23wj12UfM0",
+      "shorts_video_id": "HUz9luJLRhk"
     },
     {
       "ep_num": 9,
