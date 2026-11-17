@@ -202,22 +202,27 @@ def sync_playlists():
         svid = ep.get("shorts_video_id")
         if not svid:
             continue
-        # Ensure Shorts video is immediately public (not stuck in scheduled/private)
+        # Preserve intentionally scheduled Shorts (publishAt set); only publish unscheduled private videos
         v_res = youtube.videos().list(part="status", id=svid).execute()
         v_items = v_res.get("items", [])
-        if v_items and v_items[0]["status"].get("privacyStatus") != "public":
-            youtube.videos().update(
-                part="status",
-                body={
-                    "id": svid,
-                    "status": {
-                        "privacyStatus": "public",
-                        "selfDeclaredMadeForKids": False,
+        st = v_items[0]["status"] if v_items else {}
+        if v_items and st.get("privacyStatus") != "public":
+            if st.get("publishAt") or ep.get("shorts_scheduled_publish_at"):
+                sched = st.get("publishAt") or ep.get("shorts_scheduled_publish_at")
+                print(f"[쇼츠 예약 공개 유지] EP{ep['ep_num']:02d} Shorts ({svid}) -> {sched}", flush=True)
+            else:
+                youtube.videos().update(
+                    part="status",
+                    body={
+                        "id": svid,
+                        "status": {
+                            "privacyStatus": "public",
+                            "selfDeclaredMadeForKids": False,
+                        },
                     },
-                },
-            ).execute()
-            print(f"[쇼츠 즉시 공개 전환 완료!] EP{ep['ep_num']:02d} Shorts ({svid}) -> PUBLIC", flush=True)
-            ep.pop("shorts_scheduled_publish_at", None)
+                ).execute()
+                print(f"[쇼츠 즉시 공개 전환 완료!] EP{ep['ep_num']:02d} Shorts ({svid}) -> PUBLIC", flush=True)
+                ep.pop("shorts_scheduled_publish_at", None)
         if svid not in existing_short_vids:
             pos = 0 if existing_short_vids else None
             add_video_to_playlist(youtube, shorts_pl_id, svid, position=pos)
